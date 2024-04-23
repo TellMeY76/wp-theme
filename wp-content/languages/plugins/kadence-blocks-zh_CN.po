@@ -1,0 +1,1552 @@
+# Translation of Plugins - Gutenberg Blocks by Kadence Blocks – Page Builder Features - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Gutenberg Blocks by Kadence Blocks – Page Builder Features - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-04-02 06:21:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Gutenberg Blocks by Kadence Blocks – Page Builder Features - Stable (latest release)\n"
+
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:871
+msgid "Display this image in a lightbox"
+msgstr "在灯箱中显示此图像"
+
+#: includes/templates/form-email.php:132
+msgid "View File"
+msgstr "查看文件"
+
+#: includes/advanced-form/advanced-form-ajax.php:282
+msgid "Too many files"
+msgstr "文件过多"
+
+#: includes/advanced-form/advanced-form-ajax.php:282
+msgid "Submission Failed. Trying to include too many files."
+msgstr "提交失败，尝试提交的文件太多了。"
+
+#: includes/settings/class-kadence-blocks-settings.php:616
+msgid "Config Kadence Block visibility settings"
+msgstr "配置Kadence Block可见性设置"
+
+#: includes/class-kadence-blocks-image-picker.php:144
+msgid "View on Pexels"
+msgstr "在 Pexels 中查看"
+
+#: includes/class-kadence-blocks-image-picker.php:141
+msgid "Photo by:"
+msgstr "照片来源："
+
+#: includes/class-kadence-blocks-image-picker-rest.php:107
+#: includes/class-kadence-blocks-image-picker-rest.php:112
+msgid "The Image type to return"
+msgstr "要返回的图像类型"
+
+#: includes/class-kadence-blocks-image-picker-rest.php:88
+msgid "Photo by"
+msgstr "照片来源"
+
+#: includes/advanced-form/advanced-form-duplicate.php:95
+msgid "%s (Copy)"
+msgstr "%s (副本)"
+
+#. translators: %s: product id
+#: includes/advanced-form/advanced-form-duplicate.php:76
+msgid "Post creation failed, could not find original post: %s"
+msgstr "文章创建失败，找不到原始文章：%s"
+
+#: includes/advanced-form/advanced-form-duplicate.php:66
+msgid "No post to duplicate has been supplied!"
+msgstr "没有提供可复制的文章！"
+
+#: includes/advanced-form/advanced-form-duplicate.php:56
+msgid "Duplicate"
+msgstr "创建副本"
+
+#: includes/advanced-form/advanced-form-duplicate.php:55
+msgid "Make a duplicate from this."
+msgstr "照此复制一份。"
+
+#: dist/blocks/progress-bar/block.json
+msgctxt "block keyword"
+msgid "progress bar"
+msgstr "进度条"
+
+#: dist/blocks/progress-bar/block.json
+msgctxt "block description"
+msgid "Kadence progress bar"
+msgstr "Kadence进度条"
+
+#: dist/blocks/progress-bar/block.json
+msgctxt "block title"
+msgid "Progress Bar"
+msgstr "进度条"
+
+#: dist/blocks/advanced-form/fields/submit/block.json
+msgctxt "block title"
+msgid "Submit Button"
+msgstr "提交按钮"
+
+#: dist/blocks/advanced-form/fields/captcha/block.json
+msgctxt "block title"
+msgid "Captcha"
+msgstr "验证码"
+
+#: dist/blocks/advanced-form/block.json
+msgctxt "block description"
+msgid "Create an advanced contact or marketing form for your website."
+msgstr "为您的网站创建高级联系表单或营销表单。"
+
+#: includes/blocks/form/class-kadence-blocks-captcha-block.php:146
+#: dist/blocks-advanced-form.js:7
+msgid "This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply"
+msgstr "本网站受 reCAPTCHA 保护，并适用 Google 隐私政策和服务条款"
+
+#. translators: %s is the location.
+#: includes/blocks/class-kadence-blocks-googlemaps-block.php:202
+msgid "Google map of %s"
+msgstr "%s的谷歌地图"
+
+#. translators: %d is the number for the star rating.
+#: includes/blocks/class-kadence-blocks-testimonial-block.php:277
+msgid "%d star rating"
+msgstr "%d 星级"
+
+#: includes/blocks/class-kadence-blocks-advancedgallery-block.php:870
+msgid "See more"
+msgstr "查看更多"
+
+#: dist/blocks/testimonials/block.json
+msgctxt "block title"
+msgid "Testimonials"
+msgstr "褒奖"
+
+#: dist/blocks/testimonial/block.json
+msgctxt "block title"
+msgid "Testimonial"
+msgstr "褒奖"
+
+#: dist/blocks/tabs/tab/block.json
+msgctxt "block title"
+msgid "Tab"
+msgstr "选项卡"
+
+#: dist/blocks/tabs/block.json
+msgctxt "block title"
+msgid "Tabs"
+msgstr "选项卡"
+
+#: dist/blocks/tableofcontents/block.json
+msgctxt "block title"
+msgid "Table of Contents"
+msgstr "内容索引"
+
+#: dist/blocks/spacer/block.json
+msgctxt "block title"
+msgid "Spacer / Divider"
+msgstr "间隔/分隔线"
+
+#: dist/blocks/singlebtn/block.json
+msgctxt "block title"
+msgid "Single Button"
+msgstr "单个按钮"
+
+#: dist/blocks/single-icon/block.json
+msgctxt "block title"
+msgid "Single Icon"
+msgstr "单个图标"
+
+#: dist/blocks/rowlayout/block.json
+msgctxt "block title"
+msgid "Row Layout"
+msgstr "行布局"
+
+#: dist/blocks/posts/block.json
+msgctxt "block title"
+msgid "Posts"
+msgstr "文章"
+
+#: dist/blocks/listitem/block.json
+msgctxt "block title"
+msgid "List item"
+msgstr "列表项目"
+
+#: dist/blocks/infobox/block.json
+msgctxt "block keyword"
+msgid "icon"
+msgstr "图标"
+
+#: dist/blocks/infobox/block.json
+msgctxt "block keyword"
+msgid "info"
+msgstr "信息"
+
+#: dist/blocks/infobox/block.json
+msgctxt "block description"
+msgid "Create beautiful information boxes using icons or images."
+msgstr "使用图标或图像创建漂亮的信息框。"
+
+#: dist/blocks/infobox/block.json
+msgctxt "block title"
+msgid "Info Box"
+msgstr "信息框"
+
+#: dist/blocks/image/block.json
+msgctxt "block keyword"
+msgid "photo"
+msgstr "照片"
+
+#: dist/blocks/image/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr "图像"
+
+#: dist/blocks/image/block.json
+msgctxt "block keyword"
+msgid "img"
+msgstr "图像"
+
+#: dist/blocks/iconlist/block.json
+msgctxt "block title"
+msgid "Icon List"
+msgstr "图标列表"
+
+#: dist/blocks/icon/block.json
+msgctxt "block title"
+msgid "Icon"
+msgstr "图标"
+
+#: dist/blocks/form/block.json includes/blocks/form/block.json
+msgctxt "block keyword"
+msgid "KB"
+msgstr "KB"
+
+#: dist/blocks/form/block.json includes/blocks/form/block.json
+msgctxt "block keyword"
+msgid "marketing"
+msgstr "营销"
+
+#: dist/blocks/form/block.json includes/blocks/form/block.json
+msgctxt "block title"
+msgid "Form"
+msgstr "表单"
+
+#: dist/blocks/countup/block.json
+msgctxt "block title"
+msgid "Count Up"
+msgstr "向上计数"
+
+#: dist/blocks/countdown/countdown-timer/block.json
+msgctxt "block title"
+msgid "Countdown Timer"
+msgstr "倒数计时器"
+
+#: dist/blocks/countdown/countdown-inner/block.json
+msgctxt "block title"
+msgid "Countdown Content"
+msgstr "倒计时内容"
+
+#: dist/blocks/countdown/block.json
+msgctxt "block title"
+msgid "Countdown"
+msgstr "倒计时"
+
+#: dist/blocks/advancedheading/block.json
+msgctxt "block title"
+msgid "Advanced Text"
+msgstr "高级文本"
+
+#: dist/blocks/advancedgallery/block.json
+msgctxt "block title"
+msgid "Advanced Gallery"
+msgstr "高级相册"
+
+#: dist/blocks/advancedbtn/block.json
+msgctxt "block title"
+msgid "Advanced Button"
+msgstr "高级按钮"
+
+#: dist/blocks/advanced-form/block.json dist/blocks/form/block.json
+#: includes/blocks/form/block.json
+msgctxt "block keyword"
+msgid "contact"
+msgstr "联系"
+
+#: dist/blocks/advanced-form/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "表单"
+
+#: dist/blocks/advanced-form/block.json dist/blocks/image/block.json
+#: dist/blocks/infobox/block.json dist/blocks/progress-bar/block.json
+msgctxt "block keyword"
+msgid "kb"
+msgstr "kb"
+
+#: dist/blocks/advanced-form/block.json
+msgctxt "block title"
+msgid "Advanced Form"
+msgstr "高级表单"
+
+#: dist/blocks/accordion/pane/block.json
+msgctxt "block title"
+msgid "Pane"
+msgstr "窗格"
+
+#: dist/blocks/accordion/block.json
+msgctxt "block title"
+msgid "Accordion"
+msgstr "手风琴"
+
+#: includes/settings/class-kadence-blocks-site-health.php:325
+msgid "On"
+msgstr "开启"
+
+#: includes/settings/class-kadence-blocks-site-health.php:315
+#: includes/settings/class-kadence-blocks-site-health.php:336
+msgid "Yes"
+msgstr "是"
+
+#: includes/settings/class-kadence-blocks-site-health.php:309
+#: includes/settings/class-kadence-blocks-site-health.php:311
+#: includes/settings/class-kadence-blocks-site-health.php:313
+#: includes/settings/class-kadence-blocks-site-health.php:336
+msgid "No"
+msgstr "否"
+
+#: includes/settings/class-kadence-blocks-site-health.php:240
+msgid "Has Cloud Library"
+msgstr "拥有Cloud Library"
+
+#: includes/settings/class-kadence-blocks-site-health.php:236
+msgid "Has MailerLite key"
+msgstr "拥有MailerLite API密钥"
+
+#: includes/settings/class-kadence-blocks-site-health.php:232
+msgid "Has a maps API key"
+msgstr "拥有地图 API 密钥"
+
+#: includes/settings/class-kadence-blocks-site-health.php:228
+msgid "Has reCAPTCHA key"
+msgstr "拥有reCAPTCHA密钥"
+
+#: includes/settings/class-kadence-blocks-site-health.php:224
+msgid "Has Custom Colors"
+msgstr "拥有自定义颜色"
+
+#: includes/settings/class-kadence-blocks-site-health.php:220
+msgid "Using Setting Visibility"
+msgstr "使用设置可见性"
+
+#: includes/settings/class-kadence-blocks-site-health.php:216
+msgid "Has Block Defaults"
+msgstr "拥有区块默认值"
+
+#: includes/settings/class-kadence-blocks-site-health.php:212
+msgid "Deactivated Blocks"
+msgstr "停用的区块"
+
+#: includes/settings/class-kadence-blocks-site-health.php:208
+msgid "Has Pro"
+msgstr "有高级版"
+
+#: includes/settings/class-kadence-blocks-site-health.php:204
+msgid "Previous version"
+msgstr "上一个版本"
+
+#: includes/settings/class-kadence-blocks-site-health.php:200
+msgid "Unknown"
+msgstr "未知"
+
+#: includes/settings/class-kadence-blocks-site-health.php:199
+msgid "Last updated"
+msgstr "最近更新"
+
+#: includes/settings/class-kadence-blocks-site-health.php:195
+msgid "Version"
+msgstr "版本"
+
+#: includes/settings/class-kadence-blocks-settings.php:781
+#: includes/settings/class-kadence-blocks-settings.php:792
+#: includes/settings/class-kadence-blocks-settings.php:803
+msgid "ConvertKit API Key"
+msgstr "ConvertKit API 密钥"
+
+#: includes/settings/class-kadence-blocks-settings.php:682
+msgid "Google reCaptcha Language"
+msgstr "谷歌reCaptcha语言"
+
+#. translators: placeholder: username.
+#: includes/settings/class-kadence-blocks-settings.php:197
+msgid "Hi, %1$s! At KadenceWP, we're always looking for more ways to make our products better for you. If you opt into sharing some data on your usage of Kadence Blocks, it helps us identify key areas where we can improve. In return, we'll also email helpful articles and guides to get more out of Kadence, WordPress, and more. If you skip this, that's okay. Kadence Blocks will work just fine. We hope you love building with Kadence."
+msgstr "嗨，%1$s！在KadenceWP，我们一直在寻找更多方法来使我们的产品更好地为您服务。如果您选择分享一些有关您使用 Kadence 块的数据，将有助于我们确定可以改进的关键领域。作为回报，我们还将通过电子邮件发送有用的文章和指南，以从Kadence，WordPress等中获得更多收益。如果你跳过这个，没关系。Kadence Blocks将正常工作。我们希望您喜欢与Kadence一起建造。"
+
+#: includes/settings/class-kadence-blocks-settings.php:194
+msgid "Help us make Kadence Blocks even better."
+msgstr "帮助我们让Kadence Blocks变得更好。"
+
+#: includes/settings/class-kadence-blocks-settings.php:170
+msgid "Other"
+msgstr "其他"
+
+#: includes/settings/class-kadence-blocks-settings.php:165
+msgid "Something is broken."
+msgstr "有些东西坏了。"
+
+#: includes/settings/class-kadence-blocks-settings.php:160
+msgid "I need a specific feature kadence blocks doesn't provide."
+msgstr "Badence Blocks 没有提供我需要的特性功能。"
+
+#: includes/settings/class-kadence-blocks-settings.php:155
+msgid "I found a better plugin."
+msgstr "我找到了一个更好的插件。"
+
+#: includes/settings/class-kadence-blocks-settings.php:150
+msgid "I couldn't understand how to make it work."
+msgstr "我不知道怎么使用。"
+
+#: includes/blocks/class-kadence-blocks-form-block.php:760
+msgid "Please enable JavaScript in your browser to submit the form"
+msgstr "请在浏览器中启用 JavaScript 以提交表单"
+
+#: includes/advanced-form/advanced-form-cpt.php:143
+msgid "Filter items list"
+msgstr "筛选项目列表"
+
+#: includes/advanced-form/advanced-form-cpt.php:142
+msgid "Not found in Trash"
+msgstr "在回收站中找不到"
+
+#: includes/advanced-form/advanced-form-cpt.php:141
+msgid "Not found"
+msgstr "未找到"
+
+#: includes/advanced-form/advanced-form-cpt.php:140
+msgid "Search Forms"
+msgstr "搜索表单"
+
+#: includes/advanced-form/advanced-form-cpt.php:139
+msgid "View Forms"
+msgstr "查看表单"
+
+#: includes/advanced-form/advanced-form-cpt.php:138
+msgid "View Form"
+msgstr "查看表单"
+
+#: includes/advanced-form/advanced-form-cpt.php:137
+msgid "Update Form"
+msgstr "更新表单"
+
+#: includes/advanced-form/advanced-form-cpt.php:136
+#: dist/blocks-advanced-form.js:11
+msgid "Edit Form"
+msgstr "编辑表单"
+
+#: includes/advanced-form/advanced-form-cpt.php:135
+msgid "New Form"
+msgstr "新建表单"
+
+#: includes/advanced-form/advanced-form-cpt.php:134
+msgid "Add New Form"
+msgstr "添加新表单"
+
+#: includes/advanced-form/advanced-form-cpt.php:133
+msgid "All Forms"
+msgstr "所有表单"
+
+#: includes/advanced-form/advanced-form-cpt.php:132
+msgid "Parent Form:"
+msgstr "父表单："
+
+#: includes/advanced-form/advanced-form-cpt.php:131
+msgid "Form Attributes"
+msgstr "表单属性"
+
+#: includes/advanced-form/advanced-form-cpt.php:130
+msgid "Form Archives"
+msgstr "表单存档"
+
+#: includes/advanced-form/advanced-form-cpt.php:129
+msgctxt "Admin Menu text"
+msgid "Forms"
+msgstr "表单"
+
+#: includes/advanced-form/advanced-form-cpt.php:128
+msgid "Forms"
+msgstr "表单"
+
+#: includes/advanced-form/advanced-form-cpt.php:127
+msgctxt "Post Type Singular Name"
+msgid "Form"
+msgstr "表单"
+
+#: includes/advanced-form/advanced-form-cpt.php:126
+msgctxt "Post Type General Name"
+msgid "Forms"
+msgstr "表单"
+
+#: includes/advanced-form/advanced-form-rest-api.php:45
+#: includes/advanced-form/advanced-form-rest-api.php:53
+msgid "You do not have permission to view these posts."
+msgstr "您无权查看这些文章。"
+
+#: includes/advanced-form/advanced-form-ajax.php:340
+#: includes/advanced-form/advanced-form-ajax.php:342
+msgid "Failed to upload file"
+msgstr "上传文件失败"
+
+#: includes/advanced-form/advanced-form-ajax.php:303
+msgid "File was not uploaded"
+msgstr "文件上传失败"
+
+#: includes/advanced-form/advanced-form-ajax.php:299
+msgid "File too large"
+msgstr "文件太大了"
+
+#: includes/advanced-form/advanced-form-ajax.php:253
+#: includes/advanced-form/advanced-form-ajax.php:265
+#: includes/advanced-form/advanced-form-ajax.php:287
+msgid "Missing a required field"
+msgstr "缺少必填字段"
+
+#: dist/blocks-show-more.js:1 dist/blocks/show-more/block.json
+msgctxt "block title"
+msgid "Show More"
+msgstr "显示更多"
+
+#: dist/blocks/column/block.json
+msgctxt "block title"
+msgid "Section"
+msgstr "章节"
+
+#: dist/blocks/googlemaps/block.json
+msgctxt "block title"
+msgid "Google Maps"
+msgstr "谷歌地图"
+
+#: dist/blocks-image.js:3 dist/blocks/image/block.json
+msgctxt "block description"
+msgid "Image block with greater controls and advanced features"
+msgstr "具有更多控件和高级功能的图片区块"
+
+#: dist/blocks/image/block.json
+msgctxt "block title"
+msgid "Advanced Image"
+msgstr "高级图像"
+
+#: dist/blocks-lottie.js:1 dist/blocks/lottie/block.json
+msgctxt "block title"
+msgid "Lottie Animations"
+msgstr "Lottie动画"
+
+#: includes/settings/class-kadence-blocks-settings.php:1101
+msgid "Upgrade Kadence Blocks"
+msgstr "升级Kadence区块"
+
+#: includes/settings/class-kadence-blocks-settings.php:1099
+msgid "Premium Design Library"
+msgstr "高级设计库"
+
+#: includes/settings/class-kadence-blocks-settings.php:1097
+msgid "Custom Icons"
+msgstr "自定义图标"
+
+#: includes/settings/class-kadence-blocks-settings.php:1095
+msgid "Pro Block Addons"
+msgstr "高级区块附加"
+
+#: includes/settings/class-kadence-blocks-settings.php:1094
+msgid "10 Pro Blocks"
+msgstr "10个高级区块"
+
+#: includes/settings/class-kadence-blocks-settings.php:1092
+msgid "Kadence Blocks Pro"
+msgstr "Kadence Blocks Pro"
+
+#: includes/settings/class-kadence-blocks-settings.php:748
+msgid "Google Maps API Key"
+msgstr "谷歌地图 API 密钥"
+
+#: includes/settings/class-kadence-blocks-settings.php:1155
+#: dist/plugin-kadence-control.js:3
+msgid "Advanced Text"
+msgstr "高级文本"
+
+#. translators: %s is the access level name.
+#: includes/init.php:184
+msgid "%s and higher"
+msgstr "%s 或更高版本"
+
+#: includes/settings/class-kadence-blocks-settings.php:1196
+msgid "Increase your conversions by adding a sense of urgency to your offering. Pro includes evergreen campaigns as well."
+msgstr "通过为您的产品增加紧迫感来增加您的转化率。专业版还包括常青活动。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1191
+msgid "Display a clean grid of posts anywhere on your site, great for your home page where you want to tease your blog."
+msgstr "在您网站上的任何位置显示一个干净的文章网格，非常适合你想丰富博客内容的网站首页。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1186
+msgid "Allow your readers to navigate your content easily with a table of contents block. Includes smooth scroll to anchor."
+msgstr "允许您的读者使用内容目录快速浏览内容，并可以平滑滚动到锚点。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1168
+msgid "Create a box containing an icon or image and, optionally, a title, description, and learn more text. Style static and hover separately."
+msgstr "创建一个包含图标或图像，可选的标题、描述和了解更多文本的盒子，可以分别设置默认样式和悬停样式。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1139
+msgid "Add an extra \"wow\" factor to your site with engaging Lottie animations."
+msgstr "通过引人入胜的Lottie动画为您的网站添加额外的“哇塞”因素。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1138
+msgid "Lottie Animations"
+msgstr "Lottie动画"
+
+#: includes/settings/class-kadence-blocks-settings.php:1011
+msgid "Manage Lottie Animations"
+msgstr "管理Lottie动画"
+
+#: includes/settings/class-kadence-blocks-settings.php:770
+msgid "Subscribe to Wireframe library"
+msgstr "订阅线框库"
+
+#: includes/init.php:1102
+msgid "Lottie Animations imported in Kadence"
+msgstr "已导入Lottie动画到Kadence"
+
+#: includes/init.php:1101
+msgctxt "Lottie animation"
+msgid "Lottie Animations"
+msgstr "Lottie动画"
+
+#: includes/class-lottieanimation-post-rest-api.php:67
+msgid "Please enter an animation title"
+msgstr "请输入动画标题"
+
+#: includes/class-lottieanimation-post-rest-api.php:61
+msgid "Lottie animation contains invalid JSON"
+msgstr "Lottie动画包含无效的JSON数据"
+
+#: includes/class-lottieanimation-get-rest-api.php:63
+msgid "Lottie animation file contains invalid json"
+msgstr "Lottie 动画文件包含无效的JSON数据"
+
+#: includes/class-lottieanimation-get-rest-api.php:59
+msgid "Lottie animation not found"
+msgstr "未找到Lottie动画"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:482
+msgid "The Current Post ID."
+msgstr "当前文章ID。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1195
+#: dist/blocks-countdown.js:1 dist/plugin-kadence-control.js:3
+msgid "Countdown"
+msgstr "计时器"
+
+#: includes/settings/class-kadence-blocks-settings.php:1190
+#: dist/blocks-posts.js:9 dist/plugin-kadence-control.js:3
+msgid "Posts"
+msgstr "文章"
+
+#: includes/settings/class-kadence-blocks-settings.php:1156
+#: dist/blocks-advancedheading.js:1
+msgid "Create a heading or paragraph and define sizes for desktop, tablet and mobile along with font family, colors, etc."
+msgstr "创建一个标题或段落，并定义桌面、平板电脑和移动设备的大小以及字体系列、颜色等。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1096
+#: dist/components.js:7 dist/components.js:16
+msgid "Dynamic Content"
+msgstr "动态内容"
+
+#: includes/settings/class-kadence-blocks-settings.php:1098
+#: dist/components.js:16 dist/components.js:18
+msgid "Custom Fonts"
+msgstr "自定义字体"
+
+#: includes/settings/class-kadence-blocks-settings.php:1036
+#: dist/components.js:16
+msgid "Google Fonts"
+msgstr "Google 字体"
+
+#. translators: separator between taxonomy terms
+#: includes/templates/entry-loop-taxonomies.php:31
+msgctxt "list item separator"
+msgid " | "
+msgstr " | "
+
+#. translators: separator between taxonomy terms
+#: includes/templates/entry-loop-taxonomies.php:27
+msgctxt "list item separator"
+msgid " - "
+msgstr " - "
+
+#. translators: separator between taxonomy terms
+#: includes/templates/entry-loop-taxonomies.php:23
+msgctxt "list item separator"
+msgid " / "
+msgstr " / "
+
+#: includes/templates/entry-loop-meta.php:157 dist/blocks-posts.js:9
+msgid "Comments"
+msgstr "评论"
+
+#: includes/templates/entry-loop-meta.php:155 dist/blocks-posts.js:9
+msgid "Comment"
+msgstr "评论"
+
+#. translators: separator between taxonomy terms
+#: includes/templates/entry-loop-meta.php:138
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#: includes/templates/entry-loop-meta.php:28
+msgid "Posted in"
+msgstr "发表在"
+
+#: includes/templates/entry-loop-meta.php:25
+msgid "Updated on"
+msgstr "更新打开"
+
+#: includes/templates/entry-loop-meta.php:22
+msgid "Posted on"
+msgstr "文章打开"
+
+#: includes/templates/entry-loop-meta.php:19 dist/blocks-posts.js:9
+msgid "By"
+msgstr "By"
+
+#: includes/templates/entry-loop-footer.php:16 dist/blocks-posts.js:9
+msgid "Read More"
+msgstr "阅读更多"
+
+#: includes/settings/class-kadence-blocks-settings.php:1072
+msgid "Submit a Ticket"
+msgstr "提交工单"
+
+#: includes/settings/class-kadence-blocks-settings.php:1071
+msgid "Have a question, we are happy to help! Get in touch with our support team."
+msgstr "有一个问题，我们很乐意进行帮助！您可以通过我们的支持团队获取帮助。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1064
+msgid "Need help? We have a knowledge base full of articles to get you started."
+msgstr "需要帮忙？我们有一个完整的知识库文章能够让你开始。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1063
+msgid "Documentation"
+msgstr "文档"
+
+#: includes/settings/class-kadence-blocks-settings.php:1058
+msgid "Join our Facebook Group"
+msgstr "加入我们的 Facebook 群组"
+
+#: includes/settings/class-kadence-blocks-settings.php:1057
+msgid "Join our community of fellow kadence users creating effective websites! Share your site, ask a question and help others."
+msgstr "加入我们的社区跟随kadence用户更有效率的网站！分享你的网站，询问问题以及帮助其他人。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1056
+msgid "Web Creators Community"
+msgstr "网络创作者社区"
+
+#: includes/settings/class-kadence-blocks-settings.php:759
+msgid "Config Kadence Blocks Cloud"
+msgstr "配置Kadence Blocks 云"
+
+#: includes/settings/class-kadence-blocks-settings.php:737
+msgid "MailerLite API Key"
+msgstr "MailerLite API 密钥"
+
+#: includes/init.php:983 dist/blocks-googlemaps.js:1
+msgid "Continue"
+msgstr "继续"
+
+#: includes/init.php:421 includes/init.php:437 includes/init.php:464
+#: includes/init.php:520 includes/init.php:537 dist/components.js:16
+#: dist/components.js:18
+msgid "Ultra-Bold 900"
+msgstr "Ultra-Bold 900"
+
+#: includes/init.php:419 includes/init.php:436 includes/init.php:463
+#: includes/init.php:518 includes/init.php:536 dist/components.js:16
+#: dist/components.js:18
+msgid "Extra-Bold 800"
+msgstr "Extra-Bold 800"
+
+#: includes/init.php:417 includes/init.php:435 includes/init.php:462
+#: includes/init.php:516 includes/init.php:535 dist/components.js:16
+#: dist/components.js:18
+msgid "Bold 700"
+msgstr "Bold 700"
+
+#: includes/init.php:415 includes/init.php:434 includes/init.php:461
+#: includes/init.php:514 includes/init.php:534 dist/components.js:16
+#: dist/components.js:18
+msgid "Semi-Bold 600"
+msgstr "Semi-Bold 600"
+
+#: includes/init.php:413 includes/init.php:433 includes/init.php:460
+#: includes/init.php:512 includes/init.php:533 dist/components.js:16
+#: dist/components.js:18
+msgid "Medium 500"
+msgstr "Medium 500"
+
+#: includes/init.php:409 includes/init.php:411 includes/init.php:432
+#: includes/init.php:459 includes/init.php:508 includes/init.php:510
+#: includes/init.php:532 dist/components.js:16 dist/components.js:18
+msgid "Regular"
+msgstr "Regular"
+
+#: includes/init.php:407 includes/init.php:431 includes/init.php:458
+#: includes/init.php:506 includes/init.php:531 dist/components.js:16
+#: dist/components.js:18
+msgid "Light 300"
+msgstr "Light 300"
+
+#: includes/init.php:405 includes/init.php:430 includes/init.php:457
+#: includes/init.php:504 includes/init.php:530 dist/components.js:16
+#: dist/components.js:18
+msgid "Extra-Light 200"
+msgstr "Extra-Light 200"
+
+#: includes/init.php:403 includes/init.php:429 includes/init.php:456
+#: includes/init.php:502 includes/init.php:529 dist/components.js:16
+#: dist/components.js:18
+msgid "Thin 100"
+msgstr "Thin 100"
+
+#: includes/advanced-form/advanced-form-ajax.php:60 includes/form-ajax.php:450
+msgid "Submission rejected, invalid security token. Reload the page and try again."
+msgstr "提交被拒绝，安全令牌无效，请刷新并重试。"
+
+#: includes/advanced-form/advanced-form-submit-actions.php:214
+#: includes/form-ajax.php:373
+msgid "MailerLite Failed"
+msgstr "MailerLite  失败"
+
+#: includes/advanced-form/advanced-form-submit-actions.php:214
+#: includes/form-ajax.php:373
+msgid "MailerLite Misconfiguration"
+msgstr "MailerLite  设置错误"
+
+#: includes/advanced-form/advanced-form-submit-actions.php:209
+#: includes/form-ajax.php:369
+msgid "No Response from MailerLite"
+msgstr "没有来自MailerLite的响应"
+
+#: includes/advanced-form/advanced-form-ajax.php:657 includes/form-ajax.php:76
+msgid "Submission Failed, reCaptcha spam prevention. Please reload your page and try again."
+msgstr "提交失败，reCaptcha 垃圾邮件预防。请重新架子你的页面并且再次尝试。"
+
+#: includes/class-mailerlite-form-rest-api.php:169
+msgid "Query Args for url."
+msgstr "URL查询参数。"
+
+#: includes/class-mailerlite-form-rest-api.php:159
+msgid "The API Key for Mailerlite account."
+msgstr "Mailerlite 账户 API 密钥。"
+
+#: includes/class-kadence-blocks-table-of-contents.php:827
+#: includes/class-kadence-blocks-table-of-contents.php:835
+#: includes/settings/class-kadence-blocks-settings.php:1185
+#: dist/blocks-tableofcontents.js:1 dist/plugin-kadence-control.js:3
+msgid "Table of Contents"
+msgstr "目录"
+
+#: includes/class-kadence-blocks-table-of-contents.php:373
+#: includes/class-kadence-blocks-table-of-contents.php:832
+#: includes/class-kadence-blocks-table-of-contents.php:841
+msgid "Collapse Table of Contents"
+msgstr "折叠目录"
+
+#: includes/class-kadence-blocks-table-of-contents.php:372
+#: includes/class-kadence-blocks-table-of-contents.php:832
+#: includes/class-kadence-blocks-table-of-contents.php:841
+msgid "Expand Table of Contents"
+msgstr "扩展目录"
+
+#: includes/class-kadence-blocks-prebuilt-library.php:753
+msgid "No data"
+msgstr "无数据"
+
+#: includes/class-kadence-blocks-prebuilt-library.php:563
+#: includes/class-kadence-blocks-prebuilt-library.php:586
+#: includes/class-kadence-blocks-prebuilt-library.php:609
+#: includes/class-kadence-blocks-prebuilt-library.php:643
+#: includes/class-kadence-blocks-prebuilt-library.php:677
+#: includes/class-kadence-blocks-prebuilt-library.php:981
+msgid "No library data"
+msgstr "无库数据"
+
+#: includes/class-kadence-blocks-prebuilt-library.php:494
+msgid "No Connection data"
+msgstr "没有连接数据"
+
+#: includes/blocks/class-kadence-blocks-posts-block.php:256
+msgid "No posts"
+msgstr "无文章"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:500
+msgid "Include posts tags."
+msgstr "包括文章标签。"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:495
+msgid "Include posts category."
+msgstr "包括文章分类目录。"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:486
+msgid "Check if using a custom Taxonomy"
+msgstr "检查是否使用了一个自定义分类法"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:476
+msgid "Number of items to offset in query."
+msgstr "要在查询中偏移的文章数。"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:472
+msgid "Exclude Category."
+msgstr "排除分类目录。"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:467
+msgid "Allow Sticky in Query."
+msgstr "在查询中允许置顶。"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:463
+#: includes/class-kadence-blocks-posts-rest-api.php:491
+msgid "Define Query Order By."
+msgstr "定义查询排序依据。"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:459
+msgid "Define Query Order."
+msgstr "定义查询排序。"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:455
+msgid "Define Type of Query."
+msgstr "定义查询类型。"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:449
+#: includes/class-kadence-blocks-posts-rest-api.php:542
+msgid "Number of results to return."
+msgstr "返回的结果数量。"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:443
+msgid "Include posts by ID."
+msgstr "通过ID包含文章。"
+
+#: includes/class-kadence-blocks-posts-rest-api.php:424
+msgid "Limit results to items of a specific post type."
+msgstr "限制结果为某个文章类型的文章。"
+
+#: includes/blocks/class-kadence-blocks-countdown-block.php:626
+#: dist/blocks-countdown.js:1
+msgid "Secs"
+msgstr "秒"
+
+#: includes/blocks/class-kadence-blocks-countdown-block.php:625
+#: dist/blocks-countdown.js:1
+msgid "Mins"
+msgstr "分"
+
+#: includes/blocks/class-kadence-blocks-countdown-block.php:624
+#: dist/blocks-countdown.js:1
+msgid "Hrs"
+msgstr "小时"
+
+#: includes/blocks/class-kadence-blocks-countdown-block.php:623
+#: dist/blocks-countdown.js:1
+msgid "Days"
+msgstr "天"
+
+#: includes/advanced-form/activecampaign-rest-api.php:113
+#: includes/class-fluentcrm-form-rest-api.php:158
+#: includes/class-mailerlite-form-rest-api.php:164
+msgid "Actionable endpoint for api call."
+msgstr "Api调用的可操作端点。"
+
+#: includes/class-fluentcrm-form-rest-api.php:132
+msgid "Source"
+msgstr "来源"
+
+#: includes/class-fluentcrm-form-rest-api.php:128
+#: dist/blocks-advanced-form.js:3
+msgid "Phone"
+msgstr "电话"
+
+#: includes/class-fluentcrm-form-rest-api.php:124
+msgid "Country"
+msgstr "国家"
+
+#: includes/class-fluentcrm-form-rest-api.php:116
+msgid "State"
+msgstr "状态"
+
+#: includes/class-fluentcrm-form-rest-api.php:112
+msgid "City"
+msgstr "城市"
+
+#: includes/class-fluentcrm-form-rest-api.php:108
+msgid "Address Line 2"
+msgstr "地址行2"
+
+#: includes/class-fluentcrm-form-rest-api.php:100
+msgid "Timezone"
+msgstr "时区"
+
+#: includes/class-fluentcrm-form-rest-api.php:96
+msgid "Full Name"
+msgstr "完整名称"
+
+#: includes/class-fluentcrm-form-rest-api.php:84
+msgid "Name Prefix"
+msgstr "名字前缀"
+
+#. Plugin Name of the plugin
+msgid "Kadence Blocks – Gutenberg Blocks for Page Builder Features"
+msgstr "Kadence Blocks – 用于页面生成器功能的区块"
+
+#: includes/settings/class-kadence-blocks-site-health.php:325
+#: dist/blocks-advanced-form.js:7 dist/blocks-advanced-form.js:11
+#: dist/blocks-form.js:1
+msgid "Off"
+msgstr "关闭"
+
+#: includes/class-fluentcrm-form-rest-api.php:120
+#: dist/blocks-advanced-form.js:7 dist/blocks-advanced-form.js:11
+#: dist/blocks-form.js:1
+msgid "Postal Code"
+msgstr "邮政编码"
+
+#: includes/class-fluentcrm-form-rest-api.php:104
+#: dist/blocks-advanced-form.js:7 dist/blocks-advanced-form.js:11
+#: dist/blocks-form.js:1
+msgid "Address Line 1"
+msgstr "地址行1"
+
+#: includes/class-fluentcrm-form-rest-api.php:92 dist/blocks-advanced-form.js:3
+#: dist/blocks-advanced-form.js:7 dist/blocks-advanced-form.js:11
+#: dist/blocks-form.js:1
+msgid "Last Name"
+msgstr "姓氏"
+
+#: includes/class-fluentcrm-form-rest-api.php:88 dist/blocks-advanced-form.js:3
+#: dist/blocks-advanced-form.js:7 dist/blocks-advanced-form.js:11
+#: dist/blocks-form.js:1
+msgid "First Name"
+msgstr "名字"
+
+#: includes/blocks/class-kadence-blocks-advanced-form-block.php:491
+#: includes/blocks/class-kadence-blocks-form-block.php:812
+msgid "requires a unique entry and this value has already been used"
+msgstr "需要一个唯一条目，并且此值已被使用"
+
+#: includes/blocks/class-kadence-blocks-advanced-form-block.php:490
+#: includes/blocks/class-kadence-blocks-form-block.php:811
+#: dist/blocks-form.js:1
+msgid "is not valid"
+msgstr "无效"
+
+#: includes/blocks/class-kadence-blocks-advanced-form-block.php:489
+#: includes/blocks/class-kadence-blocks-form-block.php:810
+msgid "does not match"
+msgstr "不匹配"
+
+#: includes/blocks/class-kadence-blocks-advanced-form-block.php:488
+#: includes/blocks/class-kadence-blocks-form-block.php:809
+#: dist/blocks-advanced-form.js:7 dist/blocks-advanced-form.js:9
+#: dist/blocks-advanced-form.js:11 dist/blocks-form.js:1
+msgid "is required"
+msgstr "需要"
+
+#: includes/blocks/class-kadence-blocks-advanced-form-block.php:486
+#: includes/blocks/class-kadence-blocks-form-block.php:807
+#: dist/blocks-advanced-form.js:3 dist/blocks-form.js:3
+msgid "Please fix the errors to proceed"
+msgstr "请修复错误以继续"
+
+#. translators: %s - link to a site.
+#: includes/templates/form-email.php:170
+msgid "Sent from %s"
+msgstr "发送自%s"
+
+#: includes/settings/class-kadence-blocks-settings.php:1121
+msgid "Create a contact form or marketing form and style it within the block editor."
+msgstr "创建一个联系表单或营销表单，并在块编辑器中设置样式。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1120
+#: dist/blocks-advanced-form.js:11 dist/blocks-form.js:1
+#: dist/blocks-rowlayout.js:9
+msgid "Form"
+msgstr "表单"
+
+#: includes/settings/class-kadence-blocks-settings.php:671
+msgid "Google reCaptcha Secret Key"
+msgstr "谷歌验证码Secret Key"
+
+#: includes/settings/class-kadence-blocks-settings.php:660
+msgid "Google reCaptcha Site Key"
+msgstr "谷歌验证码网站Site Key"
+
+#: includes/settings/class-kadence-blocks-settings.php:649
+msgid "Config Kadence Blocks Global Settings"
+msgstr "配置Kadence区块全局设置"
+
+#: includes/advanced-form/advanced-form-ajax.php:601 includes/form-ajax.php:711
+msgid "Data not found"
+msgstr "未发现数据"
+
+#: includes/advanced-form/advanced-form-ajax.php:164 includes/form-ajax.php:488
+#: dist/blocks-advanced-form.js:7 dist/blocks-form.js:1
+msgid "Accept"
+msgstr "接受"
+
+#: includes/advanced-form/advanced-form-ajax.php:128 includes/form-ajax.php:453
+msgid "No Data"
+msgstr "没有数据"
+
+#: includes/advanced-form/advanced-form-ajax.php:128 includes/form-ajax.php:453
+msgid "Submission failed"
+msgstr "提交失败"
+
+#: includes/advanced-form/advanced-form-ajax.php:60 includes/form-ajax.php:450
+msgid "Token invalid"
+msgstr "令牌无效"
+
+#: includes/advanced-form/advanced-form-ajax.php:122 includes/form-ajax.php:444
+msgid "Third Party Failed"
+msgstr "第三方失败"
+
+#: includes/form-ajax.php:182
+msgid "Required Field Empty"
+msgstr "必填项为空"
+
+#: includes/form-ajax.php:108 includes/form-ajax.php:111
+#: includes/form-ajax.php:115
+msgid "reCAPTCHA Failed"
+msgstr "验证码错误"
+
+#: includes/form-ajax.php:101
+msgid "Spam Detected"
+msgstr "垃圾邮件检测"
+
+#: includes/form-ajax.php:101
+msgid "Submission Rejected"
+msgstr "已拒绝提交"
+
+#: includes/advanced-form/advanced-form-ajax.php:655 includes/form-ajax.php:74
+#: dist/blocks-advanced-form.js:3 dist/blocks-form.js:3
+msgid "Submission Success, Thanks for getting in touch!"
+msgstr "提交成功，感谢您联系我们！"
+
+#: includes/advanced-form/advanced-form-submit-actions.php:116
+#: includes/form-ajax.php:65 includes/form-ajax.php:207
+msgid "Submission"
+msgstr "提交"
+
+#: includes/form-ajax.php:55
+msgid "Data not Found"
+msgstr "未发现数据"
+
+#: includes/advanced-form/advanced-form-ajax.php:254
+#: includes/advanced-form/advanced-form-ajax.php:266
+#: includes/advanced-form/advanced-form-ajax.php:289
+#: includes/advanced-form/advanced-form-ajax.php:601
+#: includes/advanced-form/advanced-form-ajax.php:656 includes/form-ajax.php:55
+#: includes/form-ajax.php:75 includes/form-ajax.php:711
+#: dist/blocks-advanced-form.js:3 dist/blocks-form.js:3
+msgid "Submission Failed"
+msgstr "提交失败"
+
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1418
+#: dist/blocks-rowlayout.js:17
+msgid "Mute"
+msgstr "静音"
+
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1417
+#: dist/blocks-rowlayout.js:17
+msgid "Unmute"
+msgstr "取消静音"
+
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1412
+#: dist/blocks-rowlayout.js:17
+msgid "Pause"
+msgstr "暂停"
+
+#: includes/blocks/class-kadence-blocks-row-layout-block.php:1411
+#: dist/blocks-rowlayout.js:17
+msgid "Play"
+msgstr "播放"
+
+#. Author URI of the plugin
+msgid "https://www.kadencewp.com"
+msgstr "https://www.kadencewp.com"
+
+#. Author of the plugin
+msgid "Kadence WP"
+msgstr "Kadence WP"
+
+#: includes/init.php:400 includes/init.php:428 includes/init.php:455
+#: includes/init.php:499 includes/init.php:528 dist/blocks-advanced-form.js:9
+#: dist/blocks-advancedbtn.js:1 dist/blocks-advancedgallery.js:1
+#: dist/blocks-column.js:1 dist/blocks-iconlist.js:1 dist/blocks-infobox.js:1
+#: dist/blocks-posts.js:9 dist/blocks-singlebtn.js:1 dist/components.js:14
+#: dist/components.js:16 dist/components.js:18
+msgid "Inherit"
+msgstr "继承"
+
+#: includes/blocks/class-kadence-blocks-advanced-form-block.php:492
+#: includes/blocks/class-kadence-blocks-form-block.php:813
+msgid "Item"
+msgstr "项目"
+
+#: includes/settings/class-kadence-blocks-site-health.php:213
+#: dist/blocks-advancedbtn.js:1 dist/blocks-advancedgallery.js:1
+#: dist/blocks-advancedheading.js:1 dist/blocks-column.js:1
+#: dist/blocks-countup.js:1 dist/blocks-googlemaps.js:1
+#: dist/blocks-iconlist.js:1 dist/blocks-image.js:1 dist/blocks-infobox.js:1
+#: dist/blocks-rowlayout.js:17 dist/blocks-singlebtn.js:1
+#: dist/blocks-tableofcontents.js:1 dist/blocks-testimonials.js:1
+#: dist/components.js:14 dist/components.js:18 dist/helpers.js:1
+msgid "None"
+msgstr "无"
+
+#: includes/settings/class-kadence-blocks-settings.php:1127
+msgid "Photo galleries, carousels, and sliders! Enable custom links, captions, and more. Plus, you can select image sizes."
+msgstr "照片相册，旋转木马，和滑块! 启用定义链接、说明等设置，并且可以选择图像大小。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1126
+#: dist/plugin-kadence-control.js:3
+msgid "Advanced Gallery"
+msgstr "高级相册"
+
+#: includes/settings/class-kadence-blocks-settings.php:638
+msgid "Config Kadence Blocks Color Palette"
+msgstr "配置Kadence Blocks调色板"
+
+#: includes/settings/class-kadence-blocks-settings.php:378
+msgid "Very dark gray"
+msgstr "深灰"
+
+#: includes/settings/class-kadence-blocks-settings.php:373
+msgid "Cyan bluish gray"
+msgstr "青灰"
+
+#: includes/settings/class-kadence-blocks-settings.php:368
+msgid "Very light gray"
+msgstr "浅灰"
+
+#: includes/settings/class-kadence-blocks-settings.php:363
+msgid "Vivid cyan blue"
+msgstr "亮青"
+
+#: includes/settings/class-kadence-blocks-settings.php:358
+msgid "Pale cyan blue"
+msgstr "浅蓝"
+
+#: includes/settings/class-kadence-blocks-settings.php:353
+msgid "Vivid green cyan"
+msgstr "青绿"
+
+#: includes/settings/class-kadence-blocks-settings.php:348
+msgid "Light green cyan"
+msgstr "淡绿"
+
+#: includes/settings/class-kadence-blocks-settings.php:343
+msgid "Luminous vivid amber"
+msgstr "琥珀"
+
+#: includes/settings/class-kadence-blocks-settings.php:338
+msgid "Luminous vivid orange"
+msgstr "亮橙"
+
+#: includes/settings/class-kadence-blocks-settings.php:333
+msgid "Vivid red"
+msgstr "鲜红"
+
+#: includes/settings/class-kadence-blocks-settings.php:328
+msgid "Pale pink"
+msgstr "浅粉"
+
+#: includes/settings/class-kadence-blocks-settings.php:1221
+msgid "Nothing to Save"
+msgstr "没有需要保存的修改"
+
+#: includes/settings/class-kadence-blocks-settings.php:1215
+msgid "Missing Content"
+msgstr "缺少内容"
+
+#: includes/settings/class-kadence-blocks-settings.php:1212
+msgid "Invalid nonce"
+msgstr "随机数无效"
+
+#: includes/settings/class-kadence-blocks-settings.php:1201
+msgid "Create confidence in your brand or product by showing off beautiful unique testimonials, add as a carousel or a grid."
+msgstr "通过展示美丽独特的推荐来建立对您的品牌或产品的信心，添加为轮播或网格。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1200
+#: dist/blocks-rowlayout.js:9 dist/blocks-rowlayout.js:11
+#: dist/blocks-testimonials.js:1 dist/plugin-kadence-control.js:3
+msgid "Testimonials"
+msgstr "褒奖"
+
+#: includes/settings/class-kadence-blocks-settings.php:1180
+msgid "Add beautiful icons to your lists and make them more engaging. Over 1500 icons to choose from and unlimited styles."
+msgstr "将漂亮的图标添加到您的列表中，使它们更具吸引力。超过 1500 个图标可供选择，且可以设置无限的样式。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1179
+#: dist/blocks-iconlist.js:1 dist/plugin-kadence-control.js:3
+msgid "Icon List"
+msgstr "图标列表"
+
+#: includes/settings/class-kadence-blocks-settings.php:1174
+#: dist/blocks-accordion.js:1
+msgid "Create beautiful accordions! Each pane can contain any other block, customize title styles, content background, and borders."
+msgstr "创造美丽的手风琴！每个窗格都可以包含任何其他块、自定义标题样式、内容背景和边框。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1173
+#: dist/blocks-accordion.js:1 dist/blocks-rowlayout.js:9 dist/blocks-tabs.js:1
+#: dist/plugin-kadence-control.js:3
+msgid "Accordion"
+msgstr "手风琴"
+
+#: includes/settings/class-kadence-blocks-settings.php:1167
+#: dist/blocks-infobox.js:1 dist/plugin-kadence-control.js:3
+msgid "Info Box"
+msgstr "信息框"
+
+#: includes/settings/class-kadence-blocks-settings.php:1020
+msgid "Match the editor width to your sites width."
+msgstr "将编辑器宽度设置为您的网站宽度。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1020
+msgid "Editor Max Widths"
+msgstr "编辑器最大宽度"
+
+#: includes/settings/class-kadence-blocks-settings.php:627
+msgid "Config Kadence Block Settings"
+msgstr "配置Kadence 区块设置视图"
+
+#: includes/settings/class-kadence-blocks-settings.php:605
+msgid "Config Kadence Block Defaults"
+msgstr "配置Kadence 区块默认值"
+
+#: includes/settings/class-kadence-blocks-settings.php:523
+#: includes/settings/class-kadence-blocks-settings.php:529
+#: includes/settings/class-kadence-blocks-settings.php:535
+#: includes/settings/class-kadence-blocks-settings.php:541
+#: includes/settings/class-kadence-blocks-settings.php:547
+#: includes/settings/class-kadence-blocks-settings.php:553
+#: includes/settings/class-kadence-blocks-settings.php:559
+#: includes/settings/class-kadence-blocks-settings.php:565
+#: includes/settings/class-kadence-blocks-settings.php:571
+#: includes/settings/class-kadence-blocks-settings.php:577
+msgid "Setting defaults has moved into Gutenberg, click on the top right corner settings and go to Kadence Blocks Controls"
+msgstr "默认值设置功能已移入古腾堡编辑器，单击右上角的设置图标，然后转到Kadence区块控件"
+
+#: includes/settings/class-kadence-blocks-settings.php:517
+msgid "Default Settings"
+msgstr "默认设置"
+
+#: includes/settings/class-kadence-blocks-settings.php:516
+msgid "Config"
+msgstr "配置"
+
+#: includes/settings/class-kadence-blocks-settings.php:515
+msgid "Updated"
+msgstr "更新"
+
+#: includes/settings/class-kadence-blocks-settings.php:514
+msgid "Updating"
+msgstr "正在更新"
+
+#: includes/settings/class-kadence-blocks-settings.php:513
+#: dist/blocks-advanced-form.js:3 dist/blocks-advanced-form.js:7
+#: dist/blocks-form.js:1 dist/blocks-form.js:3 dist/components.js:18
+#: dist/plugin-kadence-control.js:3
+msgid "Save"
+msgstr "保存"
+
+#: includes/settings/class-kadence-blocks-settings.php:512
+#: dist/plugin-kadence-control.js:3
+msgid "Close"
+msgstr "关闭"
+
+#. Description of the plugin
+msgid "Advanced Page Building Blocks for Gutenberg. Create custom column layouts, backgrounds, dual buttons, icons etc."
+msgstr "古腾堡高级页面构建块。创建自定义列布局、背景、双按钮、图标等。"
+
+#. Plugin URI of the plugin
+msgid "https://www.kadencewp.com/product/kadence-gutenberg-blocks/"
+msgstr "https://www.kadencewp.com/product/kadence-gutenberg-blocks/"
+
+#: includes/settings/class-kadence-blocks-settings.php:1162
+msgid "Create custom vertical or horizontal tabs with advanced styling controls. Each tab content is an empty canvas able to contain any other blocks."
+msgstr "使用高级样式控件创建自定义垂直或水平选项卡。每个选项卡内容都是一个空白画布，能够包含任何其他区块。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1161
+#: dist/blocks-rowlayout.js:9 dist/blocks-tabs.js:1 dist/blocks-tabs.js:2
+#: dist/plugin-kadence-control.js:3
+msgid "Tabs"
+msgstr "标签"
+
+#: includes/settings/class-kadence-blocks-settings.php:1150
+msgid "Easily create a divider and determine the space around it or just create some space in your content."
+msgstr "很容易地创建一个分，并确定周围的空间或者只是创造一些空间，在你的内容。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1149
+#: dist/plugin-kadence-control.js:3
+msgid "Spacer/Divider"
+msgstr "间隔/分隔线"
+
+#: includes/settings/class-kadence-blocks-settings.php:1133
+msgid "Create an advanced button or a row of buttons. Style each one including hover controls plus you can use an icon and display them side by side"
+msgstr "创建一个高级按钮或一行按钮。设置每个图标的样式，包括悬停控件并且您可以使用图标并排显示它们"
+
+#: includes/settings/class-kadence-blocks-settings.php:1132
+#: dist/plugin-kadence-control.js:3
+msgid "Advanced Button"
+msgstr "高级按钮"
+
+#: includes/settings/class-kadence-blocks-settings.php:1144
+msgid "Choose from over 1500+ SVG Icons to add into your page and style the size, colors, background, border, etc."
+msgstr "从 1500 多个 SVG 图标中进行选择一个，添加到页面中并设置大小、颜色、背景、边框等的样式。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1143
+#: dist/blocks-icon.js:1 dist/blocks-infobox.js:1 dist/blocks-single-icon.js:1
+#: dist/blocks-tabs.js:2 dist/blocks-testimonial.js:1
+#: dist/blocks-testimonials.js:1 dist/plugin-kadence-control.js:3
+msgid "Icon"
+msgstr "图标"
+
+#: includes/settings/class-kadence-blocks-settings.php:1115
+msgid "Create rows with nested blocks either in columns or as a container. Give style to your rows with background, overlay, padding, etc."
+msgstr "创建行嵌套的街区既可在列或作为一个容器。 得到的风格你的行背景的重叠，填补，等等。"
+
+#: includes/settings/class-kadence-blocks-settings.php:1114
+#: dist/blocks-rowlayout.js:17 dist/plugin-kadence-control.js:3
+msgid "Row Layout"
+msgstr "行布局"
+
+#: includes/settings/class-kadence-blocks-settings.php:1065
+msgid "Browse Docs"
+msgstr "浏览文档"
+
+#: includes/settings/class-kadence-blocks-settings.php:1070
+msgid "Support"
+msgstr "支持"
+
+#: includes/settings/class-kadence-blocks-settings.php:1029
+#: includes/settings/class-kadence-blocks-settings.php:1043
+msgid "Save Changes"
+msgstr "保存修改"
+
+#: includes/settings/class-kadence-blocks-settings.php:1005
+msgid "Deactivated"
+msgstr "已禁用"
+
+#: includes/settings/class-kadence-blocks-settings.php:1005
+msgid "Deactivating..."
+msgstr "正在禁用…"
+
+#: includes/settings/class-kadence-blocks-settings.php:1005
+msgid "Activated"
+msgstr "已激活"
+
+#: includes/settings/class-kadence-blocks-settings.php:1005
+msgid "Activating..."
+msgstr "正在激活..."
+
+#: includes/settings/class-kadence-blocks-settings.php:1005
+#: includes/settings/class-kadence-blocks-settings.php:1007
+msgid "Deactivate"
+msgstr "禁用"
+
+#: includes/settings/class-kadence-blocks-settings.php:1004
+#: includes/settings/class-kadence-blocks-settings.php:1005
+msgid "Activate"
+msgstr "激活"
+
+#: includes/settings/class-kadence-blocks-settings.php:504
+#: includes/settings/class-kadence-blocks-settings.php:1339
+#: dist/blocks-form.js:1 dist/blocks-rowlayout.js:17
+msgid "Settings"
+msgstr "设置"
+
+#: includes/settings/class-kadence-blocks-settings.php:1022
+msgid "Note: The current active themes \"content_width\" is set to:"
+msgstr "注意：当前活动主题“content_width”设置为："
+
+#: includes/settings/class-kadence-blocks-settings.php:889
+#: includes/settings/class-kadence-blocks-settings.php:902
+msgid "Fullwidth"
+msgstr "全宽"
+
+#: includes/settings/class-kadence-blocks-settings.php:888
+#: includes/settings/class-kadence-blocks-settings.php:901
+#: dist/blocks-column.js:1 dist/blocks-posts.js:9 dist/blocks-rowlayout.js:17
+#: dist/components.js:14 dist/helpers.js:1 dist/plugin-kadence-control.js:1
+msgid "Large"
+msgstr "大号"
+
+#: includes/settings/class-kadence-blocks-settings.php:887
+#: includes/settings/class-kadence-blocks-settings.php:900
+#: dist/blocks-column.js:1 dist/blocks-rowlayout.js:17 dist/components.js:14
+#: dist/helpers.js:1 dist/plugin-kadence-control.js:1
+msgid "Small"
+msgstr "小号"
+
+#: includes/settings/class-kadence-blocks-settings.php:867
+#: includes/settings/class-kadence-blocks-settings.php:877
+#: dist/components.js:18
+msgid "px"
+msgstr "px"
+
+#: includes/settings/class-kadence-blocks-settings.php:853
+msgid "Experimental editor CSS for less excess margins in Gutenberg in an attempt to get a closer WYSIWYG editing experience."
+msgstr "实验编CSS少过多边古腾堡在试图获得一个更接近所见即所得的编辑经验。"
+
+#: includes/settings/class-kadence-blocks-settings.php:843
+#: includes/settings/class-kadence-blocks-settings.php:856
+#: includes/settings/class-kadence-blocks-settings.php:914
+msgid "True"
+msgstr "True"
+
+#: includes/settings/class-kadence-blocks-settings.php:842
+#: includes/settings/class-kadence-blocks-settings.php:855
+#: includes/settings/class-kadence-blocks-settings.php:913
+msgid "False"
+msgstr "False"
+
+#: includes/settings/class-kadence-blocks-settings.php:840
+msgid "Allows for changes to the editor width on per page/post basis with preset defaults."
+msgstr "允许修改编辑上的宽度每页/岗位的基础与设定缺省值。"
+
+#: includes/settings/class-kadence-blocks-settings.php:825
+msgid "Enable Editor Width"
+msgstr "启用编辑器宽度"
+
+#: includes/settings/class-kadence-blocks-settings.php:823
+msgid "Page Default"
+msgstr "页面默认"
+
+#: includes/settings/class-kadence-blocks-settings.php:822
+msgid "Post default"
+msgstr "文章默认"
+
+#: includes/settings/class-kadence-blocks-settings.php:820
+msgid "Large Template"
+msgstr "大模板"
+
+#: includes/settings/class-kadence-blocks-settings.php:819
+msgid "Small Template"
+msgstr "小型模板"
+
+#: includes/init.php:813 includes/init.php:840
+#: includes/settings/class-kadence-blocks-settings.php:503
+#: includes/settings/class-kadence-blocks-site-health.php:150
+msgid "Kadence Blocks"
+msgstr "Kadence区块"
+
+#: includes/settings/class-kadence-blocks-settings.php:503
+#: includes/settings/class-kadence-blocks-settings.php:504
+msgid "Kadence Blocks -  Gutenberg Page Builder Blocks"
+msgstr "Kadence区块-古腾堡页生成器块"

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/fluentform/app/Services" isTestSource="false" packagePrefix="Box" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/fluentform/app/Services/Libraries/action-scheduler/classes" isTestSource="false" packagePrefix="Action_Scheduler" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/getwid/includes" isTestSource="false" packagePrefix="Getwid" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/rest-api-data-localizer" isTestSource="false" packagePrefix="RADL" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/templates-patterns-collection/includes" isTestSource="false" packagePrefix="TIOB" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/woocommerce/packages/action-scheduler/classes" isTestSource="false" packagePrefix="Action_Scheduler" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-includes" isTestSource="false" packagePrefix="PHPMailer" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

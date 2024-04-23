@@ -1,0 +1,478 @@
+.browser-frame {
+  border-radius: 10px;
+  box-shadow: 0 0 3px #E6ECEF;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.browser-controls {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #E6ECEF;
+  color: #BEC4C6;
+}
+
+.window-controls {
+  flex: 0 0 60px;
+  margin: 0 2%;
+}
+.window-controls span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background: #FF8585;
+}
+.window-controls span.minimise {
+  background: #FFD071;
+}
+.window-controls span.maximise {
+  background: #74ED94;
+}
+
+.page-controls {
+  flex: 0 0 70px;
+  margin-right: 2%;
+}
+.page-controls span {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  padding-top: 5px;
+  height: 20px;
+  font-size: 13px;
+  line-height: 11px;
+}
+
+.url-bar {
+  flex-grow: 1;
+  margin-right: 2%;
+  padding: 5px 5px 0 10px;
+  font-family: monospace;
+  color: #889396;
+  overflow: hidden;
+}
+
+.white-container {
+  height: 25px;
+  border-radius: 3px;
+  background: white;
+}
+
+.bar-warning {
+  background: #FA6B05;
+  color: white;
+}
+.bar-warning a {
+  color: #ffeeee;
+  font-size: 120%;
+}
+
+.browser-frame.ffc_browser_mobile {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+/* Element Chalk Variables */
+/* Transition
+-------------------------- */
+/* Color
+-------------------------- */
+/* 53a8ff */
+/* 66b1ff */
+/* 79bbff */
+/* 8cc5ff */
+/* a0cfff */
+/* b3d8ff */
+/* c6e2ff */
+/* d9ecff */
+/* ecf5ff */
+/* Link
+-------------------------- */
+/* Border
+-------------------------- */
+/* Fill
+-------------------------- */
+/* Typography
+-------------------------- */
+/* Size
+-------------------------- */
+/* z-index
+-------------------------- */
+/* Disable base
+-------------------------- */
+/* Icon
+-------------------------- */
+/* Checkbox
+-------------------------- */
+/* Radio
+-------------------------- */
+/* Select
+-------------------------- */
+/* Alert
+-------------------------- */
+/* MessageBox
+-------------------------- */
+/* Message
+-------------------------- */
+/* Notification
+-------------------------- */
+/* Input
+-------------------------- */
+/* Cascader
+-------------------------- */
+/* Group
+-------------------------- */
+/* Tab
+-------------------------- */
+/* Button
+-------------------------- */
+/* cascader
+-------------------------- */
+/* Switch
+-------------------------- */
+/* Dialog
+-------------------------- */
+/* Table
+-------------------------- */
+/* Pagination
+-------------------------- */
+/* Popup
+-------------------------- */
+/* Popover
+-------------------------- */
+/* Tooltip
+-------------------------- */
+/* Tag
+-------------------------- */
+/* Tree
+-------------------------- */
+/* Dropdown
+-------------------------- */
+/* Badge
+-------------------------- */
+/* Card
+--------------------------*/
+/* Slider
+--------------------------*/
+/* Steps
+--------------------------*/
+/* Menu
+--------------------------*/
+/* Rate
+--------------------------*/
+/* DatePicker
+--------------------------*/
+/* Loading
+--------------------------*/
+/* Scrollbar
+--------------------------*/
+/* Carousel
+--------------------------*/
+/* Collapse
+--------------------------*/
+/* Transfer
+--------------------------*/
+/* Header
+  --------------------------*/
+/* Footer
+--------------------------*/
+/* Main
+--------------------------*/
+/* Timeline
+--------------------------*/
+/* Backtop
+--------------------------*/
+/* Link
+--------------------------*/
+/* Calendar
+--------------------------*/
+/* Form
+-------------------------- */
+/* Avatar
+--------------------------*/
+/* Empty
+-------------------------- */
+/* Descriptions
+-------------------------- */
+/* Skeleton
+--------------------------*/
+/* Svg
+--------------- */
+/* Result
+-------------------------- */
+/* Break-point
+--------------------------*/
+/* Element Chalk Variables */
+/* Transition
+-------------------------- */
+/* Color
+-------------------------- */
+/* 53a8ff */
+/* 66b1ff */
+/* 79bbff */
+/* 8cc5ff */
+/* a0cfff */
+/* b3d8ff */
+/* c6e2ff */
+/* d9ecff */
+/* ecf5ff */
+/* Link
+-------------------------- */
+/* Border
+-------------------------- */
+/* Fill
+-------------------------- */
+/* Typography
+-------------------------- */
+/* Size
+-------------------------- */
+/* z-index
+-------------------------- */
+/* Disable base
+-------------------------- */
+/* Icon
+-------------------------- */
+/* Checkbox
+-------------------------- */
+/* Radio
+-------------------------- */
+/* Select
+-------------------------- */
+/* Alert
+-------------------------- */
+/* MessageBox
+-------------------------- */
+/* Message
+-------------------------- */
+/* Notification
+-------------------------- */
+/* Input
+-------------------------- */
+/* Cascader
+-------------------------- */
+/* Group
+-------------------------- */
+/* Tab
+-------------------------- */
+/* Button
+-------------------------- */
+/* cascader
+-------------------------- */
+/* Switch
+-------------------------- */
+/* Dialog
+-------------------------- */
+/* Table
+-------------------------- */
+/* Pagination
+-------------------------- */
+/* Popup
+-------------------------- */
+/* Popover
+-------------------------- */
+/* Tooltip
+-------------------------- */
+/* Tag
+-------------------------- */
+/* Tree
+-------------------------- */
+/* Dropdown
+-------------------------- */
+/* Badge
+-------------------------- */
+/* Card
+--------------------------*/
+/* Slider
+--------------------------*/
+/* Steps
+--------------------------*/
+/* Menu
+--------------------------*/
+/* Rate
+--------------------------*/
+/* DatePicker
+--------------------------*/
+/* Loading
+--------------------------*/
+/* Scrollbar
+--------------------------*/
+/* Carousel
+--------------------------*/
+/* Collapse
+--------------------------*/
+/* Transfer
+--------------------------*/
+/* Header
+  --------------------------*/
+/* Footer
+--------------------------*/
+/* Main
+--------------------------*/
+/* Timeline
+--------------------------*/
+/* Backtop
+--------------------------*/
+/* Link
+--------------------------*/
+/* Calendar
+--------------------------*/
+/* Form
+-------------------------- */
+/* Avatar
+--------------------------*/
+/* Empty
+-------------------------- */
+/* Descriptions
+-------------------------- */
+/* Skeleton
+--------------------------*/
+/* Svg
+--------------- */
+/* Result
+-------------------------- */
+/* Break-point
+--------------------------*/
+.ff_tab {
+  display: flex;
+  border-bottom: 1px solid #ececec;
+}
+.ff_tab_item:not(:last-child) {
+  margin-right: 30px;
+}
+.ff_tab_item.active .ff_tab_link {
+  color: #1A7EFB;
+}
+.ff_tab_item.active .ff_tab_link::after {
+  width: 100%;
+}
+.ff_tab_link {
+  padding-bottom: 16px;
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1E1F21;
+  position: relative;
+}
+.ff_tab_link::after {
+  position: absolute;
+  content: "";
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #1A7EFB;
+  transition: 0.2s;
+}
+.ff_tab_center .ff_tab_item {
+  flex: 1;
+  text-align: center;
+}
+
+.fcc_conversational_design {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-height: 80vh;
+}
+
+.ffc_design_sidebar {
+  width: 350px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+.ffc_design_container {
+  width: 100%;
+  padding: 0 0 24px 24px;
+}
+.ffc_design_elements .el-form-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ffc_design_elements .el-form-item::before, .ffc_design_elements .el-form-item::after {
+  display: none;
+}
+.ffc_design_elements .el-form-item__label {
+  float: none;
+  padding-right: 0;
+  line-height: inherit;
+}
+.ffc_design_elements .el-form-item__content {
+  line-height: inherit;
+}
+.ffc_design_elements .el-form-item__content::before, .ffc_design_elements .el-form-item__content::after {
+  display: none;
+}
+.ffc_design_elements .el-form-item.fcc_label_top {
+  flex-direction: column;
+}
+.ffc_design_elements .el-form-item.fcc_label_top .el-form-item__label {
+  width: 100%;
+  padding-bottom: 15px;
+}
+.ffc_design_elements .el-form-item.fcc_label_top .el-form-item__content {
+  width: 100%;
+}
+.ffc_design_elements .el-select {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.ffc_design_elements .ff_file_upload_wrap {
+  margin-bottom: 15px;
+}
+.ffc_sidebar_header {
+  padding-bottom: 24px;
+}
+.ffc_sidebar_body .el-form-item {
+  margin-bottom: 10px;
+}
+.ffc_sidebar_body .ffc_design_submit {
+  margin-top: 35px;
+  text-align: center;
+}
+.ffc_meta_settings {
+  max-width: 900px;
+}
+.ffc_meta_settings_form h5 {
+  margin-top: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ececec;
+}
+.ffc_sharing_settings .ff_card {
+  margin-bottom: 24px;
+}
+
+div#ff_conversation_form_design_app {
+  display: block;
+  overflow: hidden;
+}
+
+#fcc_iframe_holder {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px, rgba(0, 0, 0, 0.06) 0px 2px 12px;
+}
+#fcc_iframe_holder iframe {
+  border-radius: 8px;
+}
+
+.fcc_pro_message {
+  margin: 10px 0;
+  background: #fef6f1;
+  padding: 15px;
+  text-align: center;
+  font-size: 13px;
+}
+.fcc_pro_message a {
+  display: block;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=conversational_design.css.map*/

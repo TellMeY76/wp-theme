@@ -1,0 +1,31 @@
+.flueform-guten-wrapper .ff_guten_block {
+  pointer-events: none;
+}
+.flueform-guten-wrapper .fluentform-logo img {
+  margin: 0px auto;
+  max-width: 48px;
+  display: block;
+}
+.flueform-guten-wrapper .fluentform-logo {
+  margin-bottom: 30px;
+}
+.flueform-guten-wrapper .conv-demo {
+  text-align: center;
+  margin: 0 auto;
+}
+.flueform-guten-wrapper .conv-demo img {
+  max-height: 400px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.flueform-guten-wrapper .components-base-control__label {
+  padding-right: 15px;
+}
+.flueform-guten-wrapper .ff-btn-submit {
+  pointer-events: none;
+}
+.flueform-guten-wrapper .fluentform-step.active {
+  width: 100%;
+}
+
+/*# sourceMappingURL=fluent_gutenblock.css.map*/

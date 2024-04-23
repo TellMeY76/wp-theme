@@ -1,0 +1,2772 @@
+# Translation of Themes - Woostify in Chinese (China)
+# This file is distributed under the same license as the Themes - Woostify package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-11-17 09:12:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-beta.3\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Themes - Woostify\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Woostify is fast, lightweight, responsive and super flexible WooCommerce theme built with SEO, speed, and usability in mind. The theme works great with any of your favorite page builder likes Elementor, Beaver Builder, SiteOrigin, Thrive Architect, Divi, etc. Therefore, you can build any type of websites like shop, business agencies, corporate, portfolio, education, university portal, consulting, church, restaurant, medical and so on. Woostify is compatible with all well-coded plugins, including major ones like WooCommerce, OrbitFox, Yoast, BuddyPress, bbPress, etc. Learn more about the theme and ready to import demo sites at https://woostify.com"
+msgstr "Woostify 是快速、轻量级、响应迅速且超级灵活的 WooCommerce 主题，其构建时考虑了 SEO、速度和可用性。该主题适用于您最喜欢的任何页面构建器，如 Elementor、Beaver Builder、SiteOrigin、Thrive Architect、Divi 等。因此，您可以构建任何类型的网站，如商店、商业机构、公司、投资组合、教育、大学门户网站，咨询、教堂、餐厅、医疗等。 Woostify 与所有编码良好的插件兼容，包括 WooCommerce、OrbitFox、Yoast、BuddyPress、bbPress 等主要插件。了解有关主题的更多信息并准备在 https://woostify.com 导入演示站点"
+
+#: inc/admin/class-woostify-admin.php:832
+msgid "Woostify Theme"
+msgstr "Woostify主题"
+
+#: inc/admin/class-woostify-admin.php:962
+msgid "Write a Review"
+msgstr "写一条评论"
+
+#: inc/admin/class-woostify-admin.php:734
+msgid "Pro"
+msgstr "专业版"
+
+#: inc/admin/class-woostify-admin.php:681
+msgid "Go to Customizer"
+msgstr "转到定制器"
+
+#: inc/admin/class-woostify-admin.php:622
+msgid "White label"
+msgstr "白名单"
+
+#: inc/admin/class-woostify-admin.php:324
+#: inc/admin/class-woostify-admin.php:656
+msgid "Add-ons"
+msgstr "附加组件"
+
+#: inc/admin/class-woostify-admin.php:950
+msgid "Give us feedback"
+msgstr "给我们反馈"
+
+#: inc/admin/class-woostify-admin.php:924
+msgid "Go to Facebook Group"
+msgstr "前往脸书群组"
+
+#: inc/admin/class-woostify-admin.php:898
+msgid "Go to Documentation"
+msgstr "转到文档"
+
+#: inc/admin/class-woostify-admin.php:836
+msgid "Woostify Pro"
+msgstr "Woostify专业版"
+
+#: inc/admin/class-woostify-admin.php:800
+msgid "Activate Woostify site library"
+msgstr "激活 Woostify 站点库"
+
+#: inc/admin/class-woostify-admin.php:719
+msgid "Unlock All Add-ons"
+msgstr "解锁所有附加组件"
+
+#: inc/admin/class-woostify-admin.php:714
+msgid "Woostify Pro Add-ons"
+msgstr "Woostify Pro 附加组件"
+
+#: inc/admin/class-woostify-admin.php:681
+msgid "Customizer Settings"
+msgstr "定制器设置"
+
+#: inc/admin/class-woostify-admin.php:623
+msgid "Change info theme and plugin"
+msgstr "更改信息主题和插件"
+
+#: inc/admin/class-woostify-admin.php:607
+msgid "Allows customers to place an order for your upcoming products"
+msgstr "允许客户订购您即将推出的产品"
+
+#: inc/admin/class-woostify-admin.php:606
+msgid "Pre Order"
+msgstr "预购"
+
+#: inc/admin/class-woostify-admin.php:599
+#: inc/admin/class-woostify-admin.php:615
+msgid "Displays the email subscription form when the product is out of stock"
+msgstr "当产品缺货时显示电子邮件订阅表格"
+
+#: inc/admin/class-woostify-admin.php:598
+msgid "Call Back"
+msgstr "回电"
+
+#: inc/admin/class-woostify-admin.php:591
+msgid "Color, Image and Buttons Variation Swatches for product attributes"
+msgstr "产品属性的颜色、图像和按钮变化样本"
+
+#: inc/admin/class-woostify-admin.php:583
+msgid "Countdown that motivates customers to buy product before time runs out"
+msgstr "倒计时激励顾客在时间用完之前购买产品"
+
+#: inc/admin/class-woostify-admin.php:575
+msgid "Allow clients to have a quick view of your product details"
+msgstr "让客户快速查看您的产品详情"
+
+#: inc/admin/class-woostify-admin.php:567
+msgid "Add the  products to shopping cart immediately without scrolling up"
+msgstr "立即将产品添加到购物车，无需向上滚动"
+
+#: inc/admin/class-woostify-admin.php:559
+msgid "Customers go to checkout page immediately if they click into Buy Now"
+msgstr "如果客户点击“立即购买”，他们会立即进入结帐页面"
+
+#: inc/admin/class-woostify-admin.php:551
+msgid "More Shop’s widgets including nested product categories and feature products"
+msgstr "更多商店的小工具，包括嵌套产品类别和特色产品"
+
+#: inc/admin/class-woostify-admin.php:543
+msgid "Assign ready-to-use default size chart templates to the product"
+msgstr "为产品分配现成的默认尺码表模板"
+
+#: inc/admin/class-woostify-admin.php:535
+msgid "Allow customers to get instant live search results as they type their query"
+msgstr "允许客户在输入查询时获得即时实时搜索结果"
+
+#: inc/admin/class-woostify-admin.php:527
+msgid "Filters by any criteria, attributes, taxonomies, prices, or other product data."
+msgstr "按任何条件、属性、分类法、价格或其他产品数据进行过滤。"
+
+#: inc/admin/class-woostify-admin.php:519
+msgid "Customize shop page, product page, cart page, and checkout page as desired"
+msgstr "根据需要自定义商店页面、产品页面、购物车页面和结帐页面"
+
+#: inc/admin/class-woostify-admin.php:511
+msgid "Create your website header & footer using Elementor"
+msgstr "使用 Elementor 创建网站页眉和页脚"
+
+#: inc/admin/class-woostify-admin.php:503
+msgid "Customize widget elementor"
+msgstr "自定义小工具元素"
+
+#: inc/admin/class-woostify-admin.php:495
+msgid "Create a fully responsive mega menu with Elementor."
+msgstr "使用 Elementor 创建完全响应式的大型菜单。"
+
+#: inc/admin/class-woostify-admin.php:487
+msgid "Creating a floating header that sticks at the top of your site when scrolling"
+msgstr "创建一个浮动标题，滚动时会粘在网站顶部"
+
+#: inc/admin/class-woostify-admin.php:479
+msgid "Offering you with a set of 8 stunning header layouts to apply and customize"
+msgstr "为您提供一组 8 种令人惊叹的标题布局供您应用和自定义"
+
+#: inc/admin/class-woostify-admin.php:352
+msgid "Save successfully!"
+msgstr "保存成功！"
+
+#: inc/admin/class-woostify-admin.php:333
+#: inc/admin/class-woostify-admin.php:667
+#: inc/admin/class-woostify-admin.php:700
+msgid "Woostify Support"
+msgstr "Woostify 支持"
+
+#: inc/admin/class-woostify-admin.php:328
+#: inc/admin/class-woostify-admin.php:660
+msgid "Starter sites"
+msgstr "入门网站"
+
+#: inc/admin/class-woostify-admin.php:382
+msgid "Changelog woostify theme"
+msgstr "Woosify主题变更日志"
+
+#: inc/woocommerce/class-woostify-woocommerce.php:689
+#: inc/woocommerce/class-woostify-woocommerce.php:690
+#: inc/woocommerce/class-woostify-woocommerce.php:691
+msgid "You can’t add more than %s items in cart"
+msgstr "您无法在购物车中添加超过 %s 件商品"
+
+#: inc/woocommerce/class-woostify-woocommerce.php:361
+msgid "View Previous"
+msgstr "查看上一个"
+
+#: inc/customizer/sections/header/header.php:143
+msgid "Count Color"
+msgstr "计数颜色"
+
+#: inc/customizer/sections/shop/shop-page.php:336
+msgid "Price Font Size"
+msgstr "价格的字体大小"
+
+#: inc/customizer/sections/shop/shop-page.php:288
+msgid "Price Color"
+msgstr "价格颜色"
+
+#: inc/customizer/sections/shop/shop-page.php:191
+msgid "Product Title Color"
+msgstr "产品名称颜色"
+
+#: inc/customizer/sections/blog/blog.php:431
+msgid "Description Font Size"
+msgstr "描述字体大小"
+
+#: inc/customizer/sections/blog/blog.php:382
+msgid "Description Color"
+msgstr "描述颜色"
+
+#: inc/customizer/sections/blog/blog.php:331
+msgid "Meta Data Font Size"
+msgstr "元数据字体大小"
+
+#: inc/customizer/sections/blog/blog.php:285
+msgid "Meta Data Color"
+msgstr "元信息颜色"
+
+#: inc/customizer/sections/blog/blog.php:234
+#: inc/customizer/sections/shop/shop-page.php:239
+msgid "Title Font Size"
+msgstr "标题字体大小"
+
+#: inc/customizer/sections/blog/blog.php:27
+#: inc/customizer/sections/shop/shop-page.php:60
+msgid "Settings"
+msgstr "设置菜单"
+
+#: inc/customizer/sections/shop/shop-single.php:592
+msgid "Open first tab by default"
+msgstr "默认打开第一个标签"
+
+#: inc/woostify-template-functions.php:591
+msgid "Categories Menu"
+msgstr "分类菜单"
+
+#: inc/customizer/sections/shop/product-catalog.php:53
+msgid "Use this option to hide product variations when enabling the catalog mode."
+msgstr "启用目录模式时，使用此选项隐藏产品变体。"
+
+#: inc/customizer/sections/shop/product-catalog.php:52
+msgid "Hide product variations"
+msgstr "隐藏产品变化"
+
+#: inc/customizer/sections/mobile-menu/mobile-menu.php:371
+msgid "Nav Tab Spacing Bottom"
+msgstr "导航选项卡间距底部"
+
+#: inc/customizer/sections/mobile-menu/mobile-menu.php:330
+msgid "Tab Padding"
+msgstr "选项卡内边距"
+
+#: inc/customizer/sections/mobile-menu/mobile-menu.php:300
+msgid "Tab background"
+msgstr "选项卡背景"
+
+#: inc/customizer/sections/mobile-menu/mobile-menu.php:261
+msgid "Tab Color"
+msgstr "选项卡颜色"
+
+#: inc/customizer/sections/mobile-menu/mobile-menu.php:163
+msgid "Hamburger Icon"
+msgstr "汉堡图标"
+
+#: inc/customizer/sections/mobile-menu/mobile-menu.php:138
+msgid "Categories Menu Tab Title"
+msgstr "类别菜单选项卡标题"
+
+#: inc/customizer/sections/mobile-menu/mobile-menu.php:116
+msgid "Primary Menu Tab Title"
+msgstr "主菜单选项卡标题"
+
+#: inc/customizer/sections/mobile-menu/mobile-menu.php:94
+msgid "Show Categories Menu on Mobile"
+msgstr "在移动设备上显示类别菜单"
+
+#: inc/customizer/sections/mobile-menu/mobile-menu.php:72
+msgid "Hide Login/Register Link"
+msgstr "隐藏登录/注册链接"
+
+#: inc/customizer/sections/mobile-menu/mobile-menu.php:49
+msgid "Hide Search Box"
+msgstr "隐藏搜索框"
+
+#: inc/customizer/sections/header/header.php:455
+msgid "Enable Login Popup"
+msgstr "启用登录弹出窗口"
+
+#: inc/customizer/sections/header/header.php:316
+msgid "Enable Search"
+msgstr "启用搜索"
+
+#: inc/customizer/class-woostify-customizer.php:323
+#: inc/customizer/sections/color/color.php:110
+msgid "Link Hover Color"
+msgstr "鼠标位于链接时颜色"
+
+#: inc/class-woostify.php:1186
+msgid "Theme Link Hover Color"
+msgstr "主题链接悬停颜色"
+
+#: inc/class-woostify.php:410
+msgid "Mobile Categories Menu"
+msgstr "移动类别菜单"
+
+#: inc/customizer/sections/performance/performance.php:26
+msgid "Enable Dynamic CSS"
+msgstr "启用动态CSS"
+
+#: inc/class-woostify.php:720
+msgid "View cart"
+msgstr "查看购物车"
+
+#: inc/woostify-functions.php:893
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "搜索&hellip;"
+
+#: inc/woostify-functions.php:892 inc/woostify-functions.php:901
+msgctxt "label"
+msgid "Search for:"
+msgstr "搜索结果："
+
+#. translators: %s: reviews count
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:2289
+msgid "Reviews (%d)"
+msgstr "用户评价 (%d)"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:2020
+msgid "Back to cart"
+msgstr "返回购物车"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1663
+#: inc/woostify-functions.php:895 inc/woostify-functions.php:903
+msgctxt "submit button"
+msgid "Search"
+msgstr "输入关键词按“回车键”即可搜索"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1662
+msgid "Search products&hellip;"
+msgstr "搜索产品&hellip;"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1661
+msgid "Search for:"
+msgstr "搜索结果："
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1641
+msgid "Dismiss"
+msgstr "关闭"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1633
+msgid "This is a demo store for testing purposes &mdash; no orders shall be fulfilled."
+msgstr "这是一个用于测试的演示商店&mdash;将不会履行订单约定。"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:705
+msgid "Continue Shopping"
+msgstr "继续购物"
+
+#: inc/customizer/sections/shop/shop-single.php:781
+msgid "Show Dots"
+msgstr "显示圆点"
+
+#: inc/customizer/sections/shop/shop-single.php:760
+msgid "Show Arrows"
+msgstr "显示箭头"
+
+#: inc/customizer/sections/shop/shop-single.php:739
+msgid "Enable Carousel"
+msgstr "启用轮播"
+
+#: inc/customizer/sections/shop/shop-single.php:571
+msgid "After Product Summary"
+msgstr "产品摘要后"
+
+#: inc/customizer/sections/shop/shop-single.php:570
+msgid "In Product Summary"
+msgstr "在产品目录"
+
+#: inc/customizer/sections/shop/shop-single.php:542
+msgid "Accordion"
+msgstr "手风琴"
+
+#: inc/customizer/sections/shop/shop-single.php:508
+msgid "Product Data Tabs"
+msgstr "产品数据选项卡"
+
+#: inc/customizer/sections/shop/shop-page.php:729
+msgid "Product Quantity"
+msgstr "产品数量"
+
+#: inc/customizer/sections/shop/shipping-threshold.php:245
+msgid "Progress Bar Color"
+msgstr "进度条颜色"
+
+#: inc/customizer/sections/shop/shipping-threshold.php:204
+msgid "Message Color"
+msgstr "消息颜色"
+
+#: inc/customizer/sections/shop/shipping-threshold.php:168
+msgid "Message to show after reaching 100%."
+msgstr "达到 100% 后要显示的消息。"
+
+#: inc/customizer/sections/shop/shipping-threshold.php:167
+msgid "Success Message"
+msgstr "成功消息"
+
+#: inc/customizer/sections/shop/shipping-threshold.php:144
+msgid "Message to show before reaching the goal. Use shortcode <b><code>[missing_amount]</code></b> to display the amount left to reach the minimum"
+msgstr "在达到目标之前显示的消息。使用简码<b><code>[missing_amount]</code></b>显示达到最小值的剩余金额"
+
+#: inc/customizer/sections/shop/shipping-threshold.php:143
+msgid "Initial Message"
+msgstr "初始消息"
+
+#: inc/customizer/sections/shop/shipping-threshold.php:120
+msgid "Amount to reach 100%. Note: use <b><code>.</code></b> for Decimal separator"
+msgstr "量达到100%。注意：使用<b><code>.</code></b>用于小数分隔符"
+
+#: inc/customizer/sections/shop/shipping-threshold.php:119
+msgid "Goal Amount"
+msgstr "目标金额"
+
+#: inc/customizer/sections/shop/shipping-threshold.php:97
+msgid "Enable Progress Bar"
+msgstr "启用进度条"
+
+#: inc/customizer/sections/shop/shipping-threshold.php:75
+msgid "Show confetti effect when reach to 100%"
+msgstr "达到 100% 时显示五彩纸屑效果"
+
+#: inc/customizer/sections/shop/shipping-threshold.php:74
+msgid "Enable Confetti Effect"
+msgstr "启用五彩纸屑效果"
+
+#: inc/customizer/sections/shop/shipping-threshold.php:52
+msgid "Enable Shipping Threshold"
+msgstr "启用运输门槛"
+
+#: inc/customizer/sections/shop/product-catalog.php:30
+msgid "This option will hide all button add to cart on site"
+msgstr "此选项将隐藏所有按钮添加到现场购物车"
+
+#: inc/customizer/sections/shop/product-catalog.php:29
+msgid "Catalog Mode"
+msgstr "目录模式"
+
+#: inc/customizer/sections/shop/mini-cart.php:265
+msgid "After checkout button"
+msgstr "结帐后按钮"
+
+#: inc/customizer/sections/shop/mini-cart.php:191
+msgid "Before checkout button"
+msgstr "结帐前按钮"
+
+#: inc/customizer/sections/shop/mini-cart.php:150
+#: inc/customizer/sections/shop/mini-cart.php:224
+#: inc/customizer/sections/shop/mini-cart.php:298
+msgid "Free Shipping Threshold"
+msgstr "免费送货门槛"
+
+#: inc/customizer/sections/shop/mini-cart.php:149
+#: inc/customizer/sections/shop/mini-cart.php:171
+#: inc/customizer/sections/shop/mini-cart.php:223
+#: inc/customizer/sections/shop/mini-cart.php:245
+#: inc/customizer/sections/shop/mini-cart.php:297
+#: inc/customizer/sections/shop/mini-cart.php:319
+msgid "Custom HTML"
+msgstr "自定义HTML"
+
+#: inc/customizer/sections/shop/mini-cart.php:141
+#: inc/customizer/sections/shop/mini-cart.php:215
+#: inc/customizer/sections/shop/mini-cart.php:289
+msgid "Select Content"
+msgstr "选择内容"
+
+#: inc/customizer/sections/shop/mini-cart.php:117
+msgid "Top content"
+msgstr "顶部内容"
+
+#: inc/customizer/sections/shop/mini-cart.php:98
+msgid "Enable Empty Cart Button"
+msgstr "启用空购物车按钮"
+
+#: inc/customizer/sections/shop/mini-cart.php:76
+msgid "Empty Cart Message"
+msgstr "空购物车信息"
+
+#: inc/customizer/sections/shop/checkout-page.php:29
+msgid "Checkout Page Layout"
+msgstr "结帐页面布局"
+
+#: inc/customizer/sections/performance/performance.php:142
+msgid "Disable Woocommerce Blocks CSS"
+msgstr "禁用 Woocommerce Blocks CSS"
+
+#: inc/customizer/sections/performance/performance.php:116
+msgid "Click the button to reset the local fonts cache."
+msgstr "单击按钮以重置本地字体缓存。"
+
+#: inc/customizer/sections/performance/performance.php:115
+msgid "Clear Local Fonts Cache"
+msgstr "清除本地字体缓存"
+
+#: inc/customizer/sections/performance/performance.php:94
+msgid "Preload Local Font"
+msgstr "预加载本地字体"
+
+#: inc/customizer/sections/performance/performance.php:73
+msgid "Load Google Fonts Locally"
+msgstr "在本地加载 Google 字体"
+
+#: inc/customizer/sections/performance/performance.php:51
+msgid "Reset Dynamic CSS File"
+msgstr "重置动态 CSS 文件"
+
+#: inc/customizer/sections/performance/performance.php:48
+msgid "Click the button to resset dynamic css file."
+msgstr "单击按钮以重置动态 css 文件。"
+
+#: inc/customizer/sections/performance/performance.php:47
+msgid "Dynamic CSS Print Method"
+msgstr "动态CSS打印方法"
+
+#: inc/customizer/register-sections.php:149
+msgid "Performance"
+msgstr "性能"
+
+#: inc/customizer/register-sections.php:140
+msgid "Mini Cart"
+msgstr "迷您购物车"
+
+#: inc/customizer/register-sections.php:131
+msgid "Shipping Threshold"
+msgstr "免费送货门槛"
+
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:170
+msgid "Add Tab"
+msgstr "添加选项卡"
+
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:123
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:163
+msgid "Content"
+msgstr "正文"
+
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:84
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:107
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:147
+msgid "Reviews"
+msgstr "评论"
+
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:81
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:106
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:146
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:2279
+msgid "Additional information"
+msgstr "附加信息"
+
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:78
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:105
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:145
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:2270
+msgid "Description"
+msgstr "图像描述"
+
+#: inc/customizer/class-woostify-customizer.php:325
+#: inc/customizer/sections/color/color.php:164
+msgid "Extra Color 2"
+msgstr "额外颜色 2"
+
+#: inc/customizer/class-woostify-customizer.php:324
+#: inc/customizer/sections/color/color.php:137
+msgid "Extra Color 1"
+msgstr "额外颜色 1"
+
+#: inc/class-woostify.php:1198
+msgid "Theme Extra Color 2"
+msgstr "主题额外颜色 2"
+
+#: inc/class-woostify.php:1192
+msgid "Theme Extra Color 1"
+msgstr "主题额外颜色 1"
+
+#: inc/class-woostify.php:1180
+msgid "Theme Accent Color"
+msgstr "主题强调颜色"
+
+#: inc/class-woostify.php:1174
+msgid "Theme Text Color"
+msgstr "主题文本颜色"
+
+#: inc/class-woostify.php:1168
+msgid "Theme Primary Color"
+msgstr "主题颜色"
+
+#: inc/admin/class-woostify-admin.php:939
+msgid "Have a question, we are happy to help! Get in touch with our support team."
+msgstr "有问题，我们很乐意提供帮助！与我们的支持团队联系。"
+
+#: inc/admin/class-woostify-admin.php:920
+#: inc/admin/class-woostify-admin.php:958
+msgid "Join our community! Share your site, ask a question and help others."
+msgstr "加入我们的社区！分享您的网站，提出问题并帮助他人。"
+
+#: inc/admin/class-woostify-admin.php:905
+msgid "Community"
+msgstr "社区"
+
+#: inc/admin/class-woostify-admin.php:894
+msgid "Want a guide? We have video tutorials to walk you through getting started."
+msgstr "需要指南吗？我们有视频教程来指导您入门。"
+
+#: inc/admin/class-woostify-admin.php:883
+msgid "Document"
+msgstr "文件"
+
+#: inc/admin/class-woostify-admin.php:702
+msgid "Go to option"
+msgstr "转到选项"
+
+#: inc/admin/class-woostify-admin.php:590
+msgid "Variation Swatches"
+msgstr "变体色板"
+
+#: inc/admin/class-woostify-admin.php:566
+msgid "Sticky Single Add To Cart"
+msgstr "粘性单添加到购物车"
+
+#: inc/admin/class-woostify-admin.php:534
+msgid "Ajax Product Search"
+msgstr "产品搜索"
+
+#: inc/admin/class-woostify-admin.php:526
+msgid "Smart Product Filter"
+msgstr "智能产品过滤器"
+
+#: inc/woocommerce/class-woostify-woocommerce.php:340
+msgid "View more"
+msgstr "查看更多"
+
+#: inc/customizer/sections/shop/shop-single.php:263
+msgid "Theme"
+msgstr "主题"
+
+#: inc/customizer/sections/shop/shop-single.php:262
+msgid "Woocommerce Default"
+msgstr "WooCommerce 默认"
+
+#: inc/customizer/sections/shop/shop-single.php:257
+msgid "Gallery Style"
+msgstr "相册风格"
+
+#: inc/customizer/sections/shop/shop-page.php:438
+msgid "Auto (On scroll)"
+msgstr "自动（滚动时）"
+
+#: inc/customizer/sections/shop/shop-page.php:437
+msgid "Button (On click)"
+msgstr "鼠标按键 %1 点击"
+
+#: inc/customizer/sections/shop/shop-page.php:430
+msgid "Loading Type"
+msgstr "加载类型"
+
+#: inc/customizer/sections/shop/shop-page.php:409
+msgid "Enable infinite scroll for WooCommerce category/product archive."
+msgstr "为 WooCommerce 类别/产品存档启用无限滚动。"
+
+#: inc/customizer/sections/shop/shop-page.php:384
+msgid "Infinite Scroll"
+msgstr "无限滚动"
+
+#: inc/customizer/sections/header/header.php:570
+msgid "Hide Cart Subtotal When Zero"
+msgstr "零时隐藏购物车小计"
+
+#: inc/customizer/sections/header/header.php:546
+msgid "Hide Cart Count When Zero"
+msgstr "零时隐藏购物车计数"
+
+#: inc/woocommerce/class-woostify-woocommerce.php:522
+#: inc/woocommerce/class-woostify-woocommerce.php:541
+msgid "Disable"
+msgstr "禁用"
+
+#: inc/woocommerce/class-woostify-woocommerce.php:520
+#: inc/woocommerce/class-woostify-woocommerce.php:538
+msgid "Enable thumbnail for page header BG"
+msgstr "为页眉 BG 启用缩略图"
+
+#: inc/customizer/sections/sidebar/sidebar.php:199
+msgid "Offcanvas sidebar"
+msgstr "Offcanvas 边栏"
+
+#: inc/customizer/sections/mobile-menu/mobile-menu.php:347
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:608
+msgid "Bottom"
+msgstr "底层"
+
+#: inc/customizer/sections/mobile-menu/mobile-menu.php:345
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:606
+msgid "Top"
+msgstr "顶部"
+
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:575
+msgid "Spacing"
+msgstr "间距"
+
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:534
+msgid "900"
+msgstr "900"
+
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:533
+msgid "800"
+msgstr "800"
+
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:532
+msgid "700"
+msgstr "700"
+
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:531
+msgid "600"
+msgstr "600"
+
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:530
+msgid "500"
+msgstr "500"
+
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:529
+msgid "400"
+msgstr "400"
+
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:528
+msgid "300"
+msgstr "300"
+
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:523
+msgid "Text Font Weight"
+msgstr "文本字体粗细"
+
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:472
+msgid "Text Font Size"
+msgstr "文本字体大小"
+
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:402
+msgid "Icon Spacing"
+msgstr "图标间距"
+
+#: inc/customizer/sections/shop/shop-single.php:615
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:191
+msgid "Items"
+msgstr "监控项"
+
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:140
+msgid "Hide On Checkout Page"
+msgstr "在结算页面中隐藏"
+
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:117
+msgid "Hide On Cart Page"
+msgstr "在购物车页面上隐藏"
+
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:94
+msgid "Hide On Product Single Page"
+msgstr "隐藏在产品单页上"
+
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:71
+msgid "Hide When Scroll"
+msgstr "滚动时隐藏"
+
+#: inc/customizer/sections/shop/shop-page.php:408
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:48
+#: inc/woocommerce/class-woostify-woocommerce.php:523
+#: inc/woocommerce/class-woostify-woocommerce.php:542
+msgid "Enable"
+msgstr "启用"
+
+#: inc/customizer/sections/blog/blog.php:28
+#: inc/customizer/sections/footer/footer.php:28
+#: inc/customizer/sections/header/header-transparent.php:28
+#: inc/customizer/sections/header/header.php:28
+#: inc/customizer/sections/header/topbar.php:28
+#: inc/customizer/sections/mobile-menu/mobile-menu.php:28
+#: inc/customizer/sections/page-header/page-header.php:28
+#: inc/customizer/sections/scroll-to-top/scroll-to-top.php:28
+#: inc/customizer/sections/shop/shipping-threshold.php:32
+#: inc/customizer/sections/shop/shop-page.php:61
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:28
+msgid "Design"
+msgstr "设计"
+
+#: inc/customizer/register-sections.php:21
+msgid "Sticky Footer Bar"
+msgstr "粘性页脚栏"
+
+#: inc/customizer/custom-controls/adv-list/class-woostify-adv-list-control.php:168
+msgid "Link"
+msgstr "链接"
+
+#: inc/customizer/custom-controls/adv-list/class-woostify-adv-list-control.php:143
+msgid "Select"
+msgstr "请选择"
+
+#: inc/customizer/custom-controls/adv-list/class-woostify-adv-list-control.php:139
+#: inc/customizer/sections/header/header.php:112
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:246
+msgid "Icon"
+msgstr "图标："
+
+#: inc/customizer/custom-controls/adv-list/class-woostify-adv-list-control.php:121
+#: inc/customizer/custom-controls/adv-list/class-woostify-adv-list-control.php:130
+msgid "Shortcode"
+msgstr "简码"
+
+#: inc/customizer/custom-controls/adv-list/class-woostify-adv-list-control.php:120
+msgid "Cart"
+msgstr "购物车"
+
+#: inc/customizer/custom-controls/adv-list/class-woostify-adv-list-control.php:119
+msgid "Wishlist"
+msgstr "愿望清单"
+
+#: inc/customizer/custom-controls/adv-list/class-woostify-adv-list-control.php:118
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:75
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:87
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:104
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:144
+msgid "Custom"
+msgstr "自定义"
+
+#: inc/customizer/custom-controls/adv-list/class-woostify-adv-list-control.php:116
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:102
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:142
+msgid "Type"
+msgstr "样式"
+
+#: inc/customizer/custom-controls/group/class-woostify-group-control.php:120
+msgid "Link Values Together"
+msgstr "链接所有的值"
+
+#: inc/woocommerce/class-woostify-woocommerce.php:463
+#: inc/woocommerce/class-woostify-woocommerce.php:487
+msgid "Single ajax add to cart"
+msgstr "单个ajax添加到购物车"
+
+#: inc/customizer/sections/header/header.php:522
+msgid "Show Subtotal"
+msgstr "显示小计"
+
+#: inc/customizer/sections/header/header.php:432
+msgid "Account/Dashboard"
+msgstr "我的帐户/仪表板"
+
+#: inc/customizer/sections/shop/shop-single.php:314
+msgid "Image Loading Effect"
+msgstr "图像加载效果"
+
+#: inc/admin/class-woostify-admin.php:128
+msgid "Dismiss this notice."
+msgstr "忽略此提示。"
+
+#: inc/class-woostify.php:409 inc/customizer/register-sections.php:16
+msgid "Mobile Menu"
+msgstr "手机菜单"
+
+#: inc/customizer/sections/header/header-transparent.php:310
+msgid "Count Transparent Background"
+msgstr "计数透明背景"
+
+#: inc/customizer/sections/header/header-transparent.php:285
+msgid "Icon Transparent Color"
+msgstr "透明色"
+
+#: inc/customizer/sections/shop/shop-single.php:399
+msgid "Bottom Space"
+msgstr "底部空间"
+
+#: inc/customizer/sections/shop/shop-single.php:377
+msgid "Top Space"
+msgstr "顶部空间"
+
+#: inc/customizer/sections/sidebar/sidebar.php:188
+msgid "Shop/Product Archive"
+msgstr "产品档案页面"
+
+#: inc/compatibility/elementor/class-woostify-elementor-single-product-images.php:79
+msgid "Default single product image"
+msgstr "单一产品图片"
+
+#: inc/compatibility/elementor/class-woostify-elementor-single-product-images.php:40
+msgid "Woostify - Default Product Images"
+msgstr "Woostify-默认产品图片"
+
+#: inc/customizer/sections/header/header.php:261
+msgid "Menu Breakpoint"
+msgstr "菜单断点"
+
+#: inc/admin/class-woostify-admin.php:819
+msgid "Installing"
+msgstr "安装中"
+
+#: inc/customizer/sections/header/header-transparent.php:260
+msgid "Menu Transparent Color"
+msgstr "透明色"
+
+#: inc/customizer/sections/header/header-transparent.php:237
+msgid "Header Transparent Logo"
+msgstr "页眉透明徽标"
+
+#: inc/customizer/sections/scroll-to-top/scroll-to-top.php:259
+msgid "Offset Bottom"
+msgstr "偏移底部"
+
+#: inc/customizer/sections/scroll-to-top/scroll-to-top.php:188
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:333
+msgid "Icon Size"
+msgstr "图标大小"
+
+#: inc/customizer/sections/scroll-to-top/scroll-to-top.php:80
+msgid "Mobile + Desktop"
+msgstr "手机端 + 桌面版"
+
+#: inc/customizer/sections/scroll-to-top/scroll-to-top.php:73
+msgid "Scroll On"
+msgstr "滚动"
+
+#: inc/customizer/sections/shop/shop-single.php:888
+msgid "Button Add To Cart"
+msgstr "添加到购物车按钮"
+
+#: inc/customizer/sections/shop/shop-single.php:142
+msgid "Loading Bar"
+msgstr "载入栏"
+
+#: inc/customizer/sections/shop/shop-single.php:163
+msgid "Min stock to show"
+msgstr "显示的最小库存"
+
+#: inc/customizer/sections/shop/shop-single.php:164
+msgid "Default = 0 show stock"
+msgstr "默认值 = 0 显示库存"
+
+#: inc/customizer/sections/sidebar/sidebar.php:273
+msgid "Sidebar Width"
+msgstr "侧边栏宽度"
+
+#: inc/woocommerce/class-woostify-woocommerce.php:675
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1526
+msgid "Shipping"
+msgstr "配送"
+
+#: inc/woocommerce/class-woostify-woocommerce.php:676
+msgid "Calculated at next step"
+msgstr "下一步计算"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1484
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1518
+msgid "Address"
+msgstr "地址"
+
+#: inc/class-woostify.php:237
+#: inc/customizer/custom-controls/adv-list/class-woostify-adv-list-control.php:144
+#: inc/customizer/custom-controls/alpha-color-picker/class-woostify-color-control.php:108
+#: inc/customizer/sections/performance/performance.php:119
+#: inc/woocommerce/woostify-woocommerce-single-product-functions.php:780
+msgid "Clear"
+msgstr "清除"
+
+#: inc/class-woostify.php:238
+#: inc/customizer/custom-controls/alpha-color-picker/class-woostify-color-control.php:109
+msgid "Clear color"
+msgstr "清除颜色"
+
+#: inc/class-woostify.php:240
+#: inc/customizer/custom-controls/alpha-color-picker/class-woostify-color-control.php:110
+msgid "Select default color"
+msgstr "选择默认颜色"
+
+#: inc/class-woostify.php:241
+#: inc/customizer/custom-controls/alpha-color-picker/class-woostify-color-control.php:113
+msgid "Select Color"
+msgstr "选择颜色"
+
+#: inc/class-woostify.php:242
+#: inc/customizer/custom-controls/alpha-color-picker/class-woostify-color-control.php:111
+msgid "Color value"
+msgstr "颜色值"
+
+#: inc/admin/class-woostify-meta-boxes.php:195
+#: inc/customizer/sections/wordpress/background-image.php:15
+#: inc/customizer/sections/wordpress/background-image.php:25
+msgid "Content Boxed"
+msgstr "内容框架 "
+
+#: inc/admin/class-woostify-meta-boxes.php:199
+#: inc/customizer/sections/wordpress/background-image.php:16
+#: inc/customizer/sections/wordpress/background-image.php:26
+msgid "Full Width / Contained"
+msgstr "全宽/包含"
+
+#: inc/admin/class-woostify-meta-boxes.php:203
+#: inc/customizer/sections/wordpress/background-image.php:17
+#: inc/customizer/sections/wordpress/background-image.php:27
+msgid "Full Width / Stretched"
+msgstr "全宽/拉伸"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:454
+msgid "Remove this item"
+msgstr "删除此项目"
+
+#: inc/customizer/sections/wordpress/background-image.php:66
+msgid "Width"
+msgstr "宽度"
+
+#: inc/customizer/sections/wordpress/background-image.php:108
+msgid "Page Container"
+msgstr "页面容器"
+
+#: inc/customizer/sections/wordpress/background-image.php:131
+msgid "Blog Single Container"
+msgstr "博客文章容器"
+
+#: inc/customizer/sections/wordpress/background-image.php:154
+msgid "Archives Container"
+msgstr "存档容器"
+
+#: inc/customizer/sections/wordpress/background-image.php:198
+msgid "Shop Container"
+msgstr "商店容器"
+
+#: inc/customizer/sections/wordpress/background-image.php:221
+msgid "Shop Single Container"
+msgstr "商店商品容器"
+
+#: inc/admin/class-woostify-admin.php:518
+msgid "WooBuilder"
+msgstr "WooBuilder"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1553
+msgid "Continue to"
+msgstr "继续"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1553
+msgid "Continue to Delivery"
+msgstr "继续交货"
+
+#. translators: Date time
+#: inc/woostify-template-functions.php:120
+msgid "%s ago"
+msgstr "%s 前"
+
+#: inc/customizer/sections/shop/shop-single.php:717
+msgid "Total Products"
+msgstr "总计商品"
+
+#: inc/customizer/sections/shop/shop-single.php:684
+msgid "Columns"
+msgstr "列"
+
+#: inc/customizer/class-woostify-customizer.php:561
+msgid "Out Of Stock"
+msgstr "售謦"
+
+#. translators: %s number of product
+#. translators: %s stock quantity
+#: inc/woocommerce/class-woostify-woocommerce.php:796
+#: inc/woocommerce/woostify-woocommerce-single-product-functions.php:581
+msgid "Hurry! only %s left in stock."
+msgstr "赶紧！库存只剩%s件 。"
+
+#: inc/woocommerce/class-woostify-woocommerce.php:1110
+msgid "Product video url"
+msgstr "商品视频网址"
+
+#: inc/woocommerce/class-woostify-woocommerce.php:1131
+msgid "Enter Youtube or Vimeo video url"
+msgstr "输入Youtube或Vimeo视频网址"
+
+#: inc/customizer/sections/shop/shop-page.php:1234
+msgid "Out Of Stock Label"
+msgstr "缺货标签"
+
+#: inc/customizer/sections/shop/shop-page.php:1399
+msgid "Square"
+msgstr "方形"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1388
+msgid "Billing Details"
+msgstr "账单详情"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1392
+msgid "Delivery"
+msgstr "交付"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1396
+msgid "Payment"
+msgstr "支付"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1476
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1510
+msgid "Contact"
+msgstr "联系"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1479
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1487
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1513
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1521
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1529
+msgid "Change"
+msgstr "更改"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1552
+msgid "Back"
+msgstr "返回"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1548
+msgid "Place Order"
+msgstr "下订单"
+
+#. translators: 1: single item, 2: plural items
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1570
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s 项目"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1575
+msgid "Order Summary"
+msgstr "订单概览"
+
+#: inc/customizer/sections/shop/checkout-page.php:59
+msgid "Distraction Free Checkout"
+msgstr "无干扰结帐"
+
+#: inc/customizer/sections/shop/shop-page.php:1475
+msgid "Support For Plugin"
+msgstr "支持插件"
+
+#: inc/customizer/sections/shop/shop-page.php:1482
+msgid "YITH WooCommerce Wishlist"
+msgstr "YITH WooCommerce Wishlist"
+
+#: inc/customizer/sections/shop/shop-page.php:1483
+msgid "TI WooCommerce Wishlist"
+msgstr "TI WooCommerce Wishlist"
+
+#: inc/customizer/register-sections.php:122
+msgid "Cart Page"
+msgstr "购物车页面"
+
+#: inc/customizer/sections/shop/cart-page.php:29
+msgid "Cart Page Layout"
+msgstr "购物车页面布局"
+
+#: inc/customizer/sections/shop/cart-page.php:58
+msgid "Sticky Proceed To Checkout Button"
+msgstr "固顶继续到结帐按钮"
+
+#: inc/customizer/sections/shop/cart-page.php:59
+#: inc/customizer/sections/shop/checkout-page.php:82
+msgid "This option only available on mobile devices"
+msgstr "此选项仅在移动设备上可用"
+
+#: inc/customizer/sections/shop/checkout-page.php:81
+msgid "Sticky Place Order Button"
+msgstr "固顶订购按钮"
+
+#: inc/admin/class-woostify-admin.php:614
+msgid "Sale Notification"
+msgstr "售出通知"
+
+#: inc/admin/class-woostify-admin.php:494
+msgid "Mega Menu"
+msgstr "Mega菜单"
+
+#: inc/admin/class-woostify-admin.php:582
+msgid "Countdown Urgency"
+msgstr "倒数紧急"
+
+#: inc/customizer/class-woostify-customizer.php:601
+#: inc/customizer/sections/shop/shop-single.php:800
+msgid "Recently Viewed Products"
+msgstr "最近浏览的商品"
+
+#: inc/woocommerce/class-woostify-woocommerce.php:673
+msgid "Sorry, something went wrong. Please try again!"
+msgstr "出了些问题！ 请再试一遍"
+
+#: inc/customizer/sections/header/header.php:77
+msgid "Header Background"
+msgstr "页眉背景"
+
+#: inc/customizer/sections/shop/shop-single.php:121
+msgid "Stock Label"
+msgstr "库存标签"
+
+#: inc/customizer/sections/shop/shop-page.php:1264
+#: inc/customizer/sections/shop/shop-single.php:662
+#: inc/customizer/sections/shop/shop-single.php:825
+msgid "Display"
+msgstr "显示"
+
+#: inc/customizer/sections/shop/shop-single.php:634
+msgid "Related Products"
+msgstr "相关商品"
+
+#: inc/customizer/sections/shop/shop-single.php:849
+msgid "Section Title"
+msgstr "章节标题"
+
+#: inc/customizer/sections/shop/shop-single.php:871
+msgid "Total Product"
+msgstr "全部商品"
+
+#: inc/woostify-template-functions.php:279
+msgid "Copyright &copy; [current_year] [site_title] | Powered by [theme_author]"
+msgstr "版权所有 &copy; [current_year] [site_title] | Powered by [theme_author]"
+
+#: inc/woocommerce/woostify-woocommerce-single-product-functions.php:62
+msgid "Previous Product Image"
+msgstr "上一个商品图像"
+
+#: inc/woocommerce/woostify-woocommerce-single-product-functions.php:71
+msgid "Previous"
+msgstr "上一页"
+
+#: inc/woocommerce/woostify-woocommerce-single-product-functions.php:94
+msgid "Next Product Image"
+msgstr "下一个商品图像"
+
+#: inc/customizer/sections/shop/shop-single.php:209
+#: inc/woocommerce/woostify-woocommerce-single-product-functions.php:615
+msgid "Trust Badge Image"
+msgstr "促销徽章图像"
+
+#: inc/customizer/sections/header/topbar.php:48
+msgid "Topbar Display"
+msgstr "顶部栏显示"
+
+#: inc/customizer/sections/shop/shop-single.php:79
+msgid "Product Navigation"
+msgstr "商品导航"
+
+#: inc/customizer/sections/wordpress/title-tagline.php:25
+msgid "Retina Logo (Optional)"
+msgstr "视网膜LOGO（可选）"
+
+#: inc/woostify-template-functions.php:900
+msgid "Orders"
+msgstr "订单"
+
+#: inc/woostify-template-functions.php:902
+msgid "Downloads"
+msgstr "下载"
+
+#: inc/woostify-template-functions.php:904
+msgid "Account details"
+msgstr "账户详情"
+
+#: inc/woostify-template-functions.php:906
+msgid "Addresses"
+msgstr "地址"
+
+#: inc/woostify-template-functions.php:910
+msgid "Lost password"
+msgstr "忘记密码"
+
+#: inc/woocommerce/class-woostify-woocommerce.php:674
+msgid "Please enter a valid quantity for this product"
+msgstr "请为此商品输入有效数量"
+
+#: inc/compatibility/elementor/class-woostify-elementor-single-product-images.php:71
+#: inc/customizer/sections/footer/footer.php:27
+#: inc/customizer/sections/header/header-transparent.php:27
+#: inc/customizer/sections/header/header.php:27
+#: inc/customizer/sections/header/topbar.php:27
+#: inc/customizer/sections/mobile-menu/mobile-menu.php:27
+#: inc/customizer/sections/page-header/page-header.php:27
+#: inc/customizer/sections/scroll-to-top/scroll-to-top.php:27
+#: inc/customizer/sections/shop/mini-cart.php:27
+#: inc/customizer/sections/shop/shipping-threshold.php:31
+#: inc/customizer/sections/shop/shop-page.php:27
+#: inc/customizer/sections/shop/shop-single.php:27
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:27
+msgid "General"
+msgstr "常规"
+
+#: inc/customizer/sections/shop/shop-single.php:228
+msgid "Product Images"
+msgstr "商品图像"
+
+#: inc/customizer/sections/shop/shop-page.php:750
+msgid "Equal Product Content"
+msgstr "同等商品内容"
+
+#: inc/customizer/sections/shop/shop-page.php:771
+msgid "Product Content Min Height"
+msgstr "商品内容最小高度"
+
+#: inc/customizer/sections/shop/shop-page.php:1451
+msgid "Wishlist Button"
+msgstr "心愿单按钮"
+
+#: inc/customizer/sections/shop/shop-page.php:1591
+msgid "Cart Icon"
+msgstr "购物车图标"
+
+#: inc/customizer/class-woostify-customizer.php:741
+msgid "Get Woostify  Pro Extensions!"
+msgstr "获取 Woostify 专业扩展！"
+
+#: inc/admin/class-woostify-admin.php:510
+msgid "Header Footer Builder"
+msgstr "页眉页脚构建器"
+
+#: inc/admin/class-woostify-admin.php:542
+msgid "Size Guide"
+msgstr "尺寸指南"
+
+#: inc/admin/class-woostify-admin.php:486
+msgid "Sticky Header"
+msgstr "固顶页眉"
+
+#: inc/widget/class-woostify-recent-post-thumbnail.php:23
+msgid "Woostify Recent Post With Thumbnail"
+msgstr "Woostify最近文章带缩略图"
+
+#: inc/customizer/sections/shop/shop-page.php:801
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:1327
+msgid "Product Image"
+msgstr "商品图像"
+
+#: inc/customizer/sections/header/header.php:238
+msgid "Header Menu"
+msgstr "页眉菜单"
+
+#: inc/customizer/sections/shop/product-catalog.php:140
+msgid "Products Per Page"
+msgstr "每页商品数量"
+
+#: inc/customizer/sections/shop/shop-page.php:125
+msgid "Result Count"
+msgstr "结果计数"
+
+#: inc/customizer/sections/shop/shop-page.php:147
+msgid "Product Filtering"
+msgstr "商品筛选"
+
+#: inc/customizer/sections/shop/shop-page.php:457
+msgid "Product Card"
+msgstr "商品卡片"
+
+#: inc/customizer/sections/shop/shop-page.php:482
+#: inc/customizer/sections/shop/shop-page.php:859
+msgid "Border Style"
+msgstr "边框样式"
+
+#: inc/customizer/sections/shop/mini-cart.php:148
+#: inc/customizer/sections/shop/mini-cart.php:222
+#: inc/customizer/sections/shop/mini-cart.php:296
+#: inc/customizer/sections/shop/shop-page.php:489
+#: inc/customizer/sections/shop/shop-page.php:836
+#: inc/customizer/sections/shop/shop-page.php:866
+#: inc/customizer/sections/shop/shop-page.php:1273
+msgid "None"
+msgstr "没有"
+
+#: inc/customizer/sections/shop/shop-page.php:490
+#: inc/customizer/sections/shop/shop-page.php:867
+msgid "Solid"
+msgstr "实线"
+
+#: inc/customizer/sections/shop/shop-page.php:491
+#: inc/customizer/sections/shop/shop-page.php:868
+msgid "Dashed"
+msgstr "虚线"
+
+#: inc/customizer/sections/shop/shop-page.php:492
+#: inc/customizer/sections/shop/shop-page.php:869
+msgid "Dotted"
+msgstr "点线"
+
+#: inc/customizer/sections/shop/shop-page.php:493
+#: inc/customizer/sections/shop/shop-page.php:870
+msgid "Double"
+msgstr "双线"
+
+#: inc/customizer/sections/shop/shop-page.php:514
+#: inc/customizer/sections/shop/shop-page.php:891
+msgid "Border Width"
+msgstr "边框宽度"
+
+#: inc/customizer/sections/shop/shop-page.php:565
+msgid "Product Content"
+msgstr "商品内容"
+
+#: inc/customizer/sections/shop/shop-page.php:596
+msgid "Alignment"
+msgstr "对齐方式"
+
+#: inc/customizer/sections/shop/shop-page.php:829
+msgid "Hover Effect"
+msgstr "悬停效果"
+
+#: inc/customizer/sections/shop/shop-page.php:837
+msgid "Zoom"
+msgstr "缩放"
+
+#: inc/customizer/sections/shop/shop-page.php:838
+msgid "Swap"
+msgstr "交换"
+
+#: inc/customizer/sections/shop/shop-page.php:944
+msgid "Equal Image Height"
+msgstr "相等图像高度"
+
+#: inc/customizer/sections/shop/shop-page.php:966
+msgid "Image Height"
+msgstr "图像高度"
+
+#: inc/customizer/sections/shop/shop-page.php:996
+msgid "Sale Tag"
+msgstr "销售标签"
+
+#: inc/customizer/sections/scroll-to-top/scroll-to-top.php:106
+#: inc/customizer/sections/shop/shop-page.php:1027
+#: inc/customizer/sections/shop/shop-page.php:1504
+#: inc/customizer/sections/shop/shop-page.php:1560
+#: inc/customizer/sections/shop/shop-single.php:563
+msgid "Position"
+msgstr "位置"
+
+#: inc/customizer/sections/mobile-menu/mobile-menu.php:222
+#: inc/customizer/sections/shop/shop-page.php:1057
+#: inc/customizer/sections/shop/shop-page.php:1295
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:284
+msgid "Text"
+msgstr "文本"
+
+#: inc/customizer/sections/shop/shop-page.php:1160
+msgid "Sale Percentage"
+msgstr "销售百分比"
+
+#: inc/customizer/sections/shop/shop-page.php:1182
+msgid "Sale Square"
+msgstr "销售方形"
+
+#: inc/customizer/sections/shop/shop-page.php:1204
+#: inc/customizer/sections/shop/shop-page.php:1421
+msgid "Size"
+msgstr "尺寸"
+
+#: inc/customizer/sections/shop/shop-page.php:1531
+msgid "Add To Cart Button"
+msgstr "添加到购物车按钮"
+
+#: inc/customizer/sections/blog/blog-single.php:32
+#: inc/customizer/sections/blog/blog.php:131
+#: inc/customizer/sections/page-header/page-header.php:90
+msgid "Title"
+msgstr "标题"
+
+#: inc/customizer/sections/blog/blog-single.php:33
+#: inc/customizer/sections/blog/blog.php:132
+msgid "Post Meta"
+msgstr "文章Meta"
+
+#: inc/customizer/sections/blog/blog-single.php:54
+msgid "Blog Single Post Meta"
+msgstr "博客单个文章Meta"
+
+#: inc/customizer/sections/shop/shop-single.php:335
+msgid "Gallery Zoom Effect"
+msgstr "图库缩放效果"
+
+#: inc/customizer/sections/shop/shop-single.php:356
+msgid "Gallery Lightbox Effect"
+msgstr "图库灯箱效果"
+
+#: inc/admin/class-woostify-meta-boxes.php:300
+msgid "Disable Header"
+msgstr "禁用页眉"
+
+#: inc/woocommerce/woostify-woocommerce-archive-product-functions.php:335
+msgid "Filter"
+msgstr "筛选"
+
+#: inc/customizer/sections/header/header-transparent.php:93
+msgid "Disable on Blog page"
+msgstr "在博客页面上禁用"
+
+#: inc/customizer/sections/header/header-transparent.php:185
+msgid "Disable on Product page"
+msgstr "在商品页面上禁用"
+
+#: inc/customizer/sections/blog/blog.php:186
+#: inc/customizer/sections/page-header/page-header.php:165
+msgid "Title Color"
+msgstr "标题颜色"
+
+#. translators: post date
+#: inc/woostify-template-functions.php:817
+msgid "Daily Archives: %s"
+msgstr "日存档：%s"
+
+#. translators: post date
+#: inc/woostify-template-functions.php:820
+msgid "Monthly Archives: %s"
+msgstr "月存档：%s"
+
+#. translators: post date
+#: inc/woostify-template-functions.php:820
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#. translators: post date
+#: inc/woostify-template-functions.php:830
+msgid "Yearly Archives: %s"
+msgstr "年存档：%s"
+
+#. translators: post date
+#: inc/woostify-template-functions.php:830
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/woostify-template-functions.php:832
+msgid "Search results: "
+msgstr "搜索结果："
+
+#: inc/woostify-template-functions.php:837
+msgid "Tags: "
+msgstr "标签： "
+
+#: inc/woostify-template-functions.php:853
+msgid "Archives"
+msgstr "存档"
+
+#: inc/customizer/custom-controls/adv-list/class-woostify-adv-list-control.php:122
+#: inc/woostify-template-functions.php:916
+msgid "Search"
+msgstr "搜索"
+
+#: inc/admin/class-woostify-admin.php:329
+#: inc/admin/class-woostify-admin.php:861
+msgid "Changelog"
+msgstr "更新日志"
+
+#: inc/admin/class-woostify-meta-boxes.php:262
+#: inc/customizer/register-sections.php:15
+msgid "Page Header"
+msgstr "页面页眉"
+
+#: inc/admin/class-woostify-meta-boxes.php:293
+msgid "Disable Topbar"
+msgstr "禁用顶部栏"
+
+#: inc/customizer/register-sections.php:13
+msgid "Normal Header"
+msgstr "正常页眉"
+
+#: inc/customizer/sections/buttons/button.php:123
+#: inc/customizer/sections/scroll-to-top/scroll-to-top.php:224
+#: inc/customizer/sections/shop/shop-page.php:1128
+#: inc/customizer/sections/shop/shop-page.php:1366
+#: inc/customizer/sections/shop/shop-page.php:1692
+#: inc/customizer/sections/shop/shop-single.php:995
+msgid "Border Radius"
+msgstr "边框半径"
+
+#: inc/customizer/sections/footer/footer.php:48
+msgid "Footer Display"
+msgstr "页脚显示"
+
+#: inc/customizer/sections/header/header-transparent.php:216
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:170
+msgid "Desktop + Mobile"
+msgstr "桌面+移动"
+
+#: inc/customizer/sections/header/header-transparent.php:356
+msgid "Bottom Border Width"
+msgstr "底部边框宽度"
+
+#: inc/customizer/sections/header/header-transparent.php:390
+#: inc/customizer/sections/shop/shop-page.php:546
+#: inc/customizer/sections/shop/shop-page.php:923
+msgid "Border Color"
+msgstr "边框颜色"
+
+#: inc/customizer/sections/page-header/page-header.php:48
+msgid "Page Header Display"
+msgstr "页面页眉显示"
+
+#: inc/customizer/sections/page-header/page-header.php:135
+msgid "Text Align"
+msgstr "文本对齐"
+
+#: inc/customizer/sections/mobile-menu/mobile-menu.php:348
+#: inc/customizer/sections/page-header/page-header.php:140
+#: inc/customizer/sections/scroll-to-top/scroll-to-top.php:114
+#: inc/customizer/sections/shop/shop-page.php:603
+#: inc/customizer/sections/shop/shop-page.php:1034
+#: inc/customizer/sections/shop/shop-page.php:1271
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:609
+msgid "Left"
+msgstr "左侧"
+
+#: inc/customizer/sections/page-header/page-header.php:141
+#: inc/customizer/sections/shop/shop-page.php:604
+msgid "Center"
+msgstr "居中"
+
+#: inc/customizer/sections/mobile-menu/mobile-menu.php:346
+#: inc/customizer/sections/page-header/page-header.php:142
+#: inc/customizer/sections/scroll-to-top/scroll-to-top.php:113
+#: inc/customizer/sections/shop/shop-page.php:605
+#: inc/customizer/sections/shop/shop-page.php:1035
+#: inc/customizer/sections/shop/shop-page.php:1272
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:607
+msgid "Right"
+msgstr "右侧"
+
+#: inc/customizer/sections/page-header/page-header.php:143
+msgid "Page Title / Breadcrumb"
+msgstr "页面标题/面包屑导航"
+
+#: inc/customizer/sections/page-header/page-header.php:190
+msgid "Breadcrumb Color"
+msgstr "面包屑导航颜色"
+
+#: inc/customizer/sections/page-header/page-header.php:240
+msgid "Background Image"
+msgstr "背景图像"
+
+#: inc/customizer/sections/page-header/page-header.php:263
+msgid "Background Size"
+msgstr "背景尺寸"
+
+#: inc/customizer/sections/page-header/page-header.php:269
+msgid "Cover"
+msgstr "叠加"
+
+#: inc/customizer/sections/page-header/page-header.php:270
+msgid "Contain"
+msgstr "平铺"
+
+#: inc/customizer/sections/page-header/page-header.php:292
+msgid "Background Repeat"
+msgstr "背景重复 "
+
+#: inc/customizer/sections/page-header/page-header.php:298
+msgid "No Repeat"
+msgstr "不重复"
+
+#: inc/customizer/sections/page-header/page-header.php:299
+msgid "Repeat X"
+msgstr "重复 X"
+
+#: inc/customizer/sections/page-header/page-header.php:300
+msgid "Repeat Y"
+msgstr "重复 Y"
+
+#: inc/customizer/sections/page-header/page-header.php:302
+msgid "Round"
+msgstr "圆角"
+
+#: inc/customizer/sections/page-header/page-header.php:324
+msgid "Background Position"
+msgstr "背景位置"
+
+#: inc/customizer/sections/page-header/page-header.php:329
+msgid "Left Top"
+msgstr "左上"
+
+#: inc/customizer/sections/page-header/page-header.php:330
+msgid "Left Center"
+msgstr "左中"
+
+#: inc/customizer/sections/page-header/page-header.php:331
+msgid "Left Bottom"
+msgstr "左下"
+
+#: inc/customizer/sections/page-header/page-header.php:332
+msgid "Center Top"
+msgstr "中上"
+
+#: inc/customizer/sections/page-header/page-header.php:333
+msgid "Center Center"
+msgstr "正中"
+
+#: inc/customizer/sections/page-header/page-header.php:334
+msgid "Center Bottom"
+msgstr "中下"
+
+#: inc/customizer/sections/page-header/page-header.php:335
+msgid "Right Top"
+msgstr "右上"
+
+#: inc/customizer/sections/page-header/page-header.php:336
+msgid "Right Center"
+msgstr "右中"
+
+#: inc/customizer/sections/page-header/page-header.php:337
+msgid "Right Bottom"
+msgstr "右下"
+
+#: inc/customizer/sections/page-header/page-header.php:359
+msgid "Background Attachment"
+msgstr "背景附件"
+
+#: inc/customizer/sections/page-header/page-header.php:365
+msgid "Fixed"
+msgstr "固定"
+
+#: inc/customizer/sections/page-header/page-header.php:366
+msgid "Local"
+msgstr "局部"
+
+#: inc/customizer/sections/page-header/page-header.php:408
+msgid "Padding Top"
+msgstr "顶部内边距"
+
+#: inc/customizer/sections/page-header/page-header.php:442
+msgid "Padding Bottom"
+msgstr "底部内边距"
+
+#: inc/customizer/sections/page-header/page-header.php:476
+msgid "Margin Bottom"
+msgstr "底部外边距"
+
+#: inc/admin/class-woostify-admin.php:558
+msgid "Buy Now Button"
+msgstr "立即购买按钮"
+
+#: inc/woostify-template-functions.php:1511
+msgid "by Unknown author"
+msgstr "佚名"
+
+#: inc/admin/class-woostify-admin.php:478
+msgid "Multiple Headers"
+msgstr "多个页眉"
+
+#: inc/admin/class-woostify-admin.php:502
+msgid "Elementor Bundle"
+msgstr "Elementor 捆绑包"
+
+#: inc/admin/class-woostify-admin.php:550
+msgid "Advanced Shop Widgets"
+msgstr "高级商店小工具"
+
+#: inc/admin/class-woostify-admin.php:574
+msgid "Quick View"
+msgstr "快速查看"
+
+#: inc/admin/class-woostify-admin.php:943
+msgid "Submit a Ticket"
+msgstr "提交工单  "
+
+#: inc/customizer/sections/shop/shop-single.php:100
+msgid "Ajax Single Add To Cart"
+msgstr "Ajax 单个添加到购物车"
+
+#: inc/admin/class-woostify-admin.php:265
+#: inc/customizer/register-sections.php:58
+msgid "Buttons"
+msgstr "按钮"
+
+#: inc/customizer/class-woostify-customizer.php:320
+#: inc/customizer/sections/color/color.php:29
+msgid "Theme Color"
+msgstr "主题颜色"
+
+#: inc/woostify-template-functions.php:1775
+msgid "Type to search"
+msgstr "键入搜索"
+
+#: comments.php:14
+msgid "Post Comments"
+msgstr "文章评论"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:21
+msgctxt "comments title"
+msgid "%1$s comment"
+msgid_plural "%1$s comments"
+msgstr[0] "%1$s 评价"
+
+#: comments.php:29
+msgid "Comment Navigation Above"
+msgstr "评论导航上面"
+
+#: comments.php:30
+msgid "Comment navigation"
+msgstr "评论导航"
+
+#: comments.php:31
+msgid "&larr; Older Comments"
+msgstr "&larr; 较早评论"
+
+#: comments.php:32
+msgid "Newer Comments &rarr;"
+msgstr "最新评论 &rarr;"
+
+#: comments.php:51
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: comments.php:56
+#: inc/customizer/custom-controls/adv-list/class-woostify-adv-list-control.php:160
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:115
+#: inc/customizer/custom-controls/product-data-tabs/class-woostify-product-data-tabs-control.php:155
+msgid "Name"
+msgstr "姓名"
+
+#: comments.php:57
+msgid "Email"
+msgstr "邮箱"
+
+#: comments.php:66
+msgid "Message"
+msgstr "消息"
+
+#: comments.php:68
+msgid "Submit"
+msgstr "提交 "
+
+#. translators: %s: search term
+#: inc/woostify-template-functions.php:925 search.php:19
+msgid "Search Results for: %s"
+msgstr "搜索结果为：%s"
+
+#: sidebar-shop.php:16 sidebar-shop.php:31 sidebar-shop.php:46
+msgid "Sidebar Shop Widget"
+msgstr "侧边栏商店小工具"
+
+#. translators: 1: admin URL
+#: sidebar-shop.php:22 sidebar-shop.php:37 sidebar-shop.php:52
+msgid "Replace this widget content by going to <a href=\"%1$s\"><strong>Appearance / Widgets / Woocommerce Sidebar</strong></a> and dragging widgets into this widget area."
+msgstr "通过去外观 / 小工具 <a href=\"%1$s\"><strong>/ Woocommerce 侧边栏</strong></a> 拖动小工具到这个小工具区域替换这个小工具内容。"
+
+#: sidebar.php:17 sidebar.php:32 sidebar.php:47
+msgid "Sidebar Widget"
+msgstr "侧边栏小工具"
+
+#. translators: 1: admin URL
+#: sidebar.php:23 sidebar.php:38 sidebar.php:53
+msgid "Replace this widget content by going to <a href=\"%1$s\"><strong>Appearance / Widgets / Main Sidebar</strong></a> and dragging widgets into this widget area."
+msgstr "通过去外观 / 小工具 <a href=\"%1$s\"><strong>/ 主侧边栏</strong></a> 拖动小工具到这个小工具区域替换这个小工具内容。"
+
+#: inc/class-woostify.php:239
+#: inc/customizer/custom-controls/alpha-color-picker/class-woostify-color-control.php:112
+#: inc/customizer/sections/page-header/page-header.php:268
+#: inc/customizer/sections/page-header/page-header.php:297
+#: inc/customizer/sections/page-header/page-header.php:364
+#: inc/customizer/sections/sidebar/sidebar.php:25
+#: inc/customizer/sections/sidebar/sidebar.php:62
+#: inc/customizer/sections/sidebar/sidebar.php:112
+#: inc/customizer/sections/sidebar/sidebar.php:143
+#: inc/customizer/sections/sidebar/sidebar.php:195
+#: inc/customizer/sections/sidebar/sidebar.php:228
+#: inc/customizer/sections/wordpress/background-image.php:22
+msgid "Default"
+msgstr "默认"
+
+#: inc/class-woostify.php:311
+msgid "Image"
+msgstr "图像"
+
+#: inc/class-woostify.php:407
+msgid "Primary Menu"
+msgstr "主要菜单"
+
+#: inc/class-woostify.php:408
+msgid "Footer Menu"
+msgstr "页脚菜单"
+
+#: inc/class-woostify.php:480
+msgid "Primary Color"
+msgstr "主要颜色"
+
+#: inc/class-woostify.php:485 inc/customizer/sections/footer/footer.php:184
+#: inc/customizer/sections/typography/heading.php:135
+msgid "Heading Color"
+msgstr "标题颜色"
+
+#: inc/class-woostify.php:490 inc/customizer/class-woostify-customizer.php:321
+#: inc/customizer/sections/buttons/button.php:36
+#: inc/customizer/sections/color/color.php:56
+#: inc/customizer/sections/footer/footer.php:234
+#: inc/customizer/sections/header/topbar.php:71
+#: inc/customizer/sections/shop/shop-page.php:1080
+#: inc/customizer/sections/shop/shop-page.php:1318
+msgid "Text Color"
+msgstr "文本颜色"
+
+#: inc/class-woostify.php:502
+#: inc/customizer/sections/typography/heading.php:375
+msgid "H6"
+msgstr "H6"
+
+#: inc/class-woostify.php:507
+#: inc/customizer/sections/typography/heading.php:340
+msgid "H5"
+msgstr "H5"
+
+#: inc/class-woostify.php:512
+#: inc/customizer/sections/typography/heading.php:305
+msgid "H4"
+msgstr "H4"
+
+#: inc/class-woostify.php:517
+#: inc/customizer/sections/typography/heading.php:270
+msgid "H3"
+msgstr "H3"
+
+#: inc/class-woostify.php:522
+#: inc/customizer/sections/typography/heading.php:235
+msgid "H2"
+msgstr "H2"
+
+#: inc/class-woostify.php:527
+#: inc/customizer/sections/typography/heading.php:200
+msgid "H1"
+msgstr "H1"
+
+#: inc/class-woostify.php:568
+msgid "Main Sidebar"
+msgstr "主要侧边栏"
+
+#: inc/class-woostify.php:570
+msgid "Appears in the sidebar of the site."
+msgstr "显示在网站侧边栏区域。"
+
+#: inc/class-woostify.php:577
+msgid "Woocommerce Sidebar"
+msgstr "Woocommerce侧边栏"
+
+#: inc/class-woostify.php:579
+msgid " Appears in the sidebar of shop/product page."
+msgstr "显示在商店/商品页面的侧边栏中。"
+
+#: inc/class-woostify.php:586 inc/woostify-template-functions.php:223
+#: inc/woostify-template-functions.php:238
+#: inc/woostify-template-functions.php:253
+msgid "Footer Widget"
+msgstr "页脚小工具"
+
+#: inc/class-woostify.php:588
+msgid "Appears in the footer section of the site."
+msgstr "显示在页脚章节的小工具。"
+
+#: inc/class-woostify.php:1096
+msgid "Post Pagination"
+msgstr "文章分页"
+
+#: inc/woostify-functions.php:416
+msgid "Placeholder image"
+msgstr "占位符图像"
+
+#: inc/woostify-functions.php:419
+msgid "Error image"
+msgstr "错误图像"
+
+#. Theme Name of the theme
+#. Author of the theme
+#: style.css inc/admin/class-woostify-admin.php:316
+#: inc/admin/class-woostify-admin.php:648
+#: inc/woostify-template-functions.php:23
+msgid "Woostify"
+msgstr "Woostify"
+
+#: inc/woostify-template-functions.php:61
+msgid "Related Posts"
+msgstr "相关文章"
+
+#: inc/woostify-template-functions.php:80
+msgid "Read more"
+msgstr "阅读更多"
+
+#: inc/woostify-template-functions.php:162
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核。"
+
+#: inc/woostify-template-functions.php:188
+msgid "Edit"
+msgstr "编辑"
+
+#. translators: 1: admin URL
+#: inc/woostify-template-functions.php:229
+#: inc/woostify-template-functions.php:244
+#: inc/woostify-template-functions.php:259
+msgid "Replace this widget content by going to <a href=\"%1$s\"><strong>Appearance / Widgets / Footer Widget</strong></a> and dragging widgets into this widget area."
+msgstr "通过去外观 / 小工具 <a href=\"%1$s\"><strong>/ 页脚小工具</strong></a> 拖动小工具到这个小工具区域替换这个小工具内容。"
+
+#: inc/woostify-template-functions.php:367
+#: inc/woostify-template-functions.php:386
+msgid "Woostify mobile logo"
+msgstr "Woostify移动LOGO"
+
+#: inc/woostify-template-functions.php:418
+msgid "Woostify logo"
+msgstr "Woostify LOGO"
+
+#: inc/woostify-template-functions.php:446
+msgid "Woostify retina logo"
+msgstr "Woostify视网膜LOGO"
+
+#: inc/woostify-template-functions.php:561
+msgid "Primary navigation"
+msgstr "主要导航"
+
+#: inc/woostify-template-functions.php:585
+msgid "Add a Primary Menu"
+msgstr "添加主要菜单"
+
+#: inc/woostify-template-functions.php:617
+msgid "Skip to navigation"
+msgstr "转到导航"
+
+#: inc/woostify-template-functions.php:618
+msgid "Skip to content"
+msgstr "跳到内容"
+
+#: inc/admin/class-woostify-admin.php:279
+#: inc/woostify-template-functions.php:718
+#: inc/woostify-template-functions.php:768
+#: inc/woostify-template-functions.php:835
+msgid "Shop"
+msgstr "商店"
+
+#: inc/customizer/register-sections.php:17
+#: inc/woostify-template-functions.php:743
+#: inc/woostify-template-functions.php:790
+#: inc/woostify-template-functions.php:914
+msgid "Blog"
+msgstr "博客"
+
+#: inc/woostify-template-functions.php:660
+#: inc/woostify-template-functions.php:908
+msgid "Logout"
+msgstr "注销"
+
+#: inc/woostify-template-functions.php:989
+#: inc/woostify-template-functions.php:1321
+msgid "Pages:"
+msgstr "页码："
+
+#: inc/woostify-template-functions.php:1301
+#: inc/woostify-template-functions.php:1347
+msgid "Read More"
+msgstr "阅读更多"
+
+#: inc/customizer/sections/shop/shop-single.php:489
+#: inc/woostify-template-functions.php:1365
+msgid "Tags"
+msgstr "标签"
+
+#: inc/woostify-template-functions.php:1365
+#: inc/woostify-template-functions.php:1537
+msgid ", "
+msgstr ", "
+
+#: inc/woostify-template-functions.php:1387
+msgctxt "Next post"
+msgid "Next"
+msgstr "下一篇"
+
+#: inc/woostify-template-functions.php:1388
+msgctxt "Previous post"
+msgid "Prev"
+msgstr "上一篇"
+
+#: inc/woostify-template-functions.php:1405
+msgid "Next post:"
+msgstr "下一篇文章："
+
+#: inc/woostify-template-functions.php:1406
+msgid "Previous post:"
+msgstr "上一篇文章："
+
+#: inc/woostify-template-functions.php:1432
+msgid "Author Avatar"
+msgstr "作者头像"
+
+#: inc/woostify-template-functions.php:1437
+msgid "Written by"
+msgstr "作者"
+
+#: inc/woostify-template-functions.php:1469
+msgid "Posted on"
+msgstr "作者"
+
+#: inc/woostify-template-functions.php:1513
+msgid "by"
+msgstr "作者"
+
+#: inc/woostify-template-functions.php:1543
+msgid "Posted in"
+msgstr "作者"
+
+#: inc/woostify-template-functions.php:1573
+msgid "No comments yet"
+msgstr "暂无评论"
+
+#: inc/woostify-template-functions.php:1574
+msgid "1 Comment"
+msgstr "1 评论"
+
+#: inc/woostify-template-functions.php:1575
+msgid "% Comments"
+msgstr "% 评论"
+
+#: inc/woostify-template-functions.php:644
+msgid "Login / Register"
+msgstr "登录/注册"
+
+#: inc/admin/class-woostify-admin.php:320
+#: inc/admin/class-woostify-admin.php:652
+#: inc/woostify-template-functions.php:653
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#: inc/customizer/register-sections.php:23
+#: inc/customizer/sections/scroll-to-top/scroll-to-top.php:49
+#: inc/woostify-template-functions.php:2475
+msgid "Scroll To Top"
+msgstr "滚动到顶部"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "什么都没找到"
+
+#. translators: 1: URL
+#: template-parts/content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "准备好发布您的第一篇文章？<a href=\"%1$s\">从这里开始</a>"
+
+#: template-parts/content-none.php:29
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "对不起，没有搜到你的内容。请尝试再次使用一些不同的关键字。"
+
+#: template-parts/content-none.php:34
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "我们似乎找不到您要找的东西。也许搜索可以帮助您。"
+
+#: template-parts/content-photoswipe.php:59
+msgid "Previous (arrow left)"
+msgstr "上一个（左箭头）"
+
+#: template-parts/content-photoswipe.php:62
+msgid "Next (arrow right)"
+msgstr "下一个（右箭头）"
+
+#: inc/admin/class-woostify-admin.php:111
+msgid "Thanks for installing Woostify!"
+msgstr "感谢您安装 Woostify！"
+
+#. translators: Theme options
+#: inc/admin/class-woostify-admin.php:117
+msgid "To fully take advantage of the best our theme can offer please make sure you visit our <a href=\"%1$s\">Woostify Options</a>."
+msgstr "要充分利用最好的我们的主题可以提供，请确保您访问我们的<a href=\"%1$s\">Woostify选项</a>。"
+
+#: inc/admin/class-woostify-admin.php:244
+msgid "Upload Logo"
+msgstr "上传LOGO"
+
+#: inc/admin/class-woostify-admin.php:251
+msgid "Set Colors"
+msgstr "设置颜色"
+
+#: inc/admin/class-woostify-admin.php:258
+#: inc/customizer/register-sections.php:30
+#: inc/customizer/sections/shop/shop-single.php:534
+msgid "Layout"
+msgstr "布局"
+
+#: inc/admin/class-woostify-admin.php:272
+#: inc/customizer/register-sections.php:67
+msgid "Typography"
+msgstr "排版"
+
+#. translators: 1: Class name
+#: inc/admin/class-woostify-admin.php:693
+msgid "%s not activated."
+msgstr "%s 未激活。"
+
+#: inc/admin/class-woostify-admin.php:775
+msgid "Import Demo"
+msgstr "导入演示"
+
+#: inc/admin/class-woostify-admin.php:68
+msgid "Quickly and easily transform your shops appearance with Woostify Demo Sites."
+msgstr "使用Woostify演示网站快速轻松地转变您的商店外观。"
+
+#: inc/admin/class-woostify-admin.php:71
+msgid "It will require other 3rd party plugins such as Elementor, WooCommerce, Contact form 7, etc."
+msgstr "这将需要其他第三方插件，如Elementor，WooCommerce， Contact form 7等。"
+
+#: inc/admin/class-woostify-admin.php:808
+msgid "Install Woostify Library"
+msgstr "安装Woostify库"
+
+#: inc/customizer/class-woostify-customizer.php:758
+#: inc/customizer/class-woostify-customizer.php:774
+#: inc/customizer/class-woostify-customizer.php:790
+#: inc/customizer/class-woostify-customizer.php:806
+#: inc/customizer/class-woostify-customizer.php:822
+msgid "Learn More"
+msgstr "阅读更多"
+
+#: inc/admin/class-woostify-meta-boxes.php:122
+msgid " Settings"
+msgstr " 设置"
+
+#: inc/admin/class-woostify-meta-boxes.php:177
+msgid "Container"
+msgstr "容器"
+
+#: inc/admin/class-woostify-meta-boxes.php:183
+#: inc/admin/class-woostify-meta-boxes.php:218
+#: inc/admin/class-woostify-meta-boxes.php:245
+#: inc/admin/class-woostify-meta-boxes.php:268
+msgid "Customizer Setting"
+msgstr "自定义设置"
+
+#: inc/admin/class-woostify-meta-boxes.php:187
+#: inc/customizer/sections/shop/shop-single.php:541
+#: inc/customizer/sections/wordpress/background-image.php:13
+#: inc/customizer/sections/wordpress/background-image.php:23
+msgid "Normal"
+msgstr "标准"
+
+#: inc/admin/class-woostify-meta-boxes.php:191
+#: inc/customizer/sections/wordpress/background-image.php:14
+#: inc/customizer/sections/wordpress/background-image.php:24
+msgid "Boxed"
+msgstr "框架"
+
+#: inc/admin/class-woostify-meta-boxes.php:212
+#: inc/customizer/register-sections.php:19
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: inc/admin/class-woostify-meta-boxes.php:222
+msgid "Left Sidebar"
+msgstr "左侧边栏 "
+
+#: inc/admin/class-woostify-meta-boxes.php:226
+msgid "Right Sidebar"
+msgstr "右侧边框"
+
+#: inc/admin/class-woostify-meta-boxes.php:230
+msgid "No Sidebar"
+msgstr "无侧边栏"
+
+#: inc/admin/class-woostify-meta-boxes.php:239
+msgid "Transparent Header"
+msgstr "透明页眉"
+
+#: inc/admin/class-woostify-meta-boxes.php:249
+#: inc/admin/class-woostify-meta-boxes.php:272
+#: inc/woocommerce/class-woostify-woocommerce.php:465
+#: inc/woocommerce/class-woostify-woocommerce.php:491
+msgid "Enabled"
+msgstr "已启用"
+
+#: inc/admin/class-woostify-meta-boxes.php:253
+#: inc/admin/class-woostify-meta-boxes.php:276
+#: inc/woocommerce/class-woostify-woocommerce.php:466
+#: inc/woocommerce/class-woostify-woocommerce.php:492
+msgid "Disabled"
+msgstr "已禁用"
+
+#: inc/admin/class-woostify-meta-boxes.php:285
+msgid "Disable Sections"
+msgstr "禁用章节"
+
+#: inc/admin/class-woostify-meta-boxes.php:307
+msgid "Disable Footer"
+msgstr "禁用页脚"
+
+#: inc/customizer/class-woostify-customizer.php:553
+msgid "Sale!"
+msgstr "促销！"
+
+#: inc/customizer/class-woostify-customizer.php:648
+msgid "Opps! The page you are looking for is missing for some reasons. Please come back to homepage"
+msgstr "天！由于某些原因，您要查找的页面丢失。请回到首页"
+
+#: inc/customizer/class-woostify-customizer.php:759
+#: inc/customizer/class-woostify-customizer.php:775
+#: inc/customizer/class-woostify-customizer.php:791
+#: inc/customizer/class-woostify-customizer.php:807
+#: inc/customizer/class-woostify-customizer.php:823
+msgid "More options are coming for this section in our Pro Extensions."
+msgstr "此部分将在此部分中提供更多选项，用于我们的专业扩展。"
+
+#: inc/customizer/override-defaults.php:10
+msgid "Site Container"
+msgstr "站点容器"
+
+#: inc/customizer/register-sections.php:12
+msgid "Topbar"
+msgstr "顶部栏"
+
+#: inc/customizer/register-sections.php:14
+msgid "Header Transparent"
+msgstr "页眉透明"
+
+#: inc/customizer/register-sections.php:18
+#: inc/customizer/sections/sidebar/sidebar.php:136
+msgid "Blog Single"
+msgstr "博客文章"
+
+#: inc/customizer/register-sections.php:20
+msgid "Footer"
+msgstr "页脚"
+
+#: inc/customizer/register-sections.php:22
+msgid "404"
+msgstr "404"
+
+#: inc/customizer/register-sections.php:49
+#: inc/customizer/sections/scroll-to-top/scroll-to-top.php:162
+#: inc/customizer/sections/shop/shop-page.php:1662
+#: inc/customizer/sections/shop/shop-single.php:965
+msgid "Color"
+msgstr "颜色"
+
+#: inc/customizer/register-sections.php:76
+msgid "Body"
+msgstr "正文"
+
+#: inc/customizer/register-sections.php:85
+msgid "Primary menu"
+msgstr "主要菜单"
+
+#: inc/customizer/register-sections.php:94
+msgid "Heading"
+msgstr "标题"
+
+#: inc/customizer/register-sections.php:104
+msgid "Shop Archive"
+msgstr "商店存档"
+
+#: inc/customizer/register-sections.php:113
+msgid "Product Single"
+msgstr "单个商品"
+
+#: inc/widget/class-woostify-recent-post-thumbnail.php:26
+msgid "List the most recent posts with post titles, thumbnail"
+msgstr "列出最新的文章带标题，缩略图"
+
+#: inc/widget/class-woostify-recent-post-thumbnail.php:38
+msgid "Recent Posts"
+msgstr "近期文章"
+
+#: inc/widget/class-woostify-recent-post-thumbnail.php:49
+msgid "Title:"
+msgstr "标题："
+
+#: inc/widget/class-woostify-recent-post-thumbnail.php:58
+msgid "Number:"
+msgstr "数量："
+
+#: inc/woocommerce/woostify-woocommerce-archive-product-functions.php:98
+#: inc/woocommerce/woostify-woocommerce-single-product-functions.php:355
+#: inc/woocommerce/woostify-woocommerce-single-product-functions.php:399
+#: inc/woocommerce/woostify-woocommerce-single-product-functions.php:438
+#: inc/woocommerce/woostify-woocommerce-single-product-functions.php:455
+msgid "Product image"
+msgstr "商品图像"
+
+#: inc/woocommerce/woostify-woocommerce-single-product-functions.php:100
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:945
+msgid "Next"
+msgstr "下一页"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:783
+msgid "Shopping cart"
+msgstr "商品购物车"
+
+#: inc/woocommerce/woostify-woocommerce-template-functions.php:944
+msgid "Prev"
+msgstr "上一页"
+
+#: inc/customizer/custom-controls/group/class-woostify-group-control.php:104
+#: inc/customizer/custom-controls/group/class-woostify-group-control.php:136
+#: inc/customizer/custom-controls/range/class-woostify-range-slider-control.php:80
+#: inc/customizer/sections/header/header-transparent.php:214
+#: inc/customizer/sections/scroll-to-top/scroll-to-top.php:82
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:168
+msgid "Desktop"
+msgstr "桌面"
+
+#: inc/customizer/custom-controls/group/class-woostify-group-control.php:105
+#: inc/customizer/custom-controls/group/class-woostify-group-control.php:138
+#: inc/customizer/custom-controls/range/class-woostify-range-slider-control.php:81
+msgid "Tablet"
+msgstr "平板"
+
+#: inc/customizer/custom-controls/group/class-woostify-group-control.php:106
+#: inc/customizer/custom-controls/group/class-woostify-group-control.php:140
+#: inc/customizer/custom-controls/range/class-woostify-range-slider-control.php:82
+#: inc/customizer/sections/header/header-transparent.php:215
+#: inc/customizer/sections/scroll-to-top/scroll-to-top.php:81
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:169
+msgid "Mobile"
+msgstr "移动"
+
+#: inc/customizer/custom-controls/group/class-woostify-group-control.php:107
+#: inc/customizer/custom-controls/group/class-woostify-group-control.php:118
+#: inc/customizer/custom-controls/range/class-woostify-range-slider-control.php:83
+msgid "Reset"
+msgstr "重启"
+
+#: inc/customizer/custom-controls/typography/class-woostify-typography-control.php:70
+msgid "System fonts"
+msgstr "系统字体"
+
+#: inc/customizer/custom-controls/typography/class-woostify-typography-control.php:71
+msgid "Google fonts"
+msgstr "谷歌字体"
+
+#: inc/customizer/custom-controls/typography/class-woostify-typography-control.php:74
+msgid "Font family"
+msgstr "字体系列"
+
+#: inc/customizer/custom-controls/typography/class-woostify-typography-control.php:75
+msgid "Font weight"
+msgstr "字体粗细"
+
+#: inc/customizer/custom-controls/typography/class-woostify-typography-control.php:76
+msgid "Text transform"
+msgstr "文字转换"
+
+#: inc/customizer/custom-controls/typography/class-woostify-typography-control.php:78
+msgid "Variants"
+msgstr "变量"
+
+#: inc/customizer/sections/404/error-404.php:25
+#: inc/customizer/sections/footer/footer.php:278
+msgid "Custom Text"
+msgstr "自定义文本"
+
+#: inc/customizer/sections/404/error-404.php:47
+#: inc/customizer/sections/mobile-menu/mobile-menu.php:188
+#: inc/customizer/sections/scroll-to-top/scroll-to-top.php:137
+#: inc/customizer/sections/shop/mini-cart.php:53
+#: inc/customizer/sections/shop/shop-page.php:1623
+#: inc/customizer/sections/shop/shop-single.php:926
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:213
+msgid "Background"
+msgstr "背景"
+
+#: inc/customizer/sections/blog/blog-single.php:25
+msgid "Blog Single Structure"
+msgstr "博客文章结构"
+
+#: inc/customizer/sections/blog/blog-single.php:31
+#: inc/customizer/sections/blog/blog.php:130
+msgid "Featured Image"
+msgstr "特色图像"
+
+#: inc/customizer/sections/blog/blog-single.php:60
+#: inc/customizer/sections/blog/blog.php:160
+msgid "Publish Date"
+msgstr "发布时间"
+
+#: inc/customizer/sections/blog/blog-single.php:61
+#: inc/customizer/sections/blog/blog.php:161
+msgid "Author"
+msgstr "作者"
+
+#: inc/customizer/sections/blog/blog-single.php:62
+#: inc/customizer/sections/blog/blog.php:162
+msgid "Category"
+msgstr "分类"
+
+#: inc/customizer/sections/blog/blog-single.php:63
+#: inc/customizer/sections/blog/blog.php:163
+msgid "Comments"
+msgstr "评论"
+
+#: inc/customizer/sections/blog/blog-single.php:103
+msgid "Author Box"
+msgstr "作者框"
+
+#: inc/customizer/sections/blog/blog-single.php:124
+msgid "Related Post"
+msgstr "相关文章"
+
+#: inc/customizer/sections/blog/blog.php:51
+msgid "Blog Layout"
+msgstr "博客布局"
+
+#: inc/customizer/sections/blog/blog.php:83
+msgid "Limit Excerpt"
+msgstr "限制摘要"
+
+#: inc/customizer/sections/blog/blog.php:123
+msgid "Blog List Structure"
+msgstr "博客列表结构"
+
+#: inc/customizer/sections/blog/blog.php:153
+msgid "Blog Post Meta"
+msgstr "博客文章Meta"
+
+#: inc/customizer/sections/buttons/button.php:75
+#: inc/customizer/sections/footer/footer.php:159
+#: inc/customizer/sections/header/topbar.php:97
+#: inc/customizer/sections/page-header/page-header.php:215
+#: inc/customizer/sections/shop/shop-page.php:1104
+#: inc/customizer/sections/shop/shop-page.php:1342
+#: inc/customizer/sections/site-container/site-container.php:20
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: inc/customizer/sections/header/header.php:169
+msgid "Count Background Color"
+msgstr "悬浮背景颜色"
+
+#: inc/customizer/sections/typography/primary-menu.php:207
+msgid "Parent Menu Color"
+msgstr "父级菜单颜色"
+
+#: inc/customizer/sections/typography/primary-menu.php:339
+msgid "Sub-menu Color"
+msgstr "子级菜单颜色"
+
+#: inc/customizer/class-woostify-customizer.php:322
+#: inc/customizer/sections/color/color.php:83
+msgid "Link / Accent Color"
+msgstr "链接/强调颜色"
+
+#: inc/customizer/sections/footer/footer.php:71
+#: inc/customizer/sections/header/topbar.php:122
+#: inc/customizer/sections/page-header/page-header.php:301
+msgid "Space"
+msgstr "间隔"
+
+#: inc/customizer/sections/footer/footer.php:104
+msgid "Widget Columns"
+msgstr "小工具列"
+
+#: inc/customizer/sections/footer/footer.php:209
+msgid "Link Color"
+msgstr "链接颜色"
+
+#: inc/customizer/sections/header/header-transparent.php:48
+msgid "Enable Transparent Header"
+msgstr "启用透明页眉"
+
+#: inc/customizer/sections/header/header-transparent.php:70
+msgid "Disable on 404, Search & Archives"
+msgstr "在404，搜索和存档上禁用"
+
+#: inc/customizer/sections/header/header-transparent.php:116
+msgid "Disable on Pages"
+msgstr "在页面上禁用"
+
+#: inc/customizer/sections/header/header-transparent.php:139
+msgid "Disable on Posts"
+msgstr "在文章上禁用"
+
+#: inc/customizer/sections/header/header-transparent.php:162
+msgid "Disable on Shop page"
+msgstr "在商店页面上禁用"
+
+#: inc/customizer/sections/header/header-transparent.php:209
+#: inc/customizer/sections/sticky-footer-bar/sticky-footer-bar.php:163
+msgid "Enable On"
+msgstr "启用"
+
+#: inc/customizer/sections/header/header.php:48
+msgid "Header Layout"
+msgstr "页眉布局"
+
+#: inc/customizer/sections/header/header.php:216
+msgid "Elements"
+msgstr "元素"
+
+#: inc/customizer/sections/header/header.php:341
+msgid "Search Only Product"
+msgstr "仅搜索商品"
+
+#: inc/customizer/sections/header/header.php:387
+msgid "Wishlist Icon"
+msgstr "心愿单图标"
+
+#: inc/customizer/sections/header/header.php:499
+msgid "Shopping Cart Icon"
+msgstr "购物车图标"
+
+#: inc/customizer/sections/header/topbar.php:176
+msgid "Content Left"
+msgstr "内容偏左"
+
+#: inc/customizer/sections/header/topbar.php:200
+msgid "Content Center"
+msgstr "内容居中"
+
+#: inc/customizer/sections/header/topbar.php:224
+msgid "Content Right"
+msgstr "内容偏右"
+
+#: inc/customizer/sections/page-header/page-header.php:112
+#: inc/customizer/sections/shop/shop-page.php:103
+#: inc/customizer/sections/shop/shop-single.php:58
+msgid "Breadcrumb"
+msgstr "面包屑导航"
+
+#: inc/customizer/sections/shop/product-catalog.php:92
+msgid "Products Per Row"
+msgstr "每行商品数量"
+
+#: inc/customizer/sections/shop/shop-page.php:81
+msgid "Shop Title"
+msgstr "商店标题"
+
+#: inc/customizer/sections/shop/shop-page.php:645
+msgid "Product Title"
+msgstr "商品标题"
+
+#: inc/customizer/sections/shop/shop-page.php:666
+msgid "Product Category"
+msgstr "商品分类"
+
+#: inc/customizer/sections/shop/shop-page.php:687
+msgid "Product Rating"
+msgstr "商品评级"
+
+#: inc/customizer/sections/shop/shop-page.php:708
+msgid "Product Price"
+msgstr "商品价格"
+
+#: inc/customizer/sections/shop/shop-single.php:186
+msgid "Content Background"
+msgstr "内容背景"
+
+#: inc/customizer/sections/shop/shop-single.php:284
+msgid "Gallery Layout"
+msgstr "图库布局"
+
+#: inc/customizer/sections/shop/shop-single.php:419
+msgid "Product Meta"
+msgstr "商品Meta"
+
+#: inc/customizer/sections/shop/shop-single.php:445
+msgid "SKU"
+msgstr "SKU"
+
+#: inc/customizer/sections/shop/shop-single.php:467
+msgid "Categories"
+msgstr "分类"
+
+#: inc/customizer/sections/sidebar/sidebar.php:32
+#: inc/customizer/sections/sidebar/sidebar.php:63
+#: inc/customizer/sections/sidebar/sidebar.php:113
+#: inc/customizer/sections/sidebar/sidebar.php:144
+#: inc/customizer/sections/sidebar/sidebar.php:196
+#: inc/customizer/sections/sidebar/sidebar.php:229
+msgid "No sidebar"
+msgstr "无侧边栏"
+
+#: inc/customizer/sections/sidebar/sidebar.php:33
+#: inc/customizer/sections/sidebar/sidebar.php:64
+#: inc/customizer/sections/sidebar/sidebar.php:114
+#: inc/customizer/sections/sidebar/sidebar.php:145
+#: inc/customizer/sections/sidebar/sidebar.php:197
+#: inc/customizer/sections/sidebar/sidebar.php:230
+msgid "Left sidebar"
+msgstr "左侧边栏 "
+
+#: inc/customizer/sections/sidebar/sidebar.php:34
+#: inc/customizer/sections/sidebar/sidebar.php:65
+#: inc/customizer/sections/sidebar/sidebar.php:115
+#: inc/customizer/sections/sidebar/sidebar.php:146
+#: inc/customizer/sections/sidebar/sidebar.php:198
+#: inc/customizer/sections/sidebar/sidebar.php:231
+msgid "Right sidebar"
+msgstr "右侧边栏"
+
+#: inc/customizer/sections/sidebar/sidebar.php:55
+msgid "Page"
+msgstr "页面"
+
+#: inc/customizer/sections/sidebar/sidebar.php:105
+msgid "Blog List"
+msgstr "博客列表"
+
+#: inc/customizer/sections/sidebar/sidebar.php:221
+msgid "Shop Single"
+msgstr "商店单个"
+
+#: inc/customizer/sections/typography/body.php:74
+msgid "Body Font"
+msgstr "正文字体"
+
+#: inc/customizer/sections/typography/body.php:103
+#: inc/customizer/sections/typography/heading.php:175
+#: inc/customizer/sections/typography/primary-menu.php:140
+#: inc/customizer/sections/typography/primary-menu.php:272
+msgid "Font Size"
+msgstr "字体尺寸"
+
+#: inc/customizer/sections/typography/body.php:138
+#: inc/customizer/sections/typography/heading.php:103
+#: inc/customizer/sections/typography/primary-menu.php:175
+#: inc/customizer/sections/typography/primary-menu.php:307
+msgid "Line Height"
+msgstr "行高"
+
+#: inc/customizer/sections/typography/heading.php:74
+msgid "Heading Font"
+msgstr "标题字体"
+
+#: inc/customizer/sections/typography/primary-menu.php:72
+msgid "Menu Font"
+msgstr "菜单字体"
+
+#: inc/customizer/sections/typography/primary-menu.php:115
+msgid "Parent Menu"
+msgstr "上级菜单"
+
+#: inc/customizer/sections/typography/primary-menu.php:247
+msgid "Sub Menu"
+msgstr "子级菜单"
+
+#: inc/customizer/sections/wordpress/background-image.php:85
+msgid "Default Container"
+msgstr "默认容器"
+
+#: inc/customizer/sections/wordpress/title-tagline.php:47
+msgid "Mobile Logo (Optional)"
+msgstr "移动LOGO（可选）"
+
+#: inc/customizer/sections/wordpress/title-tagline.php:109
+msgid "Logo Width"
+msgstr "LOGO宽度"
+
+#: inc/admin/class-woostify-admin.php:818
+msgid "Activating"
+msgstr "正在启用"
+
+#: inc/admin/class-woostify-admin.php:806
+msgid "Activate"
+msgstr "启用"
+
+#: inc/admin/class-woostify-admin.php:334
+#: inc/admin/class-woostify-admin.php:668
+#: inc/admin/class-woostify-admin.php:931
+msgid "Support"
+msgstr "支持"
+
+#: inc/admin/class-woostify-admin.php:741
+msgid "Documention"
+msgstr "文档"
+
+#: inc/admin/class-woostify-admin.php:383
+msgid "Woostify theme"
+msgstr "Woostify主题"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://woostify.com/about"
+msgstr "https://woostify.com/about"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://woostify.com"
+msgstr "https://woostify.com"

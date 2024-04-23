@@ -1,0 +1,12 @@
+wp-config.php
+wp-config-sample.php
+wp-config-docker.php
+wp-content/uploads/
+wp-content/cache/
+.DS_Store
+.env
+
+# 忽略除了inshow之外的其他主题
+wp-content/themes/*
+!wp-content/themes/inshow/
+!wp-content/themes/index.php
