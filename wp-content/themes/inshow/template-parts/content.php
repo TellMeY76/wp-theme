@@ -10,27 +10,18 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php
-		// if ( is_singular() ) :
-		// 	the_title( '<h1 class="entry-title">', '</h1>' );
-		// else :
-		// 	the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		// endif;
-
-		if ( 'post' === get_post_type() ) :
-			?>
-			<div class="entry-meta">
-				<?php
-				inshow_posted_on();
-				inshow_posted_by();
-				?>
-			</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
-
-	<?php inshow_post_thumbnail(); ?>
-
+    <?php the_post_thumbnail('full', array('class' => 'cover-image')); ?>
+    <h1 class="post-title"><?php the_title(); ?></h1>
+    <?php
+    if ( 'post' === get_post_type() ) :
+        ?>
+        <div class="entry-meta">
+            <?php
+            inshow_posted_on();
+            inshow_posted_by();
+            ?>
+        </div><!-- .entry-meta -->
+    <?php endif; ?>
 	<div class="entry-content">
 		<?php
 		the_content(

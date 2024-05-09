@@ -213,8 +213,8 @@ if ( function_exists('register_sidebar') ) {
         'description'   => __( 'Widgets in this area will be shown in the first column of the footer.', 'your-textdomain' ),
         'before_widget' => '<div class="footer-widget">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="footer-widget-title">',
-        'after_title'   => '</h3>',
+        'before_title'  => '<h1 class="footer-widget-title">',
+        'after_title'   => '</h1>',
     ));
 
     // 重复以上代码三次，分别创建 Footer Column 2、3、4
@@ -555,7 +555,6 @@ class Custom_Friendship_Widget extends WP_Widget {
         echo $args['after_widget'];
     }
 
-
     public function form( $instance ) {
         $title = isset( $instance['title'] ) ? esc_attr( $instance['title'] ) : '';
         $f_links = isset( $instance['f_links'] ) ? $instance['f_links'] : array();
@@ -616,3 +615,8 @@ function register_footer_widget() {
     register_widget( 'Custom_Friendship_Widget' );
 }
 add_action( 'widgets_init', 'register_footer_widget' );
+
+function theme_enqueue_scripts() {
+    wp_enqueue_script('qna-accordion', get_template_directory_uri() . '/js/qna-accordion.js', array('jquery'), '1.0.0', true);
+}
+add_action('wp_enqueue_scripts', 'theme_enqueue_scripts');
