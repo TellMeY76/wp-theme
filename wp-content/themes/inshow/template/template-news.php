@@ -24,7 +24,7 @@ $query = new WP_Query($args);
                         <?php if ($query->current_post === 0): ?>
                             <!-- 首个新闻全宽显示的代码 -->
                             <article class="news-feature">
-                                <?php the_post_thumbnail('large'); ?>
+                                <?php the_post_thumbnail('small'); ?>
                                 <header>
                                     <div class="news-category">
                                         <?php
@@ -44,7 +44,6 @@ $query = new WP_Query($args);
                                     <h1><?php the_title(); ?></h1>
                                     <a href="<?php the_permalink(); ?>" class="detail-button">Detail <i class="fa-solid fa-arrow-right-long"></i></a>
                                 </header>
-                                <?php the_content(); ?>
                             </article>
                         <?php else: ?>
                             <div class="news-item">

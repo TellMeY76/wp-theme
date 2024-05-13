@@ -75,6 +75,7 @@ if ( ! empty( $address ) && ! empty( $phone ) ) { ?>
 				array(
 					'theme_location' => 'menu-1',
 					'menu_id'        => 'primary-menu',
+                    'walker'         => new Custom_Walker_Category_Menu(),
 				)
 			);
 			?>

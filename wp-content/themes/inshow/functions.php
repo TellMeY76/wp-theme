@@ -141,14 +141,37 @@ add_action( 'widgets_init', 'inshow_widgets_init' );
 function inshow_scripts() {
 	wp_enqueue_style( 'inshow-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'inshow-style', 'rtl', 'replace' );
-
 	wp_enqueue_script( 'inshow-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+    wp_enqueue_script( 'custom-menu-js', get_template_directory_uri() . '/js/custom-menu.js', array( 'jquery' ), '1.0.0', true );
+    wp_enqueue_script( 'projects-tabs-js', get_template_directory_uri() . '/js/projects-tabs.js', array( 'jquery' ), '1.0.0', true );
 
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
+    wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/css/fontawesome.all.min.css' );
+    wp_enqueue_script('qna-accordion', get_template_directory_uri() . '/js/qna-accordion.js', array('jquery'), '1.0.0', true);
+        // 加载Smart Wizard的CSS和JS
+    wp_enqueue_style( 'smartwizard-css', get_template_directory_uri() . '/blocks/stepper-block/css/smart_wizard.min.css' );
+    wp_enqueue_script( 'smartwizard-js', get_template_directory_uri() . '/blocks/stepper-block/js/jquery.smartWizard.min.js', array('jquery'), '', true );
+    wp_enqueue_script( 'inshow-stepper-block-init', get_template_directory_uri() . '/js/stepper-block-init.js', array('jquery', 'smartwizard-js'), '', true );
+
+    wp_localize_script('projects-tabs-js', 'ajax_object', array(
+        'ajaxurl' => admin_url('admin-ajax.php'),
+        'nonce' => wp_create_nonce('load_projects_by_category_nonce')
+    ));
 }
+
 add_action( 'wp_enqueue_scripts', 'inshow_scripts' );
+
+
+function inshow_enqueue_block_assets() {
+    // 注意这里的脚本handle 'inshow-stepper-block'，以及你的js文件的实际路径
+    wp_enqueue_script(
+        'inshow-stepper-block',
+        get_template_directory_uri() . '/blocks/stepper-block/index.js',
+        array( 'wp-blocks', 'wp-element', 'wp-i18n', 'wp-editor' ), // 依赖的WP脚本
+        filemtime( get_template_directory() . '/blocks/stepper-block/index.js' ), // 文件修改时间，用于版本控制
+        true // 设置为true以在footer中加载脚本
+    );
+}
+add_action( 'enqueue_block_editor_assets', 'inshow_enqueue_block_assets' );
 
 
 /**
@@ -220,12 +243,6 @@ if ( function_exists('register_sidebar') ) {
     // 重复以上代码三次，分别创建 Footer Column 2、3、4
 }
 
-
-function enqueue_fontawesome() {
-    wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/css/fontawesome.all.min.css' );
-}
-add_action( 'wp_enqueue_scripts', 'enqueue_fontawesome' );
-
 // 可在此处添加更多的自定义功能、过滤器和动作钩子
 // 添加自定义字段
 function add_custom_settings() {
@@ -245,8 +262,6 @@ function custom_admin_menu() {
     );
 }
 add_action( 'admin_menu', 'custom_admin_menu' );
-
-// 设置页面显示表单
 function custom_contact_settings_page() {
     ?>
     <form method="post" action="options.php">
@@ -616,7 +631,240 @@ function register_footer_widget() {
 }
 add_action( 'widgets_init', 'register_footer_widget' );
 
-function theme_enqueue_scripts() {
-    wp_enqueue_script('qna-accordion', get_template_directory_uri() . '/js/qna-accordion.js', array('jquery'), '1.0.0', true);
+class Custom_Walker_Category_Menu extends Walker_Nav_Menu {
+
+    // 添加递归函数来生成分类树
+    private function renderCategoryTree($category, $depth) {
+        // 新增条件判断，跳过 "Uncategorized" 分类
+        if ($category->name === 'Uncategorized') {
+            return '';
+        }
+
+        $output = '<div class="category-item flex-item">';
+        if ($depth === 0) {
+            $output .= '<a href="' . get_term_link($category->term_id) . '" class="first-level-link">';
+        } else {
+            $output .= '<a href="' . get_term_link($category->term_id) . '">';
+        }
+        $output .= $category->name . '</a>';
+
+        $children = get_terms([
+            'taxonomy' => 'product_cat',
+            'parent' => $category->term_id,
+            'hide_empty' => false,
+        ]);
+
+        if ($children) {
+            $output .= '<ul class="subcategories flex-container">';
+            foreach ($children as $child) {
+                $output .= $this->renderCategoryTree($child, $depth + 1);
+            }
+            $output .= '</ul>';
+        }
+
+        $output .= '</div>';
+        return $output;
+    }
+
+    function start_el(&$output, $item, $depth = 0, $args = array(), $id = 0) {
+        global $wp_query;
+
+        // 初始化缩略图列表数组
+        static $thumbnailList = [];
+
+        $indent = ( $depth ) ? str_repeat("\t", $depth) : '';
+
+        $class_names = '';
+        $classes = empty($item->classes) ? [] : (array)$item->classes;
+        // 在标题为“Product”的菜单项上添加特有类名
+        if ($item->title === 'Products') {
+            $classes[] = 'menu-item-product'; // 添加新的类名
+        }
+
+        $class_names = join(' ', apply_filters('nav_menu_css_class', array_filter($classes), $item, $args));
+        $class_names = ' class="'.esc_attr($class_names).'"';
+
+        $output .= $indent.'<li id="menu-item-'.$item->ID.'"'.$value.$class_names.'>';
+
+        $attributes  = ! empty($item->attr_title) ? ' title="'.esc_attr($item->attr_title).'"' : '';
+        $attributes .= ! empty($item->target)     ? ' target="'.esc_attr($item->target     ).'"' : '';
+        $attributes .= ! empty($item->xfn)        ? ' rel="'.    esc_attr($item->xfn        ).'"' : '';
+        $attributes .= ! empty($item->url)        ? ' href="'.   esc_attr($item->url        ).'"' : '';
+
+        $item_output = $args->before;
+        $item_output .= '<a'.$attributes.'>';
+        $item_output .= $args->link_before.apply_filters('the_title', $item->title, $item->ID).$args->link_after;
+        $item_output .= '</a>';
+        $item_output .= $args->after;
+
+        // 在标题为“商品分类”的菜单项内部添加分类树
+        if ($item->title === 'Products') {
+            $categories = get_terms([
+                'taxonomy' => 'product_cat',
+                'parent' => 0,
+                'hide_empty' => false,
+            ]);
+            if ($categories) {
+                $category_list = '<div class="dropdown-content"><div class="flex-container">';
+                foreach ($categories as $category) {
+                    $category_list .= $this->renderCategoryTree($category, 0);
+
+                    if (has_term_meta($category->term_id, '_custom_taxonomy_checkbox', 'yes')) {
+                        $thumbnail_id = get_term_meta($category->term_id, 'thumbnail_id', true);
+                        if ($thumbnail_id) {
+                            $thumbnailList[] = [
+                                'id' => $category->term_id,
+                                'thumbnail_url' => wp_get_attachment_image_url($thumbnail_id, 'thumbnail'),
+                                'name' => esc_html($category->name),
+                            ];
+                        }
+                    }
+                }
+                $category_list .= '</div>'; // 关闭分类树的容器
+                if (!empty($thumbnailList)) {
+                    $thumbnail_html = '<div class="thumbnail-column">';
+                    foreach ($thumbnailList as $thumbnailInfo) {
+                        $thumbnail_html .= sprintf('<div class="thumbnail-item"><img src="%s" alt="%s"><span>%s</span></div>',
+                            $thumbnailInfo['thumbnail_url'],
+                            esc_attr($thumbnailInfo['name']),
+                            $thumbnailInfo['name']
+                        );
+                    }
+                    $thumbnail_html .= '</div>'; // 关闭缩略图列表的容器
+                    $category_list .= $thumbnail_html;
+                }
+
+                // 清空缩略图列表以便下一次使用
+                $thumbnailList = [];
+
+                $item_output .= $category_list;
+            }
+        }
+
+
+
+        $output .= apply_filters('walker_nav_menu_start_el', $item_output, $item, $depth, $args);
+    }
 }
-add_action('wp_enqueue_scripts', 'theme_enqueue_scripts');
+
+function add_custom_taxonomy_checkbox($term = null) {
+    $term_id = is_object($term) ? $term->term_id : 0;
+
+    echo '<tr class="form-field">';
+    echo '<th scope="row" valign="top">';
+    echo '<label for="_custom_taxonomy_checkbox">' . __( '在菜单中显示缩略图', 'textdomain' ) . '</label>';
+    echo '</th>';
+    echo '<td>';
+    woocommerce_wp_checkbox( array(
+        'id'            => '_custom_taxonomy_checkbox',
+        'label'         => '', // 这里留空，因为我们已经在<th>中设置了标签
+        'desc_tip'      => true,
+        'description'   => __( '勾选以在菜单中显示此分类的缩略图。', 'textdomain' ),
+        'value'         => $term_id ? get_term_meta( $term_id, '_custom_taxonomy_checkbox', true ) : '',
+    ) );
+    echo '</td>';
+    echo '</tr>';
+}
+add_action( 'product_cat_add_form_fields', 'add_custom_taxonomy_checkbox', 10, 1 );
+add_action( 'product_cat_edit_form_fields', 'add_custom_taxonomy_checkbox', 10, 1 );
+function save_custom_taxonomy_checkbox( $term_id = 0 ) {
+    // 如果是新创建的分类，从POST数据中获取term_id
+    if (empty($term_id) && isset($_POST['tag_ID'])) {
+        $term_id = absint($_POST['tag_ID']);
+    }
+
+    if (isset($_POST['_custom_taxonomy_checkbox']) && $term_id) {
+        update_term_meta( $term_id, '_custom_taxonomy_checkbox', 'yes' );
+    } else {
+        delete_term_meta( $term_id, '_custom_taxonomy_checkbox' );
+    }
+}
+add_action( 'edited_product_cat', 'save_custom_taxonomy_checkbox', 10, 1 );
+add_action( 'create_product_cat', 'save_custom_taxonomy_checkbox', 10, 1 );
+
+function calculate_reading_time($content) {
+    $word_count = str_word_count(strip_tags($content));
+    $reading_time = $word_count / 200; // 计算基础阅读时间
+
+    // 如果计算出的阅读时间超过0，则向上取整到最近的整数；否则，默认为1分钟
+    return ($reading_time > 0) ? ceil($reading_time) : 1;
+}
+
+function create_projects_post_type() {
+    register_post_type( 'projects',
+        array(
+            'labels' => array(
+                'name' => __( 'Projects' ),
+                'singular_name' => __( 'Project' ),
+                'add_new_item' => __( 'Add New Project' ),
+                'edit_item' => __( 'Edit Project' ),
+                'new_item' => __( 'New Project' ),
+                'all_items' => __( 'All Projects' ),
+                'menu_name' => __( 'Projects' ),
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'supports' => array('title', 'editor', 'thumbnail'),
+            'menu_icon' => 'dashicons-portfolio', // 你可以选择一个图标
+            'taxonomies' => array('project_categories'), // 让Projects支持现有的分类和标签
+        )
+    );
+}
+add_action( 'init', 'create_projects_post_type' );
+function create_project_categories_taxonomy() {
+    register_taxonomy(
+        'project_categories',
+        'projects',
+        array(
+            'label' => __( 'Categories' ),
+            'rewrite' => array( 'slug' => 'project-categories' ),
+            'hierarchical' => true,
+            'show_ui' => true,
+            'show_admin_column' => true,
+        )
+    );
+}
+add_action( 'init', 'create_project_categories_taxonomy' );
+
+function load_projects_by_category() {
+    $categoryId = isset($_POST['categoryId']) ? absint($_POST['categoryId']) : 0;
+
+    if ($categoryId) {
+        $args = [
+            'post_type' => 'projects',
+            'posts_per_page' => -1,
+            'tax_query' => [
+                [
+                    'taxonomy' => 'project_categories', // 更改为你的自定义分类类型
+                    'field' => 'term_id',
+                    'terms' => $categoryId,
+                ],
+            ],
+        ];
+        $cat_query = new WP_Query($args);
+
+        if ($cat_query->have_posts()) {
+            ob_start(); // 开始输出缓冲
+            while ($cat_query->have_posts()) {
+                $cat_query->the_post();
+                ?>
+                <div class="project-item">
+                    <?php if (has_post_thumbnail()) { the_post_thumbnail('medium'); } ?>
+                    <h3><?php the_title(); ?></h3>
+                    <?php the_excerpt(); ?>
+                    <!-- 更多项目展示细节 -->
+                </div>
+                <?php
+            }
+            wp_reset_postdata();
+            $output = ob_get_clean(); // 获取并清除输出缓冲内容
+            echo $output;
+        } else {
+            echo '<p class="empty-container">No projects found for the selected category.</p>';
+        }
+    }
+    wp_die(); // 结束AJAX响应，确保安全性和兼容性
+}
+
+add_action('wp_ajax_load_projects_by_category', 'load_projects_by_category'); // 已登录用户
+add_action('wp_ajax_nopriv_load_projects_by_category', 'load_projects_by_category'); // 未登录用户

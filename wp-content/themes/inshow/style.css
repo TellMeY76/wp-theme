@@ -328,7 +328,7 @@ select,
 optgroup,
 textarea {
 	color: #404040;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-family: Roboto, sans-serif;
 	font-size: 1rem;
 	line-height: 1.5;
 }
@@ -609,10 +609,6 @@ textarea {
 	left: auto;
 }
 
-.main-navigation li {
-	position: relative;
-}
-
 .main-navigation a {
 	display: block;
 	text-decoration: none;
@@ -634,6 +630,7 @@ textarea {
 }
 
 .post {
+	font-family: 'Inter';
 	margin: 0 0 1.5em;
 }
 
@@ -804,7 +801,7 @@ textarea {
 }
 
 .footer-widget{
-	font-family: Taviraj;
+	font-family: 'Taviraj', 'Times New Roman', 'Georgia';
     font-size: 16px;
     line-height: 23.4px;
     letter-spacing: 0.02em;
@@ -845,6 +842,7 @@ textarea {
 }
 .footer-column .site-branding{
 	margin: 0;
+	font-family: Roboto, sans-serif;
 }
 
 .footer-column h2{
@@ -862,9 +860,14 @@ textarea {
 }
 
 .footer-widget-title{
-    position: relative;
-    margin: 0 0 10px;
-    padding-bottom: 20px;
+	position: relative;
+	margin: 0 0 10px;
+	padding-bottom: 16px;
+	font-family: 'Taviraj', 'Times New Roman', 'Georgia';
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 28.08px;
+	letter-spacing: 0.02em;
 }
 
 .footer-widget-title::after{
@@ -938,6 +941,10 @@ textarea {
     margin: 12px;
 }
 
+.site-branding .site-title{
+	white-space: nowrap;
+}
+
 .site-description,.site-title{
 	margin: 10px;
 }
@@ -1009,6 +1016,7 @@ textarea {
 }
 
 .menu-search-block{
+	position: relative;
 	display: flex;
 	align-items: center;
 	padding:0 16px;
@@ -1037,6 +1045,7 @@ textarea {
 	display: flex;
 	align-items: center;
 	height: 100%;
+	white-space: nowrap;
 }
 
 .nav-menu {
@@ -1227,12 +1236,7 @@ a {
     display: none;
 }
 
-.custom-product-detail-container{
-	width: var(--view-width);
-	margin: 0 auto;
-}
-
-.woocommerce div.product{
+.custom-product-detail-container,.project-container,.woocommerce div.product,.view-main{
 	width: var(--view-width);
 	margin: 0 auto;
 }
@@ -1508,6 +1512,13 @@ a {
 	gap: 60px;
 	margin: 60px 0 80px;
 }
+
+.news-feature h1{
+	width: 100%;
+	word-wrap: break-word;
+	overflow-wrap: anywhere;
+}
+
 .detail-button a{
 	color: #fff;
 }
@@ -1577,8 +1588,8 @@ a:active {
 	float: right;
 }
 
-.view-main,.site-main .post{
-	width: var(--view-width);
+.site-main .post{
+	width:calc(var(--view-width) * 0.8) ;
 	margin: 0 auto;
 }
 
@@ -1586,23 +1597,262 @@ a:active {
 /* 确保图片铺满屏幕且保持比例 */
 .cover-image {
 	width: 100%;
-	height: 100vh; /* vh单位代表视口高度的百分比，100vh即为全屏高度 */
 	object-fit: cover; /* 保持图片原始比例并填充容器 */
 	object-position: center; /* 图片居中显示 */
 }
 
 /* 标题样式调整 */
 .post-title {
-	text-align: center; /* 或其他对齐方式 */
+	font-weight: normal;
 	margin-top: 0; /* 根据需要调整标题与图片的距离 */
 	color: #333; /* 文字颜色 */
 	font-size: 32px; /* 字体大小 */
+	letter-spacing: 0em;
+}
+
+.post-excerpt{
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 21px;
+	letter-spacing: 0em;
 }
 
 /* 可能需要的其他样式，比如添加一定的间距或清除浮动等 */
 .post-content {
 	margin-top: 20px; /* 文章内容与封面图之间的间距 */
 }
+
+.entry-meta{
+	margin: 20px 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 48px;
+	letter-spacing: 0em;
+	color: #333333;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #fff;
+	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+	z-index: 99;
+	width: calc(var(--view-width) - 284px);
+	max-width: calc(var(--view-width) - 284px);
+	overflow: auto;
+	border-radius: 8px;
+	padding: 24px;
+	font-family:"PingFang SC", Helvetica, Tahoma, Arial, "Microsoft YaHei", 微软雅黑, 黑体, Heiti, sans-serif, SimSun, 宋体, serif;
+}
+
+.dropdown-content ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+/* Flex 容器样式 */
+.flex-container {
+	position: relative; /* 使内容区域成为一个相对定位的容器，以便绝对定位的装饰图片可以相对于它定位 */
+	display: flex;
+	flex-wrap: nowrap; /* 允许换行 */
+	justify-content: flex-start; /* 横向排列方式，可根据需要调整 */
+	align-items: flex-start; /* 竖直排列方式，可根据需要调整 */
+}
+
+.dropdown-content,.dropdown-content > .flex-container{
+	gap: 12px;
+	flex: 1;
+}
+
+.dropdown-content > .flex-container::before {
+	content: "";
+	position: absolute;
+	bottom: -24px;
+	left: -24px;
+	background-image: url(./assets/img/menu-img.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 200px;
+	z-index: -1;
+}
+
+/* Flex 子项样式 */
+.category-item.flex-item {
+	flex: 1; /* 自动分配空间 */
+}
+
+.category-item a{
+	position: relative;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	color: #333;
+	cursor: pointer;
+}
+
+.category-item a:hover{
+	color: var(--theme-color);
+	text-decoration: underline;
+	text-underline-offset: 6px;
+}
+
+.category-item a:after{
+	content: "";
+	width: 16px;
+	height: 16px;
+	background-image: url(./assets/img/menu-arrow.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-left: 6px;
+	vertical-align: middle;
+	opacity: 0;
+	transition: opacity 0.1s;
+}
+
+.category-item a:hover:after{
+	opacity: 1;
+}
+
+.dropdown-content .first-level-link,.thumbnail-item span {
+	color: #072941;
+	font-weight: 500;
+	line-height: 21px;
+	letter-spacing: 0px;
+}
+
+/* 子分类列表样式 */
+.dropdown-content .subcategories {
+	display: flex!important;
+	flex-direction: column; /* 子分类垂直排列 */
+	/*padding-left: 20px; !* 左内边距，区分层级 *!*/
+	color: #333;
+}
+
+.dropdown-content .thumbnail-column,.dropdown-content .thumbnail-item{
+	display: flex;
+	flex-flow: column;
+	gap: 6px;
+}
+
+.dropdown-content .category-item,
+.dropdown-content .thumbnail-item {
+	flex-shrink: 0; /* 防止子元素因空间不足而缩小 */
+	overflow-wrap: break-word; /* 允许文字换行 */
+}
+
+.dropdown-content .thumbnail-item{
+	flex:1;
+}
+
+.thumbnail-item img{
+	width: 200px;
+	border-radius: 8px;
+}
+
+
+/* 确保添加了项目的CSS类 */
+.project-tabs {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+.tab-link {
+	position: relative;
+	color: #696969;
+	padding: 8px 24px;
+	cursor: pointer;
+	margin-right: 12px;
+	outline: none;
+	transition: 0.3s;
+	border-radius: 12px;
+	box-sizing: border-box;
+	border: 1px solid transparent;
+}
+
+.tab-link:after {
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: calc(100% + 40px);
+	height: 1px;
+	background-color: #072941;
+}
+
+.tab-link.active ,.tab-link:hover {
+	color: var(--theme-color);
+	border: 1px solid var(--theme-color);
+}
+
+.project-items-group {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.project-items-group .empty-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	font-size: 28px;
+	color: #696969;
+	min-height: 25vh;
+}
+
+/* 初始隐藏类 */
+.initial-hide {
+	opacity: 0;
+}
+
+.project-item {
+	position: relative;
+	/* 调整项目的宽度以适应每行三个排列 */
+	flex: 0 0 calc(33.33% - 20px); /* 减去间隙宽度，假设每两个项目间有10px间隙 */
+	margin-bottom: 20px;
+	box-sizing: border-box; /* 确保padding和border计算在宽度内 */
+	border-radius: 15px;
+	background: #FFFFFF;
+	box-shadow: 0px 5.14px 12.84px 0px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+/* 如果需要，可以进一步美化项目容器，例如添加边距、背景色等 */
+.project-item h3,.project-item p {
+	margin: 20px;
+	word-break: break-all;
+}
+
+.project-item h3{
+	margin-bottom: 0;
+}
+
+.project-item img{
+	width: 100%;
+}
+
+/* 新增的CSS动画类 */
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+/* 首次加载动画 */
+.initial-hide {
+	animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.fadeIn {
+	animation: fadeIn 0.5s ease-in-out forwards; /* 0.5s是动画持续时间，与JS中保持一致 */
+}
+
 /* 超小屏幕（手机，小于768px） */
 @media (max-width: 767px) {
 	:root {
@@ -1628,3 +1878,10 @@ a:active {
 		--view-width: 1170px; /* 适合笔记本的版心宽度 */
 	}
 }
+
+._custom_taxonomy_checkbox_field {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+

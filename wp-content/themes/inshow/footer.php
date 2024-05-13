@@ -57,46 +57,18 @@
 
 <?php wp_footer(); ?>
 
-
-<!-- 在主题的footer.php中引入以下模板 -->
-<!--<script type="text/html" id="tmpl-friendship-widget-template">-->
-<!--    <tr>-->
-<!--        <td>-->
-<!--            <label for="{{ data.index }}-title">标题:</label>-->
-<!--            <input class="widefat" id="{{ data.index }}-title" name="friend_links[{{ data.index }}][title]" type="text">-->
-<!--        </td>-->
-<!--        <td>-->
-<!--            <label for="{{ data.index }}-url">URL:</label>-->
-<!--            <input class="widefat" id="{{ data.index }}-url" name="friend_links[{{ data.index }}][url]" type="text">-->
-<!--        </td>-->
-<!--        <td><button type="button" class="remove-link-row button-link-delete">--><?php //_e( '删除' ); ?><!--</button></td>-->
-<!--    </tr>-->
-<!--</script>-->
-
-<!--<script>-->
-<!--    (function($) {-->
-<!--        $(document).ready(function() {-->
-<!--            var template = wp.template('friendship-widget-template');-->
-<!--            console.log('template',$('#add-link-row'))-->
-<!--            $('#add-link-row').on('click', function(e) {-->
-<!--                console.log('add-link-row')-->
-<!--                e.preventDefault();-->
-<!--                var index = $('.form-table tbody tr').length;-->
-<!--                var newRow = template({ index: index });-->
-<!--                $('.form-table tbody').append(newRow);-->
-<!--            });-->
-<!---->
-<!--            $('.form-table').on('click', '.remove-link-row', function(e) {-->
-<!--                e.preventDefault();-->
-<!--                $(this).closest('tr').remove();-->
-<!--            });-->
-<!--        });-->
-<!--    })(jQuery);-->
-<!---->
-<!--    jQuery(document).on('click', '#add-link-row', function(e) {-->
-<!--        console.log('add-link-row jQuery')-->
-<!--    })-->
-<!--</script>-->
+<script>
+    jQuery(document).ready(function($) {
+        $('.menu-item-has-children').hover(
+            function() {
+                $(this).find('.dropdown-content').show();
+            },
+            function() {
+                $(this).find('.dropdown-content').hide();
+            }
+        );
+    });
+</script>
 
 </body>
 </html>

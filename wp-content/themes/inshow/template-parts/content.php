@@ -10,18 +10,21 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <?php the_post_thumbnail('full', array('class' => 'cover-image')); ?>
     <h1 class="post-title"><?php the_title(); ?></h1>
+    <div class="post-excerpt">
+        <?php the_excerpt(); ?>
+    </div>
     <?php
     if ( 'post' === get_post_type() ) :
         ?>
         <div class="entry-meta">
-            <?php
-            inshow_posted_on();
-            inshow_posted_by();
-            ?>
+            <?php the_date(); ?> | <?php echo calculate_reading_time(get_the_content()); ?> Min.Read | <?php the_author(); ?>
         </div><!-- .entry-meta -->
     <?php endif; ?>
+    <div class="post-thumbnail">
+        <?php the_post_thumbnail('full', array('class' => 'cover-image')); ?>
+    </div>
+
 	<div class="entry-content">
 		<?php
 		the_content(
