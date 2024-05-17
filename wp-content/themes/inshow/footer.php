@@ -11,7 +11,10 @@
 
 ?>
 	<footer id="colophon" class="site-footer">
-		<div class="container">
+        <?php if ( ! is_front_page() ) { // 检查是否为首页 ?>
+            <div class="before-container"></div>
+        <?php } ?>
+        <div class="container">
 			<div class="footer-columns">
 				<?php if ( is_active_sidebar( 'footer_column_1' ) ) : ?>
 					<div class="footer-column">

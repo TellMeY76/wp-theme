@@ -78,7 +78,8 @@ if ( ! empty( $address ) && ! empty( $phone ) ) { ?>
                     'walker'         => new Custom_Walker_Category_Menu(),
 				)
 			);
-			?>
+            echo do_shortcode('[language-switcher]');
+            ?>
 		</nav><!-- #site-navigation -->
 		<form class="search-form">
 			<button type="submit" class="search-submit inShow-submit" aria-label="搜索">
