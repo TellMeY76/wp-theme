@@ -1,0 +1,19 @@
+
+.social-links-container {
+    margin-bottom: 12px;
+}
+
+.social-link-item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.social-link-item input {
+    height: 30px;
+}
+
+.social-link-item .remove-social-link.button {
+    color: #FE0000;
+    border-color: #FE0000;
+}

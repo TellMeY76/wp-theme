@@ -4,15 +4,15 @@
  *
  * This template can be overridden by copying it to yourtheme/woocommerce/archive-product.php.
  *
- * However, on occasion WooCommerce will need to update template files and you
+ * HOWEVER, on occasion WooCommerce will need to update template files and you
  * (the theme developer) will need to copy the new files to your theme to
  * maintain compatibility. We try to do this as little as possible, but it does
  * happen. When this occurs the version of the template file will be bumped and
  * the readme will list any important changes.
  *
- * @see https://woo.com/document/template-structure/
+ * @see https://woocommerce.com/document/template-structure/
  * @package WooCommerce\Templates
- * @version 3.4.0
+ * @version 8.6.0
  */
 
 defined('ABSPATH') || exit;
@@ -26,7 +26,7 @@ get_header('shop');
  * @hooked woocommerce_breadcrumb - 20
  * @hooked WC_Structured_Data::generate_website_data() - 30
  */
-
+//do_action('woocommerce_before_main_content');
 ?>
     <header class="woocommerce-products-header">
         <?php
@@ -92,7 +92,9 @@ get_header('shop');
 
                                 $link_data = $has_children ? '' : ' data-href="'.esc_url(get_term_link($category)).'"';
 
-                                $link_cat_name = !$category->term_id ? '' : ' data-category-name="'.esc_html(strtolower($category->name)).'"';
+                                $link_cat_name = !$category->term_id ? '' : ' data-category-name="'.esc_html(
+                                        strtolower($category->name)
+                                    ).'"';
 
                                 $html .= '<li class="'.$item_class.'"'.$link_data.''.$link_cat_name.'>';;
                                 $html .= '<div class="category-header">';
@@ -166,47 +168,75 @@ get_header('shop');
             <!-- 商品列表部分 -->
             <div class="product-content-list">
                 <?php
-                if (woocommerce_product_loop()) {
+                // 获取搜索关键词
+                $search_query_str = get_search_query();
 
-                    /**
-                     * Hook: woocommerce_before_shop_loop.
-                     *
-                     * @hooked woocommerce_output_all_notices - 10
-                     * @hooked woocommerce_result_count - 20
-                     * @hooked woocommerce_catalog_ordering - 30
-                     */
-                    do_action('woocommerce_before_shop_loop');
+                // 检查是否进行了搜索
+                if (!empty($search_query)) {
+                    // 当有搜索关键词时，执行自定义查询
+                    $args = array(
+                        's' => $search_query_str,
+                        'post_type' => 'product',
+                    );
+                    $search_query = new WP_Query($args);
 
-                    woocommerce_product_loop_start();
-
-                    if (wc_get_loop_prop('total')) {
-                        while (have_posts()) {
-                            the_post();
-
-                            /**
-                             * Hook: woocommerce_shop_loop.
-                             */
-                            do_action('woocommerce_shop_loop');
-
+                    if ($search_query->have_posts()) {
+                        // 正常展示搜索结果
+                        do_action('woocommerce_before_shop_loop');
+                        echo '<ul class="products columns-3">';
+                        while ($search_query->have_posts()) {
+                            $search_query->the_post();
                             wc_get_template('content-product-custom.php');
                         }
+                        echo '</ul>';
+                        do_action('woocommerce_after_shop_loop');
+                    } else {
+                        wc_no_products_found();
                     }
-
-                    woocommerce_product_loop_end();
-
-                    /**
-                     * Hook: woocommerce_after_shop_loop.
-                     *
-                     * @hooked woocommerce_pagination - 10
-                     */
-                    do_action('woocommerce_after_shop_loop');
+                    wp_reset_postdata(); // 重置查询
                 } else {
-                    /**
-                     * Hook: woocommerce_no_products_found.
-                     *
-                     * @hooked wc_no_products_found - 10
-                     */
-                    do_action('woocommerce_no_products_found');
+                    if (woocommerce_product_loop()) {
+
+                        /**
+                         * Hook: woocommerce_before_shop_loop.
+                         *
+                         * @hooked woocommerce_output_all_notices - 10
+                         * @hooked woocommerce_result_count - 20
+                         * @hooked woocommerce_catalog_ordering - 30
+                         */
+                        do_action('woocommerce_before_shop_loop');
+
+                        woocommerce_product_loop_start();
+
+                        if (wc_get_loop_prop('total')) {
+                            while (have_posts()) {
+                                the_post();
+
+                                /**
+                                 * Hook: woocommerce_shop_loop.
+                                 */
+                                do_action('woocommerce_shop_loop');
+
+                                wc_get_template('content-product-custom.php');
+                            }
+                        }
+
+                        woocommerce_product_loop_end();
+
+                        /**
+                         * Hook: woocommerce_after_shop_loop.
+                         *
+                         * @hooked woocommerce_pagination - 10
+                         */
+                        do_action('woocommerce_after_shop_loop');
+                    } else {
+                        /**
+                         * Hook: woocommerce_no_products_found.
+                         *
+                         * @hooked wc_no_products_found - 10
+                         */
+                        do_action('woocommerce_no_products_found');
+                    }
                 }
                 ?>
             </div>
