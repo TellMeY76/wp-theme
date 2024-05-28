@@ -518,12 +518,6 @@ function custom_contact_settings_page()
     <?php
 }
 
-function add_product_title_after_gallery()
-{
-    global $product;
-    echo '<h2 class="after-gallery-title">'.get_the_title($product->get_id()).'</h2>';
-}
-
 // 将数字星级转换为星星符号
 function convert_star_rating_to_stars($rating)
 {
@@ -933,11 +927,8 @@ class Custom_Walker_Category_Menu extends Walker_Nav_Menu
         }
 
         $output = '<div class="category-item flex-item">';
-        if ($depth === 0) {
-            $output .= '<a href="'.get_term_link($category->term_id).'" class="first-level-link">';
-        } else {
-            $output .= '<a href="'.get_term_link($category->term_id).'">';
-        }
+        $anchorClass = $depth === 0 ? 'first-level-link' : '';
+        $output .= '<a href="' . get_term_link($category->term_id) . '" class="' . esc_attr($anchorClass) . '">';
         $output .= $category->name.'</a>';
 
         $children = get_terms([
@@ -978,7 +969,7 @@ class Custom_Walker_Category_Menu extends Walker_Nav_Menu
         $class_names = join(' ', apply_filters('nav_menu_css_class', array_filter($classes), $item, $args));
         $class_names = ' class="'.esc_attr($class_names).'"';
 
-        $output .= $indent.'<li id="menu-item-'.$item->ID.'"'.$value.$class_names.'>';
+        $output .= $indent . '<li id="menu-item-' . esc_attr($item->ID) . '"' . $value . $class_names . '>';
 
         $attributes = !empty($item->attr_title) ? ' title="'.esc_attr($item->attr_title).'"' : '';
         $attributes .= !empty($item->target) ? ' target="'.esc_attr($item->target).'"' : '';
@@ -1190,8 +1181,7 @@ add_action('init', 'create_custom_post_type');
 
 function load_projects_by_category()
 {
-    $categoryId = isset($_POST['categoryId']) ? absint($_POST['categoryId']) : 0;
-
+    $categoryId = isset($_POST['categoryId']) ? sanitize_text_field($_POST['categoryId']) : 0;
     if ($categoryId) {
         $args = [
             'post_type' => 'projects',
@@ -1236,7 +1226,7 @@ add_action('wp_ajax_nopriv_load_projects_by_category', 'load_projects_by_categor
 
 add_action('woocommerce_after_single_product_summary', 'display_contact_form_pattern', 12); // 选择合适的优先级，确保在相关产品之前
 add_action('after_contact_info_block', 'display_contact_form_pattern');
-
+add_action('after_faqs_list', 'display_contact_form_pattern');
 
 function get_pattern_id_by_title($title)
 {

@@ -13,11 +13,9 @@ jQuery(document).ready(function($) {
 
     $('.menu-item-product').hover(
         function() {
-            console.log('hover show');
             $dropdownContent.css("display", "flex");
         },
         function() {
-            console.log('hover show');
             $dropdownContent.css("display", "none");
         },
     );

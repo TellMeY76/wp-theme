@@ -25,7 +25,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     } else {
                         answer.style.maxHeight = 0;
                         isOpen = false;
-                        console.log('toggleButton.parentElement.classList', toggleButton.parentElement.classList);
                         toggleButton.parentElement.classList.remove('qa-toggle-active'); // 移除active类
                     }
                 });

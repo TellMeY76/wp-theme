@@ -1002,6 +1002,10 @@ textarea {
     outline: 0;
 }
 
+.search-form input[type="search"].search-field:focus {
+    color: #fff;
+}
+
 .search-submit {
     display: flex;
     justify-content: center;
@@ -1371,6 +1375,12 @@ a {
     border-radius: 12px;
 }
 
+.custom-related-product .related-product-img img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover
+}
+
 .custom-related-product .related-product-title {
     margin: 0;
     font-size: 24px;
@@ -1458,6 +1468,14 @@ a {
     margin: 60px auto;
 }
 
+.after-faqs-list {
+    width: calc(var(--view-width) * 0.8);
+    padding: 60px 0;
+    margin: 0 auto 64px;
+    background-color: #F1F1F1;
+    border-radius: 12px;
+}
+
 /* 默认状态下的样式 */
 .qa-toggle {
     display: flex;
@@ -1478,7 +1496,7 @@ a {
 }
 
 .qa-answer {
-    transition: transform 0.3s;
+    transition: all 0.3s;
 }
 
 .toggle-icon {
@@ -1531,6 +1549,7 @@ a {
     display: flex;
     gap: 60px;
     margin: 60px 0 80px;
+    width: 100%;
 }
 
 .news-feature img {
@@ -1627,7 +1646,7 @@ a:active {
     float: right;
 }
 
-.site-main .post {
+.site-main .type-news, .site-main .post, .site-main .type-projects {
     width: calc(var(--view-width) * 0.8);
     margin: 0 auto;
 }
@@ -1834,6 +1853,7 @@ a:active {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    align-items: start;
 }
 
 .project-items-group .empty-container {
@@ -1852,6 +1872,7 @@ a:active {
 }
 
 .project-item {
+    padding-bottom: 20px;
     position: relative;
     /* 调整项目的宽度以适应每行三个排列 */
     flex: 0 0 calc(33.33% - 20px); /* 减去间隙宽度，假设每两个项目间有10px间隙 */
@@ -1863,11 +1884,31 @@ a:active {
     overflow: hidden;
 }
 
-/* 如果需要，可以进一步美化项目容器，例如添加边距、背景色等 */
-.project-item h3, .project-item p {
-    margin: 20px;
+.project-item p {
+    margin: 16px 20px 0;
     word-break: break-all;
 }
+
+.project-item h3 {
+    margin: 20px;
+    max-width: 100%;
+    white-space: nowrap; /* 禁止文本换行 */
+    overflow: hidden; /* 隐藏超出内容 */
+    text-overflow: ellipsis; /* 显示省略号 */
+}
+
+.project-item .entry-content {
+    margin: 0;
+    /* 设定内容区域的样式，使其能够铺满剩余空间并显示省略号 */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; /* 你想要的最大行数 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* 根据需要调整的其他样式 */
+    word-wrap: break-word;
+}
+
 
 .project-item h3 {
     margin-bottom: 0;
@@ -1875,6 +1916,9 @@ a:active {
 
 .project-item img {
     width: 100%;
+    height: 55%;
+    object-fit: cover;
+    object-position: center; /* 图片居中显示 */
 }
 
 /* 新增的CSS动画类 */
@@ -1903,9 +1947,22 @@ a:active {
     padding: 20px; /* 根据需要调整内外边距 */
 }
 
-.woocommerce div.product .product-gallery-col div.images.woocommerce-product-gallery {
-    width: 100%
+.product-gallery-col {
+    width: 50%;
 }
+
+/*.woocommerce div.product .product-gallery-col div.images.woocommerce-product-gallery {*/
+/*    width: 100%*/
+/*}*/
+
+/*.woocommerce div.product .product-gallery-col .flex-viewport {*/
+/*}*/
+
+/*.woocommerce div.product .product-gallery-col a .wp-post-image, .woocommerce div.product .flex-active-slide img:not(.zoomImg) {*/
+/*    height: 550px !important;*/
+/*    object-fit: cover;*/
+/*    object-position: top;*/
+/*}*/
 
 /* 如果需要调整商品描述和其他tab的样式，可以在这里添加相关样式 */
 .product-description-and-tabs {
@@ -2112,6 +2169,7 @@ a:active {
 }
 
 .latest-products ul, ul#category-accordion, #category-accordion ul {
+    font-family: 'Helvetica';
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -2124,15 +2182,66 @@ a:active {
 }
 
 #category-accordion .category-item {
+    position: relative;
     display: flex;
     flex-flow: column;
     box-sizing: border-box;
     cursor: pointer;
 }
 
-#category-accordion .category-item.selected {
+
+#category-accordion .category-item.level-0 > .category-header { /* 最顶级分类，无需额外缩进 */
+    font-weight: bold;
+    line-height: 18.4px;
+    letter-spacing: 0em;
+}
+
+#category-accordion .category-item .category-header-text {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    max-width: 100%; /* 或者设定为你希望的最大宽度 */
+    position: relative; /* 为包含绝对定位的子元素准备 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.category-header-text span {
+    display: block;
+    max-width: calc(100% - 14px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#category-accordion .category-item .expanded-icon {
+    position: absolute; /* 将图标定位到容器的右端 */
+    right: 0;
+    top: 50%; /* 根据需要调整垂直位置 */
+    transform: translateY(-50%); /* 确保图标垂直居中 */
+    transition: all .3s;
+    display: none;
+
+}
+
+#category-accordion .category-item.has-children > .category-header .expanded-icon {
+    display: inline-block;
+}
+
+
+#category-accordion .category-item.has-children.selected > .category-header .expanded-icon {
+    transform: rotate(180deg) translateY(50%); /* 展开状态下的箭头旋转 */
+}
+
+#category-accordion .category-item.selected > .category-header, #category-accordion .category-item:hover > .category-header {
     color: var(--theme-color);
 }
+
+#category-accordion .category-item.has-children > ul.subcategory-list {
+    padding-left: 1.5em;
+}
+
 
 #category-accordion .category-item .category-header {
     padding: 16px 0;
@@ -2162,12 +2271,14 @@ a:active {
     letter-spacing: 0em;
 }
 
+.latest-products-item, .list-product-layout .product-btn.detail, .featured-col-lg_info .detail-btn {
+    cursor: pointer;
+}
 
 .latest-products-item_link {
     margin-bottom: 12px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 12px;
     font-family: 'Lato';
 }
@@ -2201,7 +2312,19 @@ a:active {
 .list-product-layout {
     box-shadow: 0px 1.02px 2.04px 1px rgba(0, 0, 0, 0.15);
     border-radius: 8.17px;
+    overflow: hidden;
 }
+
+.list-product-layout .product-image {
+    height: 250px;
+}
+
+.woocommerce ul.products .list-product-layout .product-image img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 
 .list-product-layout .product-details .woocommerce-loop-product__title {
     font-family: 'Helvetica';
@@ -2219,11 +2342,15 @@ a:active {
 
 .list-product-layout .product-description {
     font-family: 'Helvetica';
-    font-size: 13.63px;
+    font-size: 14px;
     font-weight: normal;
     line-height: 21.46px;
     letter-spacing: 0em;
     color: #46474A;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .list-product-layout .product-btns {

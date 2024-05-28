@@ -1,7 +1,6 @@
 jQuery(document).ready(function($){
     // 点击按钮打开模态框
     $("#chatNowBtn").click(function () {
-        console.log('chatNowBtn click')
         $("#chatNowModal").show();
     });
 

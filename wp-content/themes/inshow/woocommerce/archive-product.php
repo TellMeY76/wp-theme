@@ -64,42 +64,38 @@ get_header('shop');
                 <!-- 新增部分: 左侧分类手风琴 -->
                 <div class="product-content-category">
                     <?php
-                    // 自定义函数递归生成分类树
                     function recursive_category_tree($categories, $parent = 0, $level = 0)
                     {
                         $html = '';
                         foreach ($categories as $category) {
-                            if ($category->parent == $parent && $category->term_id != get_option(
-                                    'default_category'
-                                )) { // 排除未分类分类
+                            // 更直接地排除特定slug的分类
+                            if ($category->parent == $parent && !in_array($category->slug, array('uncategorized'))) {
                                 $thumbnail = '';
-                                // 检查是否有缩略图
                                 $thumbnail_id = get_term_meta($category->term_id, 'thumbnail_id', true);
-                                if (!empty($thumbnail_id)) {
+                                if ($thumbnail_id) {
                                     $thumbnail_url = wp_get_attachment_image_src($thumbnail_id, 'thumbnail');
                                     $thumbnail = '<img src="'.esc_url($thumbnail_url[0]).'" alt="'.esc_attr(
                                             $category->name
                                         ).'">';
                                 }
 
-                                // 检查当前分类是否有子分类
                                 $has_children = get_term_children($category->term_id, 'product_cat');
-                                $has_children_class = $has_children ? ' has-children' : '';
+                                $class_suffix = $has_children ? ' has-children' : '';
+                                $data_attrs = [
+                                    'data-href' => $has_children ? '#' : esc_url(get_term_link($category)),
+                                    'data-category-name' => esc_html(strtolower($category->name)),
+                                ];
+                                $data_attrs_str = implode(' ', array_map(function ($k, $v) {
+                                    return "$k=\"$v\"";
+                                }, array_keys($data_attrs), $data_attrs));
 
-                                // 判断是否当前分类有子目录，如果没有则添加链接和特定类
-                                $link = $has_children ? '#' : get_term_link($category);
-                                $item_class = 'category-item level-'.$level.$has_children_class;
-
-                                $link_data = $has_children ? '' : ' data-href="'.esc_url(get_term_link($category)).'"';
-
-                                $link_cat_name = !$category->term_id ? '' : ' data-category-name="'.esc_html(
-                                        strtolower($category->name)
-                                    ).'"';
-
-                                $html .= '<li class="'.$item_class.'"'.$link_data.''.$link_cat_name.'>';;
+                                $html .= '<li class="category-item level-'.$level.$class_suffix.'"'.$data_attrs_str.'>';
                                 $html .= '<div class="category-header">';
                                 $html .= $thumbnail;
+                                $html .= '<div class="category-header-text">';
                                 $html .= '<span>'.esc_html($category->name).'</span>';
+                                $html .= '<i class="expanded-icon fa-solid fa-angle-down"></i>';
+                                $html .= '</div>';
                                 $html .= '</div>';
 
                                 if ($has_children) {
@@ -115,23 +111,29 @@ get_header('shop');
                         return $html;
                     }
 
-                    // 获取所有产品分类，排除未分类分类
+                    // 确保获取未分类的term_id，虽然通常为1，但直接通过slug获取更准确
+                    $uncategorized_term = get_term_by('slug', 'uncategorized', 'product_cat');
+                    if ($uncategorized_term) {
+                        $categories_to_exclude = array($uncategorized_term->term_id);
+                    } else {
+                        $categories_to_exclude = array();
+                    }
+
                     $all_categories = get_terms(array(
                         'taxonomy' => 'product_cat',
                         'hide_empty' => false,
-                        'exclude' => array(get_option('default_category')), // 排除未分类分类
+                        'exclude' => $categories_to_exclude,
                     ));
 
-                    // 检查是否成功获取到分类
-                    if (!empty($all_categories) && !is_wp_error($all_categories)) {
-                        // 生成并输出分类树的HTML
+                    if (is_wp_error($all_categories)) {
+                        echo 'Error fetching categories: '.$all_categories->get_error_message();
+                    } elseif (!empty($all_categories)) {
                         echo '<ul id="category-accordion">'.recursive_category_tree($all_categories).'</ul>';
                     } else {
                         echo 'No categories found.';
                     }
                     ?>
                 </div>
-
                 <!-- 右侧最新商品模块 -->
                 <div class="latest-products">
                     <h2 class="latest-products-title">Latest Products</h2>
@@ -205,9 +207,7 @@ get_header('shop');
                          * @hooked woocommerce_catalog_ordering - 30
                          */
                         do_action('woocommerce_before_shop_loop');
-
                         woocommerce_product_loop_start();
-
                         if (wc_get_loop_prop('total')) {
                             while (have_posts()) {
                                 the_post();
@@ -220,9 +220,7 @@ get_header('shop');
                                 wc_get_template('content-product-custom.php');
                             }
                         }
-
                         woocommerce_product_loop_end();
-
                         /**
                          * Hook: woocommerce_after_shop_loop.
                          *

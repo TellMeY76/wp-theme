@@ -41,7 +41,7 @@ if ($faqs_categories && !is_wp_error($faqs_categories)) {
                 echo '<i class="fa-solid fa-caret-down toggle-icon"></i>';
                 echo '</div>';
                 echo '<div class="qa-answer" style="max-height:0; overflow:hidden;">';
-                the_excerpt();
+                the_content();
                 echo '</div>';
                 echo '</div>'; // End qa-item
             }
@@ -53,6 +53,11 @@ if ($faqs_categories && !is_wp_error($faqs_categories)) {
     echo '<p>No "FAQs" categories found</p>';
 }
 echo '</div>'; // Close faqs-list
+echo '<div class="after-faqs-list">';
+
+do_action('after_faqs_list');
+echo '</div>'; // Close faqs-container
+
 echo '</div>'; // Close faqs-container
 get_footer();
 ?>

@@ -1,10 +1,8 @@
 (function ($) {
-    console.log('footerInfoWidgetData.uploadImageButtonId',footerInfoWidgetData.uploadImageButtonId)
 
     $(document).ready(function() {
         $('#'+footerInfoWidgetData.uploadImageButtonId).click(function(e) {
             e.preventDefault();
-            console.log('uploadImageButtonId')
             var send_attachment_bkp = wp.media.editor.send.attachment;
             var file_frame = wp.media({
                 title: "<?php _e( 'Select or Upload an Image', 'your-textdomain' ); ?>",

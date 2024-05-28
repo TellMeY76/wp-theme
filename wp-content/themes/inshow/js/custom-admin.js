@@ -2,7 +2,6 @@ console.log('jQuery loaded:', typeof jQuery !== 'undefined' ? 'Yes' : 'No');
 
 jQuery(document).ready(function($) {
     $('.add-social-link').on('click', function() {
-        console.log('add-social-link click')
         var index = $('.social-link-item').length;
         $('.social-links-container').append(`
                     <div class="social-link-item">
